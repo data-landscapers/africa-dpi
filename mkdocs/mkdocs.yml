@@ -1,0 +1,12 @@
+site_name: africa-dpi
+nav:
+  - Home: index.md
+  - About: about.md
+theme: readthedocs
+markdown_extensions:
+  - tables
+  - attr_list
+plugins:
+  - search
+  - table-reader
+  - open-in-new-tab
