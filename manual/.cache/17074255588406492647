@@ -1,0 +1,74 @@
+{
+  "data": {
+    "meta": {},
+    "content": "<h1 id=\"data-exchange-metadata\">Data exchange metadata<a class=\"headerlink\" href=\"#data-exchange-metadata\" title=\"Permanent link\">&para;</a></h1>\n<p>Variable definitions and collection guidance for the data exchange module.</p>\n<h2 id=\"system\">System<a class=\"headerlink\" href=\"#system\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"aianalytics-capabilities\">AI/Analytics Capabilities<a class=\"headerlink\" href=\"#aianalytics-capabilities\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Variable id</th>\n<th>exchange-system-ai</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Definition</td>\n<td>Is artificial intelligence integrated into the data exchange for data quality, fraud detection or predictive analytics</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical: 0=Unknown; 1=No; 2=Planned; 3=Piloting; 4 =Functional across at least 2 systems</td>\n</tr>\n<tr>\n<td>Other metadata</td>\n<td>Specify AI use cases in the comments: fraud detection, eligibility prediction, service recommendation, data quality assurance, policy simulation</td>\n</tr>\n<tr>\n<td>Data collection guidelines</td>\n<td>Search for AI strategies, digital transformation roadmaps section on analytics, smart government initiatives, mentions of machine learning in service delivery</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"operational-status\">Operational Status<a class=\"headerlink\" href=\"#operational-status\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Variable id</th>\n<th>exchange-system-operational</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Definition</td>\n<td>Current operational status of the data exchange system</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical: 0=Unknown;1=Not Established; 2=Planned; 3=Under Development; 4=Partially Operational; 5=Fully Operational</td>\n</tr>\n<tr>\n<td>Other metadata</td>\n<td>Add name of system, url to comments. Also include in comments launch date if operational, expected launch if planned.</td>\n</tr>\n<tr>\n<td>Data collection guidelines</td>\n<td>Review official government announcements, digital transformation roadmap timelines, progress reports from coordinating agencies, news from government portals</td>\n</tr>\n</tbody>\n</table>",
+    "search": [
+      {
+        "location": null,
+        "level": 1,
+        "title": "Data exchange metadata",
+        "text": "<p>Variable definitions and collection guidance for the data exchange module.</p>",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "system",
+        "level": 2,
+        "title": "System",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "aianalytics-capabilities",
+        "level": 3,
+        "title": "AI/Analytics Capabilities",
+        "text": "Variable id exchange-system-ai Definition Is artificial intelligence integrated into the data exchange for data quality, fraud detection or predictive analytics Format Categorical: 0=Unknown; 1=No; 2=Planned; 3=Piloting; 4 =Functional across at least 2 systems Other metadata Specify AI use cases in the comments: fraud detection, eligibility prediction, service recommendation, data quality assurance, policy simulation Data collection guidelines Search for AI strategies, digital transformation roadmaps section on analytics, smart government initiatives, mentions of machine learning in service delivery",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "operational-status",
+        "level": 3,
+        "title": "Operational Status",
+        "text": "Variable id exchange-system-operational Definition Current operational status of the data exchange system Format Categorical: 0=Unknown;1=Not Established; 2=Planned; 3=Under Development; 4=Partially Operational; 5=Fully Operational Other metadata Add name of system, url to comments. Also include in comments launch date if operational, expected launch if planned. Data collection guidelines Review official government announcements, digital transformation roadmap timelines, progress reports from coordinating agencies, news from government portals",
+        "path": [],
+        "tags": []
+      }
+    ],
+    "title": "Data exchange metadata",
+    "toc": [
+      {
+        "title": "Data exchange metadata",
+        "id": "data-exchange-metadata",
+        "url": "#data-exchange-metadata",
+        "children": [
+          {
+            "title": "System",
+            "id": "system",
+            "url": "#system",
+            "children": [
+              {
+                "title": "AI/Analytics Capabilities",
+                "id": "aianalytics-capabilities",
+                "url": "#aianalytics-capabilities",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Operational Status",
+                "id": "operational-status",
+                "url": "#operational-status",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "hash": 6668873602121850746
+}
