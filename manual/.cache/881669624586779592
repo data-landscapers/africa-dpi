@@ -1,0 +1,711 @@
+{
+  "data": {
+    "meta": {},
+    "content": "<h1 id=\"case-digital-payment-metadata\">Case digital payment metadata<a class=\"headerlink\" href=\"#case-digital-payment-metadata\" title=\"Permanent link\">&para;</a></h1>\n<p>Variable definitions and collection guidance for case digital payment.</p>\n<h2 id=\"system\">System<a class=\"headerlink\" href=\"#system\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"payment-system-name\">Payment System Name<a class=\"headerlink\" href=\"#payment-system-name\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-dpaysysname</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Official name(s) of the country's primary digital payment system(s) or interoperability platform(s) in both local language and English where available. Includes formal real-time/instant payment systems, mobile money interoperability schemes, and national payment switches. If multiple systems exist (e.g., separate bank-led and mobile money systems), list all major systems.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Include acronym if commonly used (e.g., \"NIBSS Instant Payment (NIP)\"). Note if system is bank-only, mobile money-only, or interoperable.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system name\", \"[Country] digital payment name\", central bank payment system documents, national switch operator websites. Cross-reference with BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report and regional payment system listings. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"payment-system-type\">Payment System Type<a class=\"headerlink\" href=\"#payment-system-type\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-dpaysystype</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Classification of the digital payment system based on its architecture and participant ecosystem, distinguishing between bank-centric, mobile money-centric, or interoperable models that bridge multiple payment service provider types.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Bank-only IPS; Mobile Money-only IPS; Bank-MNO Interoperable; Universal Interoperable; Multiple Separate Systems. Bank-only: Only banks as participants. Mobile Money-only: Only mobile network operators. Bank-MNO: Banks and MNOs integrated. Universal: Banks, MNOs, fintechs, PSPs all eligible. Multiple: Distinct systems operating in parallel.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system interoperability\", \"[Country] mobile money bank interoperability\", scheme rules documents, participant eligibility criteria. Check mobile money interoperability reports, central bank licensing frameworks. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"technical-standards-compliance\">Technical Standards Compliance<a class=\"headerlink\" href=\"#technical-standards-compliance\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-techstandards</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>International or regional technical standards, protocols, and messaging formats adopted by the payment system for transaction processing, security, and interoperability (e.g., ISO 20022, ISO 8583, Mojaloop, EMV standards).</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Common standards: ISO 20022 (messaging), ISO 8583 (card transactions), EMV (chip cards), Mojaloop (open-source mobile money), GSMA Mobile Money API. Note if standards are partial or full implementation.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system technical standards\", \"[Country] ISO 20022\", system operator technical documentation, scheme rules technical specifications, tender documents for payment system infrastructure. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"interoperability-model\">Interoperability Model<a class=\"headerlink\" href=\"#interoperability-model\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-interopmodel</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>The architectural approach used to achieve interoperability between payment service providers, distinguishing between centralized hub/switch models, distributed peer-to-peer models, standards-based federation, or merchant aggregation approaches.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Centralized Hub/Switch; Peer-to-Peer; Standards-Based Federation; Hybrid; No Interoperability. Centralized: Single national switch/hub routes all transactions. Peer-to-Peer: Direct bilateral connections. Standards-Based: Common standards enable connectivity without central switch. Hybrid: Combination of approaches.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment switch\", \"[Country] interoperability model\", \"[Country] national payment hub\", payment system architecture documents, GhIPSS model references, Mojaloop implementations. Check if central bank or third party operates switch. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"supported-payment-channels\">Supported Payment Channels<a class=\"headerlink\" href=\"#supported-payment-channels\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-paymentchannels</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>All access channels through which end users can initiate and receive digital payments, including mobile applications, USSD codes, web platforms, point-of-sale terminals, QR codes, agent networks, and API integrations.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note if channel requires smartphone vs feature phone. Indicate 24/7 availability or restrictions per channel. Comment on accessibility for rural/offline environments.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment channels\", \"[Country] USSD payments\", \"[Country] QR code payments\", user guides for payment systems, mobile banking app features, scheme participant documentation, fintech integrations. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"payment-instruments-supported\">Payment Instruments Supported<a class=\"headerlink\" href=\"#payment-instruments-supported\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-system-paymentinstruments</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Types of payment instruments and stored value accounts that can be linked to and used as source or destination for digital payments, including bank accounts, mobile wallets, prepaid cards, and other regulated payment accounts.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Distinguish between bank-issued accounts, MNO wallets, independent payment service provider accounts. Note if instrument types can interoperate (e.g., bank to mobile wallet).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] mobile wallet bank transfer\", \"[Country] payment instruments\", scheme rules on account types, mobile money regulations, interoperability documentation, participant types allowed. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"governance\">Governance<a class=\"headerlink\" href=\"#governance\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"governing-authority\">Governing Authority<a class=\"headerlink\" href=\"#governing-authority\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-governance-paygovauthority</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>The entity or entities responsible for regulatory oversight, rule-setting, licensing, and supervision of the payment system and its participants. Typically includes central bank, financial regulatory authority, telecommunications regulator, or dedicated payment system oversight body.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify primary vs secondary oversight. Note if authority covers prudential regulation, conduct regulation, or both. Indicate if multiple authorities share jurisdiction (e.g., central bank + telecom regulator).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system regulation\", \"[Country] central bank payment oversight\", legal framework for payment systems, payment system acts/laws, regulatory authority websites, licensing regimes for payment service providers. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"payment-system-operator\">Payment System Operator<a class=\"headerlink\" href=\"#payment-system-operator\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-governance-payoperator</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>The organization(s) responsible for operating the payment system infrastructure, managing day-to-day technical operations, participant onboarding, transaction routing, and system maintenance. May be central bank, private company, or public-private entity.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Operator types: Central Bank, National Switch Company, Private Consortium, Public-Private Partnership, Individual MNOs. Note founding year if available. Indicate if different operators for different systems (bank vs mobile money).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system operator\", \"[Country] national switch\", \"[Country] payment infrastructure company\", company registries, central bank subsidiaries, GhIPSS-type entities, NIBSS-type entities. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"ownership-model\">Ownership Model<a class=\"headerlink\" href=\"#ownership-model\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-governance-payownership</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Ownership structure of the payment system infrastructure, indicating whether owned by central bank, commercial banks, mobile operators, government, private sector consortium, or combination. Reflects governance and incentive structures.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Central Bank-Owned; Bank Consortium; MNO Consortium; Government-Owned; Private Company; Public-Private Partnership; Mixed/Shared. Specify ownership percentages if available (e.g., \"Central Bank 60%, Banks 40%\"). Note if ownership has evolved over time. Comment on implications for neutrality and competition.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system ownership\", \"[Country] national switch shareholders\", company ownership records, central bank subsidiaries, payment system operator annual reports, governance documents. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"inclusivity\">Inclusivity<a class=\"headerlink\" href=\"#inclusivity\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"participant-eligibility-scope\">Participant Eligibility Scope<a class=\"headerlink\" href=\"#participant-eligibility-scope\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-participanteligibility</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Types of financial service providers legally eligible to participate as direct participants (not just as agents) in the payment system, reflecting the breadth of the ecosystem. Includes banks, mobile network operators, fintechs, payment service providers, microfinance institutions, and non-bank entities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note licensing requirements (e.g., \"Must hold PSP license\"). Distinguish between direct participants (settle on own behalf) and indirect participants (through sponsor bank). Comment on barriers to entry (capital, technical, operational).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system participant eligibility\", \"[Country] payment service provider licensing\", scheme rules on participation, central bank licensing categories, participant directories, mobile money regulations, fintech licensing frameworks. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"number-of-direct-participants\">Number of Direct Participants<a class=\"headerlink\" href=\"#number-of-direct-participants\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-participantcount</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Total count of payment service providers directly connected to and actively participating in the digital payment system as of the most recent reporting date. Reflects market breadth and competitive landscape.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify if count includes banks only, banks+MNOs, or all PSP types. Note breakdown by type if available (e.g., \"23 banks, 4 MNOs, 6 fintechs\"). Include inactive vs active distinction if disclosed. Note growth trend if historical data exists.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system participants\", \"[Country] banks connected to payment system\", participant directories, payment system operator reports, central bank statistics, scheme membership lists, regulatory licensing databases. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"transaction-fee-for-person-to-person-payments\">Transaction Fee for Person-to-Person Payments<a class=\"headerlink\" href=\"#transaction-fee-for-person-to-person-payments\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-transactionfeep2p</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Fee structure charged to end users (sender or receiver) for person-to-person digital payments within the country. Includes flat fees, percentage fees, tiered structures, or free transactions. Critical affordability indicator.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify who pays (sender/receiver/both). Note fee caps if imposed by regulation. Distinguish between bank-to-bank, mobile-to-mobile, and bank-to-mobile fees if different. Include minimum and maximum fees for tiered structures. Date pricing as of latest available.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] P2P payment fees\", \"[Country] transfer charges\", \"[Country] mobile money transfer tariffs\", provider pricing pages, scheme rules on pricing, regulatory fee caps, consumer associations fee comparisons, central bank tariff surveys. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"tiered-kyccdd-requirements\">Tiered KYC/CDD Requirements<a class=\"headerlink\" href=\"#tiered-kyccdd-requirements\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-kyctiering</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether risk-based, tiered know-your-customer (KYC) and customer due diligence (CDD) requirements exist that allow simplified verification for lower-risk, lower-value accounts and transactions, enabling access for individuals without full documentation. Critical for including informal sector and rural populations.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Yes - Multi-Tier System; Simplified KYC Only; No - Uniform Requirements. Multi-Tier: Usually 3+ tiers with different requirements and transaction limits. Simplified: Single reduced requirement option. Describe tier structure if multi-tier (e.g., \"Tier 1: Name+phone; Tier 2: +ID; Tier 3: +proof of address\"). Note transaction limits per tier.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] tiered KYC\", \"[Country] simplified customer due diligence\", \"[Country] risk-based KYC regulations\", AML/CFT regulations, central bank KYC directives, mobile money KYC rules, financial inclusion KYC policy, FATF guidance implementation. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"agent-network-availability\">Agent Network Availability<a class=\"headerlink\" href=\"#agent-network-availability\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-agentnetwork</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Availability, size, and geographic distribution of agent networks providing cash-in/cash-out services, account opening assistance, and transaction support for digital payments. Particularly important for rural areas and populations lacking digital literacy or connectivity.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Include agent count, agents per 100,000 adults, rural vs urban distribution, agent types (bank agents, mobile money agents, retail agents). Note regulatory framework for agents. Comment on agent liquidity challenges if documented. Mention super-agent models if applicable.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] agent banking\", \"[Country] mobile money agents\", \"[Country] agent network size\", provider annual reports, central bank agent statistics, GSMA mobile money reports, agent network operator disclosures, financial access surveys with agent data. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"accessibility-features-for-vulnerable-groups\">Accessibility Features for Vulnerable Groups<a class=\"headerlink\" href=\"#accessibility-features-for-vulnerable-groups\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-inclusivity-accessibilityfeatures</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Special design features, accommodations, and services that enhance accessibility of digital payment systems for persons with disabilities, illiterate users, elderly populations, or other marginalized groups, including voice-based interfaces, screen readers, simplified UIs, assisted transactions.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note if features are mandatory (regulatory requirement) or voluntary. Specify which providers offer features. Comment on effectiveness/uptake if studied. Mention training programs for vulnerable groups. Reference accessibility standards compliance (WCAG, etc.).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment accessibility disability\", \"[Country] illiterate-friendly payment\", \"[Country] inclusive payment design\", provider accessibility statements, disability rights legislation applied to payments, financial inclusion reports on vulnerable groups, assistive technology integrations. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"functionality\">Functionality<a class=\"headerlink\" href=\"#functionality\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"offline-payment-capability\">Offline Payment Capability<a class=\"headerlink\" href=\"#offline-payment-capability\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-functionality-offlinepayments</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether payments can be initiated, authorized, and completed (at least temporarily) without internet connectivity, using USSD, SMS, SIM-based applications, or other offline technologies. Critical for rural and low-connectivity areas.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Yes - Full Offline; Partial - USSD/SMS Only; No - Internet Required. Full Offline: Transactions complete without internet (may sync later). Partial: USSD/SMS work but require basic GSM. Specify offline technologies supported (USSD, SMS, SIM toolkit, NFC offline, Bluetooth). Note transaction limits for offline if different.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] USSD payments\", \"[Country] offline digital payments\", \"[Country] SMS payments\", payment channels documentation, USSD payment codes, offline payment technologies, feature phone payment capabilities.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"uptake\">Uptake<a class=\"headerlink\" href=\"#uptake\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"annual-transaction-volume\">Annual Transaction Volume<a class=\"headerlink\" href=\"#annual-transaction-volume\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-uptake-transactionvolume</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Total number of payment transactions (count) processed through the digital payment system annually, reflecting system usage intensity. Includes all transaction types (P2P, P2B, G2P, etc.).</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify year of data. Note if volume includes all system types or specific subset. Provide growth rate vs previous year if available. Distinguish successful vs attempted transactions if disclosed. Source data (system operator, central bank, regulator).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment transaction volume\", \"[Country] payment system statistics\", payment system operator annual reports, central bank payment statistics, financial stability reports, BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report data, regulatory filings. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"annual-transaction-value\">Annual Transaction Value<a class=\"headerlink\" href=\"#annual-transaction-value\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-uptake-transactionvalue</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Total monetary value of all transactions processed through the digital payment system annually, reflecting economic activity channeled through digital payments. Includes all transaction types.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify year and currency. Convert to USD if helpful (note exchange rate and date). Provide growth rate vs previous year if available. Note if GDP percentage disclosed. Compare to cash transaction estimates if available. Source data.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment transaction value\", \"[Country] digital payment GDP\", payment system operator annual reports, central bank payment statistics, financial sector assessments, BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report, transaction value trends. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"banking-sector-adoption\">Banking Sector Adoption<a class=\"headerlink\" href=\"#banking-sector-adoption\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-uptake-bankadoption</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Extent of banking sector participation in and utilization of the digital payment system, measured by percentage of banks connected and volume/value of bank-initiated or bank-intermediated transactions.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify banks connected as percentage of total licensed banks. Note if large banks vs small banks have different adoption rates. Distinguish transactions originating from bank accounts vs bank mobile apps. Compare bank vs non-bank (mobile money) usage if available.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] bank payment system participation\", \"[Country] banks connected digital payment\", banking association reports, payment system participant lists, central bank bank supervision reports, transaction statistics by originator type. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"mobile-money-transaction-share\">Mobile Money Transaction Share<a class=\"headerlink\" href=\"#mobile-money-transaction-share\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-uptake-mobilemoneyshare</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Share of digital payment system transactions originating from or intermediated by mobile money accounts compared to traditional bank accounts, indicating relative importance of mobile money vs banking channels.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify if share by transaction volume (count) or value (amount), as these often differ significantly. Note country context (mobile money-led vs bank-led market). Source data. Comment on trends if historical data available.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] mobile money vs bank transactions\", \"[Country] mobile money market share\", GSMA State of the Industry reports, central bank payment statistics by channel, financial inclusion surveys, payment system statistics by participant type. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"credibility\">Credibility<a class=\"headerlink\" href=\"#credibility\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"security-standards-and-certifications\">Security Standards and Certifications<a class=\"headerlink\" href=\"#security-standards-and-certifications\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-securitystandards</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Security protocols, international standards, and third-party certifications implemented to protect the payment system infrastructure and user data from cybersecurity threats, including encryption, authentication, monitoring, and incident response capabilities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note if certifications are for system operator, participants, or both. Specify encryption standards (TLS, AES-256). Mention authentication methods (PIN, biometric, OTP, 2FA). Include audit frequency if disclosed. Cite cybersecurity regulations applied.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system security\", \"[Country] payment cybersecurity standards\", payment system security documentation, PCI-DSS compliance disclosures, central bank cybersecurity directives, ISO 27001 certifications, security audit reports, incident response frameworks.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"fraud-and-scam-incidents\">Fraud and Scam Incidents<a class=\"headerlink\" href=\"#fraud-and-scam-incidents\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-fraudrate</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Documented rate of fraud, unauthorized transactions, scams, or security incidents affecting the payment system, typically expressed as fraud value as percentage of total transaction value or fraud incidents per million transactions.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify fraud types included (unauthorized access, account takeover, merchant fraud, social engineering scams). Note if rate is for successful fraud only or attempts. Distinguish system vulnerabilities vs user-targeted scams. Source (regulator, operator, police). Comment on trend.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment fraud rate\", \"[Country] mobile money fraud\", \"[Country] digital payment scams\", central bank consumer complaints, payment system operator security reports, police cybercrime statistics, consumer protection authority reports, media reports on payment fraud.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"dispute-resolution-mechanism\">Dispute Resolution Mechanism<a class=\"headerlink\" href=\"#dispute-resolution-mechanism\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-disputeresolution</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Formal processes and institutional arrangements available for users to report and resolve payment errors, unauthorized transactions, fraud, or service quality issues, including complaint channels, resolution timeframes, and appeal mechanisms.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Formal Mechanism Exists; Informal/Provider-Level Only; No Clear Mechanism. If formal mechanism exists, describe: complaint channels (hotline, online, in-person), resolution timeline (e.g., \"within 10 business days\"), escalation path, regulatory oversight, compensation/refund policies. Note if financial ombudsman covers payments.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment dispute resolution\", \"[Country] payment complaint mechanism\", \"[Country] financial ombudsman\", scheme rules on disputes, consumer protection regulations, payment service provider complaint procedures, central bank complaint handling frameworks, ombudsman services.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"consumer-awareness-and-education-programs\">Consumer Awareness and Education Programs<a class=\"headerlink\" href=\"#consumer-awareness-and-education-programs\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-customerawareness</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether systematic, organized programs exist to educate users about payment system features, security best practices, fraud prevention, user rights, and safe usage, delivered by regulators, operators, providers, or civil society.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Yes - Comprehensive Programs; Limited - Ad Hoc Initiatives; No. Comprehensive: Regular, multi-channel education with measurable reach. Limited: Occasional campaigns. If Yes, describe programs: financial literacy training, security awareness campaigns, user guides, helplines, school programs. Note reach (e.g., \"trained 1M users in 2023\").</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] financial literacy digital payments\", \"[Country] payment security awareness\", \"[Country] mobile money education\", central bank financial literacy programs, payment operator user education, consumer protection campaigns, NGO financial education programs, media public service announcements.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"regulatory-oversight-and-supervision\">Regulatory Oversight and Supervision<a class=\"headerlink\" href=\"#regulatory-oversight-and-supervision\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-regulatoryoversight</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Extent, nature, and effectiveness of regulatory oversight of payment system operations, risk management, financial soundness, consumer protection, and participant conduct by central bank, financial regulator, or other authorities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Comprehensive Oversight; Basic Oversight; Limited Oversight. Comprehensive: Regular inspections, prudential standards, conduct monitoring, enforcement actions. Basic: Licensing and reporting only. Describe oversight activities: on-site inspections, off-site surveillance, stress testing, risk assessments. Note enforcement actions taken if disclosed.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system supervision\", \"[Country] central bank payment oversight\", payment system regulations, central bank supervision reports, payment system designations (systemically important), regulatory frameworks, enforcement actions, supervisory approach statements.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"development-partner-and-technical-assistance-support\">Development Partner and Technical Assistance Support<a class=\"headerlink\" href=\"#development-partner-and-technical-assistance-support\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-credibility-techsupport</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Development partners, donors, technical assistance providers, or international organizations that have provided or are providing financial grants, technical expertise, capacity building, or infrastructure support for payment system development and operations.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify support type: funding/grants, technical design, capacity building, software/infrastructure, policy advisory, governance support. Note if support is historical (system launch) or ongoing. Mention specific projects/programs if known (e.g., \"AFIN project\", \"Payment Systems Development\").</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system development partners\", \"[Country] digital payment technical assistance\", \"[Country] World Bank payment project\", project databases (World Bank, AfDB, donors), payment system operator acknowledgments, central bank collaboration statements, donor reports, technical assistance facility disclosures.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"public-value\">Public Value<a class=\"headerlink\" href=\"#public-value\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"economic-impact-and-gdp-contribution\">Economic Impact and GDP Contribution<a class=\"headerlink\" href=\"#economic-impact-and-gdp-contribution\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-econimpact</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Estimated economic value or GDP contribution from digital payment system including direct transaction value, productivity gains, cost savings, formalization effects, and multiplier impacts on economic activity. May be from economic studies, modeling, or official statistics.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note methodology (econometric study, input-output model, payment value as proxy). Distinguish direct contribution (transaction value) vs induced effects (productivity, formalization). Cite source study. Comment on counterfactual assumptions (vs cash economy).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] digital payment economic impact\", \"[Country] mobile money GDP contribution\", economic impact studies, World Bank/IMF economic assessments, academic research on payment impact, payment industry reports, central bank financial stability assessments, fintech economic contribution studies.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"financial-inclusion-impact\">Financial Inclusion Impact<a class=\"headerlink\" href=\"#financial-inclusion-impact\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-financialinclusion</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Evidence that the digital payment system has expanded financial inclusion, particularly bringing previously unbanked or underbanked populations into the formal financial system, with supporting data on account ownership growth, demographic reach, or inclusion metrics.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Include account ownership growth, unbanked reduction, rural inclusion, gender gap closure, youth inclusion. Distinguish correlation vs causation. Note if payment access is gateway to other services (credit, savings, insurance). Cite Global Findex, FinScope, or national surveys.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] financial inclusion growth\", \"[Country] unbanked reduction digital payments\", \"[Country] mobile money inclusion impact\", Global Findex time series, FinScope surveys, financial inclusion strategies with baseline/targets, impact evaluation studies, central bank inclusion reports.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"benefits-for-micro-and-small-businesses\">Benefits for Micro and Small Businesses<a class=\"headerlink\" href=\"#benefits-for-micro-and-small-businesses\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-smebenefits</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Documented benefits for micro, small, and medium enterprises from accepting and using digital payments, including increased sales, reduced cash handling costs, improved recordkeeping, access to credit based on transaction data, or business formalization.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note types of benefits documented: sales growth %, cost reduction %, credit access, digital recordkeeping, tax compliance, supplier payments. Distinguish quantified impacts vs qualitative perceptions. Cite MSME surveys, case studies, payment provider impact reports.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] MSME digital payments benefits\", \"[Country] small business mobile money impact\", MSME surveys, IFC/World Bank enterprise surveys, payment provider MSME programs, fintech MSME lending linked to payments, MSME association reports, academic studies on MSME digitization.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"government-service-delivery-efficiency\">Government Service Delivery Efficiency<a class=\"headerlink\" href=\"#government-service-delivery-efficiency\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-govtefficiency</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Documented improvements in government efficiency from digital payments including faster disbursement speeds, reduced leakage and fraud in social programs, lower administrative costs, improved targeting accuracy, and better reconciliation.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note efficiency gains: disbursement speed, leakage reduction %, administrative cost savings, duplicate beneficiary elimination, real-time visibility. Distinguish G2P vs P2G efficiency. Cite government assessments, donor evaluations, audit reports.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] G2P digitization efficiency\", \"[Country] social transfer leakage reduction digital\", \"[Country] digital payment government savings\", treasury reports, social protection program evaluations, World Bank G2P assessments, IMF PFM reforms, government digital transformation impact reports, audit reports on program efficiency.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"anti-corruption-and-transparency-benefits\">Anti-Corruption and Transparency Benefits<a class=\"headerlink\" href=\"#anti-corruption-and-transparency-benefits\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-reducedcorruption</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Evidence that digital payment trails, transaction transparency, and reduced cash handling have reduced corruption, petty bribery, or fraud, or improved government accountability through better audit trails and real-time monitoring.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note corruption reduction evidence: petty bribery in service delivery, ghost workers eliminated, procurement transparency, payment trail for audits. Distinguish measured reduction vs perception surveys. Cite anti-corruption agency reports, governance indices, audit findings, transparency assessments.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] digital payments reduce corruption\", \"[Country] transparency digital government payments\", \"[Country] ghost workers eliminated digital payments\", anti-corruption commission reports, audit general reports, governance perception surveys (TI Corruption Perceptions, Afrobarometer), PFM assessments, digital governance impact studies.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"governance-transparency-index\">Governance Transparency Index<a class=\"headerlink\" href=\"#governance-transparency-index\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-transparencyindex</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Composite assessment of transparency in payment system governance including availability of public documentation (scheme rules, performance data, governance structure), stakeholder consultation processes, public reporting frequency, and information accessibility.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>High: Public scheme rules, regular performance reporting, governance documentation, stakeholder consultation. Moderate: Some public info but gaps. Low: Limited public disclosure. Summarise the publicly available governance documentation (scheme rules, performance reports, consultation records) and assess transparency as High/Moderate/Low with brief justification based on evidence from other governance variables.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>This is primarily a synthetic variable derived from other governance variables (scheme rules availability, performance reporting, stakeholder engagement). Assess based on: publicly available documentation, reporting frequency/detail, consultation mechanisms, governance clarity. Cross-check payment system operator transparency practices.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"multi-stakeholder-participation\">Multi-Stakeholder Participation<a class=\"headerlink\" href=\"#multi-stakeholder-participation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-publicvalue-stakeholderengage</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether payment system governance involves diverse stakeholders beyond banks and government, including civil society organizations, consumer representatives, MSME associations, fintech sector, mobile operators, and affected communities in policy-making, rule-setting, or oversight.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Yes - Broad Multi-Stakeholder; Limited - Industry Only; No - Closed Governance. Broad: Includes CSOs, consumer groups, diverse PSPs. Limited: Banks/MNOs only. Describe participation mechanisms: advisory boards, public consultations, co-governance structures. Note frequency and influence of stakeholder input. Cite specific committees or forums.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system stakeholder consultation\", \"[Country] payment governance committees\", governance documents, stakeholder advisory board membership, public consultation notices, civil society participation in policy, consumer group representation, scheme governance structures, regulatory consultation processes.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"social-equity\">Social Equity<a class=\"headerlink\" href=\"#social-equity\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"rural-urban-access-and-usage-gap\">Rural-Urban Access and Usage Gap<a class=\"headerlink\" href=\"#rural-urban-access-and-usage-gap\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-socialequity-ruralurbangap</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Difference in digital payment access (account ownership, agent availability) and usage (active users, transaction frequency) between rural and urban populations, reflecting infrastructure and service availability disparities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify if gap in account ownership, active usage, agent access, network coverage. Note absolute gap and trend. Distinguish access (can obtain account) vs usage (actively transacting). Comment on rural-specific barriers (connectivity, literacy, agent liquidity). Source surveys.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] rural urban financial inclusion gap\", \"[Country] rural digital payments\", \"[Country] mobile money rural\", Global Findex urban/rural breakdowns, FinScope spatial analysis, household surveys with rural/urban, mobile network coverage maps, agent network rural distribution, financial access strand surveys.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"wealthincome-inequality-in-access\">Wealth/Income Inequality in Access<a class=\"headerlink\" href=\"#wealthincome-inequality-in-access\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-socialequity-wealthgap</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Difference in digital payment access and usage across income quintiles or poverty status (poorest vs richest, poor vs non-poor), indicating whether payment systems are reaching low-income populations or exacerbating financial exclusion.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Specify if by income quintile, wealth quintile, or poverty status. Note gap magnitude and if narrowing/widening. Comment on affordability barriers for poor (fees, device costs, minimum balance). Distinguish account ownership vs active usage by wealth. Source household surveys with income/wealth data.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] financial inclusion by income\", \"[Country] poor unbanked digital\", Global Findex wealth/income quintile data, FinScope income analysis, household income surveys with financial access modules, poverty assessments with digital payment usage, pro-poor payment studies.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"women-economic-empowerment\">Women Economic Empowerment<a class=\"headerlink\" href=\"#women-economic-empowerment\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-socialequity-womenempowerment</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Evidence that digital payments have enhanced women's economic agency, control over finances, economic participation, and bargaining power within households and communities, including qualitative and quantitative evidence.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Note evidence types: women controlling own accounts/income, increased business participation, intrahousehold bargaining power, economic decision-making autonomy. Distinguish measured impacts vs perception studies. Cite women empowerment studies, gender impact assessments, mobile money gender research.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] women economic empowerment digital payments\", \"[Country] mobile money women empowerment\", \"[Country] gender impact digital finance\", gender impact assessments, women economic empowerment studies, GSMA mobile money gender research, household decision-making studies, qualitative research on women financial autonomy, DFS gender impact evaluations.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equity-and-inclusion-impact-assessment\">Equity and Inclusion Impact Assessment<a class=\"headerlink\" href=\"#equity-and-inclusion-impact-assessment\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>pay-socialequity-equityassessment</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether formal assessments of equity impacts, exclusion risks, and distributional effects of the payment system have been conducted by government, regulator, operators, academics, or civil society, and whether findings informed policy or design changes.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (400 characters max); \"NA\" if unknown or not applicable</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Classification anchors: Yes - Comprehensive Assessment; Partial - Limited Assessment; No Assessment. Comprehensive: Multi-dimensional equity analysis with policy follow-up. Partial: Single study or ad hoc analysis. If Yes, cite assessment, date, conducting organization, key findings. Note if assessment led to policy/design changes (e.g., fee caps, tiered KYC, rural targets).</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>Search: \"[Country] payment system equity assessment\", \"[Country] digital financial inclusion impact evaluation\", \"[Country] payment system inclusion analysis\", government impact assessments, regulatory reviews, academic impact studies, World Bank/donor evaluations, civil society equity reports, financial sector assessments with inclusion analysis.</td>\n</tr>\n</tbody>\n</table>",
+    "search": [
+      {
+        "location": null,
+        "level": 1,
+        "title": "Case digital payment metadata",
+        "text": "<p>Variable definitions and collection guidance for case digital payment.</p>",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "system",
+        "level": 2,
+        "title": "System",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "payment-system-name",
+        "level": 3,
+        "title": "Payment System Name",
+        "text": "Field Value Variable Id pay-system-dpaysysname Definition Official name(s) of the country's primary digital payment system(s) or interoperability platform(s) in both local language and English where available. Includes formal real-time/instant payment systems, mobile money interoperability schemes, and national payment switches. If multiple systems exist (e.g., separate bank-led and mobile money systems), list all major systems. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Include acronym if commonly used (e.g., \"NIBSS Instant Payment (NIP)\"). Note if system is bank-only, mobile money-only, or interoperable. Data Collection Guidelines Search: \"[Country] payment system name\", \"[Country] digital payment name\", central bank payment system documents, national switch operator websites. Cross-reference with BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report and regional payment system listings. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "payment-system-type",
+        "level": 3,
+        "title": "Payment System Type",
+        "text": "Field Value Variable Id pay-system-dpaysystype Definition Classification of the digital payment system based on its architecture and participant ecosystem, distinguishing between bank-centric, mobile money-centric, or interoperable models that bridge multiple payment service provider types. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Bank-only IPS; Mobile Money-only IPS; Bank-MNO Interoperable; Universal Interoperable; Multiple Separate Systems. Bank-only: Only banks as participants. Mobile Money-only: Only mobile network operators. Bank-MNO: Banks and MNOs integrated. Universal: Banks, MNOs, fintechs, PSPs all eligible. Multiple: Distinct systems operating in parallel. Data Collection Guidelines Search: \"[Country] payment system interoperability\", \"[Country] mobile money bank interoperability\", scheme rules documents, participant eligibility criteria. Check mobile money interoperability reports, central bank licensing frameworks. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "technical-standards-compliance",
+        "level": 3,
+        "title": "Technical Standards Compliance",
+        "text": "Field Value Variable Id pay-system-techstandards Definition International or regional technical standards, protocols, and messaging formats adopted by the payment system for transaction processing, security, and interoperability (e.g., ISO 20022, ISO 8583, Mojaloop, EMV standards). Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Common standards: ISO 20022 (messaging), ISO 8583 (card transactions), EMV (chip cards), Mojaloop (open-source mobile money), GSMA Mobile Money API. Note if standards are partial or full implementation. Data Collection Guidelines Search: \"[Country] payment system technical standards\", \"[Country] ISO 20022\", system operator technical documentation, scheme rules technical specifications, tender documents for payment system infrastructure. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "interoperability-model",
+        "level": 3,
+        "title": "Interoperability Model",
+        "text": "Field Value Variable Id pay-system-interopmodel Definition The architectural approach used to achieve interoperability between payment service providers, distinguishing between centralized hub/switch models, distributed peer-to-peer models, standards-based federation, or merchant aggregation approaches. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Centralized Hub/Switch; Peer-to-Peer; Standards-Based Federation; Hybrid; No Interoperability. Centralized: Single national switch/hub routes all transactions. Peer-to-Peer: Direct bilateral connections. Standards-Based: Common standards enable connectivity without central switch. Hybrid: Combination of approaches. Data Collection Guidelines Search: \"[Country] payment switch\", \"[Country] interoperability model\", \"[Country] national payment hub\", payment system architecture documents, GhIPSS model references, Mojaloop implementations. Check if central bank or third party operates switch. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "supported-payment-channels",
+        "level": 3,
+        "title": "Supported Payment Channels",
+        "text": "Field Value Variable Id pay-system-paymentchannels Definition All access channels through which end users can initiate and receive digital payments, including mobile applications, USSD codes, web platforms, point-of-sale terminals, QR codes, agent networks, and API integrations. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note if channel requires smartphone vs feature phone. Indicate 24/7 availability or restrictions per channel. Comment on accessibility for rural/offline environments. Data Collection Guidelines Search: \"[Country] payment channels\", \"[Country] USSD payments\", \"[Country] QR code payments\", user guides for payment systems, mobile banking app features, scheme participant documentation, fintech integrations. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "payment-instruments-supported",
+        "level": 3,
+        "title": "Payment Instruments Supported",
+        "text": "Field Value Variable Id pay-system-paymentinstruments Definition Types of payment instruments and stored value accounts that can be linked to and used as source or destination for digital payments, including bank accounts, mobile wallets, prepaid cards, and other regulated payment accounts. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Distinguish between bank-issued accounts, MNO wallets, independent payment service provider accounts. Note if instrument types can interoperate (e.g., bank to mobile wallet). Data Collection Guidelines Search: \"[Country] mobile wallet bank transfer\", \"[Country] payment instruments\", scheme rules on account types, mobile money regulations, interoperability documentation, participant types allowed. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "governance",
+        "level": 2,
+        "title": "Governance",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "governing-authority",
+        "level": 3,
+        "title": "Governing Authority",
+        "text": "Field Value Variable Id pay-governance-paygovauthority Definition The entity or entities responsible for regulatory oversight, rule-setting, licensing, and supervision of the payment system and its participants. Typically includes central bank, financial regulatory authority, telecommunications regulator, or dedicated payment system oversight body. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify primary vs secondary oversight. Note if authority covers prudential regulation, conduct regulation, or both. Indicate if multiple authorities share jurisdiction (e.g., central bank + telecom regulator). Data Collection Guidelines Search: \"[Country] payment system regulation\", \"[Country] central bank payment oversight\", legal framework for payment systems, payment system acts/laws, regulatory authority websites, licensing regimes for payment service providers. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "payment-system-operator",
+        "level": 3,
+        "title": "Payment System Operator",
+        "text": "Field Value Variable Id pay-governance-payoperator Definition The organization(s) responsible for operating the payment system infrastructure, managing day-to-day technical operations, participant onboarding, transaction routing, and system maintenance. May be central bank, private company, or public-private entity. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Operator types: Central Bank, National Switch Company, Private Consortium, Public-Private Partnership, Individual MNOs. Note founding year if available. Indicate if different operators for different systems (bank vs mobile money). Data Collection Guidelines Search: \"[Country] payment system operator\", \"[Country] national switch\", \"[Country] payment infrastructure company\", company registries, central bank subsidiaries, GhIPSS-type entities, NIBSS-type entities. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "ownership-model",
+        "level": 3,
+        "title": "Ownership Model",
+        "text": "Field Value Variable Id pay-governance-payownership Definition Ownership structure of the payment system infrastructure, indicating whether owned by central bank, commercial banks, mobile operators, government, private sector consortium, or combination. Reflects governance and incentive structures. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Central Bank-Owned; Bank Consortium; MNO Consortium; Government-Owned; Private Company; Public-Private Partnership; Mixed/Shared. Specify ownership percentages if available (e.g., \"Central Bank 60%, Banks 40%\"). Note if ownership has evolved over time. Comment on implications for neutrality and competition. Data Collection Guidelines Search: \"[Country] payment system ownership\", \"[Country] national switch shareholders\", company ownership records, central bank subsidiaries, payment system operator annual reports, governance documents. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "inclusivity",
+        "level": 2,
+        "title": "Inclusivity",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "participant-eligibility-scope",
+        "level": 3,
+        "title": "Participant Eligibility Scope",
+        "text": "Field Value Variable Id pay-inclusivity-participanteligibility Definition Types of financial service providers legally eligible to participate as direct participants (not just as agents) in the payment system, reflecting the breadth of the ecosystem. Includes banks, mobile network operators, fintechs, payment service providers, microfinance institutions, and non-bank entities. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note licensing requirements (e.g., \"Must hold PSP license\"). Distinguish between direct participants (settle on own behalf) and indirect participants (through sponsor bank). Comment on barriers to entry (capital, technical, operational). Data Collection Guidelines Search: \"[Country] payment system participant eligibility\", \"[Country] payment service provider licensing\", scheme rules on participation, central bank licensing categories, participant directories, mobile money regulations, fintech licensing frameworks. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "number-of-direct-participants",
+        "level": 3,
+        "title": "Number of Direct Participants",
+        "text": "Field Value Variable Id pay-inclusivity-participantcount Definition Total count of payment service providers directly connected to and actively participating in the digital payment system as of the most recent reporting date. Reflects market breadth and competitive landscape. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify if count includes banks only, banks+MNOs, or all PSP types. Note breakdown by type if available (e.g., \"23 banks, 4 MNOs, 6 fintechs\"). Include inactive vs active distinction if disclosed. Note growth trend if historical data exists. Data Collection Guidelines Search: \"[Country] payment system participants\", \"[Country] banks connected to payment system\", participant directories, payment system operator reports, central bank statistics, scheme membership lists, regulatory licensing databases. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "transaction-fee-for-person-to-person-payments",
+        "level": 3,
+        "title": "Transaction Fee for Person-to-Person Payments",
+        "text": "Field Value Variable Id pay-inclusivity-transactionfeep2p Definition Fee structure charged to end users (sender or receiver) for person-to-person digital payments within the country. Includes flat fees, percentage fees, tiered structures, or free transactions. Critical affordability indicator. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify who pays (sender/receiver/both). Note fee caps if imposed by regulation. Distinguish between bank-to-bank, mobile-to-mobile, and bank-to-mobile fees if different. Include minimum and maximum fees for tiered structures. Date pricing as of latest available. Data Collection Guidelines Search: \"[Country] P2P payment fees\", \"[Country] transfer charges\", \"[Country] mobile money transfer tariffs\", provider pricing pages, scheme rules on pricing, regulatory fee caps, consumer associations fee comparisons, central bank tariff surveys. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "tiered-kyccdd-requirements",
+        "level": 3,
+        "title": "Tiered KYC/CDD Requirements",
+        "text": "Field Value Variable Id pay-inclusivity-kyctiering Definition Whether risk-based, tiered know-your-customer (KYC) and customer due diligence (CDD) requirements exist that allow simplified verification for lower-risk, lower-value accounts and transactions, enabling access for individuals without full documentation. Critical for including informal sector and rural populations. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Yes - Multi-Tier System; Simplified KYC Only; No - Uniform Requirements. Multi-Tier: Usually 3+ tiers with different requirements and transaction limits. Simplified: Single reduced requirement option. Describe tier structure if multi-tier (e.g., \"Tier 1: Name+phone; Tier 2: +ID; Tier 3: +proof of address\"). Note transaction limits per tier. Data Collection Guidelines Search: \"[Country] tiered KYC\", \"[Country] simplified customer due diligence\", \"[Country] risk-based KYC regulations\", AML/CFT regulations, central bank KYC directives, mobile money KYC rules, financial inclusion KYC policy, FATF guidance implementation. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "agent-network-availability",
+        "level": 3,
+        "title": "Agent Network Availability",
+        "text": "Field Value Variable Id pay-inclusivity-agentnetwork Definition Availability, size, and geographic distribution of agent networks providing cash-in/cash-out services, account opening assistance, and transaction support for digital payments. Particularly important for rural areas and populations lacking digital literacy or connectivity. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Include agent count, agents per 100,000 adults, rural vs urban distribution, agent types (bank agents, mobile money agents, retail agents). Note regulatory framework for agents. Comment on agent liquidity challenges if documented. Mention super-agent models if applicable. Data Collection Guidelines Search: \"[Country] agent banking\", \"[Country] mobile money agents\", \"[Country] agent network size\", provider annual reports, central bank agent statistics, GSMA mobile money reports, agent network operator disclosures, financial access surveys with agent data. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "accessibility-features-for-vulnerable-groups",
+        "level": 3,
+        "title": "Accessibility Features for Vulnerable Groups",
+        "text": "Field Value Variable Id pay-inclusivity-accessibilityfeatures Definition Special design features, accommodations, and services that enhance accessibility of digital payment systems for persons with disabilities, illiterate users, elderly populations, or other marginalized groups, including voice-based interfaces, screen readers, simplified UIs, assisted transactions. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note if features are mandatory (regulatory requirement) or voluntary. Specify which providers offer features. Comment on effectiveness/uptake if studied. Mention training programs for vulnerable groups. Reference accessibility standards compliance (WCAG, etc.). Data Collection Guidelines Search: \"[Country] payment accessibility disability\", \"[Country] illiterate-friendly payment\", \"[Country] inclusive payment design\", provider accessibility statements, disability rights legislation applied to payments, financial inclusion reports on vulnerable groups, assistive technology integrations. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "functionality",
+        "level": 2,
+        "title": "Functionality",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "offline-payment-capability",
+        "level": 3,
+        "title": "Offline Payment Capability",
+        "text": "Field Value Variable Id pay-functionality-offlinepayments Definition Whether payments can be initiated, authorized, and completed (at least temporarily) without internet connectivity, using USSD, SMS, SIM-based applications, or other offline technologies. Critical for rural and low-connectivity areas. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Yes - Full Offline; Partial - USSD/SMS Only; No - Internet Required. Full Offline: Transactions complete without internet (may sync later). Partial: USSD/SMS work but require basic GSM. Specify offline technologies supported (USSD, SMS, SIM toolkit, NFC offline, Bluetooth). Note transaction limits for offline if different. Data Collection Guidelines Search: \"[Country] USSD payments\", \"[Country] offline digital payments\", \"[Country] SMS payments\", payment channels documentation, USSD payment codes, offline payment technologies, feature phone payment capabilities.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "uptake",
+        "level": 2,
+        "title": "Uptake",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "annual-transaction-volume",
+        "level": 3,
+        "title": "Annual Transaction Volume",
+        "text": "Field Value Variable Id pay-uptake-transactionvolume Definition Total number of payment transactions (count) processed through the digital payment system annually, reflecting system usage intensity. Includes all transaction types (P2P, P2B, G2P, etc.). Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify year of data. Note if volume includes all system types or specific subset. Provide growth rate vs previous year if available. Distinguish successful vs attempted transactions if disclosed. Source data (system operator, central bank, regulator). Data Collection Guidelines Search: \"[Country] payment transaction volume\", \"[Country] payment system statistics\", payment system operator annual reports, central bank payment statistics, financial stability reports, BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report data, regulatory filings. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "annual-transaction-value",
+        "level": 3,
+        "title": "Annual Transaction Value",
+        "text": "Field Value Variable Id pay-uptake-transactionvalue Definition Total monetary value of all transactions processed through the digital payment system annually, reflecting economic activity channeled through digital payments. Includes all transaction types. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify year and currency. Convert to USD if helpful (note exchange rate and date). Provide growth rate vs previous year if available. Note if GDP percentage disclosed. Compare to cash transaction estimates if available. Source data. Data Collection Guidelines Search: \"[Country] payment transaction value\", \"[Country] digital payment GDP\", payment system operator annual reports, central bank payment statistics, financial sector assessments, BIS/World Bank SIIPS (Significantly Important Instant Payment Systems) Report, transaction value trends. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "banking-sector-adoption",
+        "level": 3,
+        "title": "Banking Sector Adoption",
+        "text": "Field Value Variable Id pay-uptake-bankadoption Definition Extent of banking sector participation in and utilization of the digital payment system, measured by percentage of banks connected and volume/value of bank-initiated or bank-intermediated transactions. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify banks connected as percentage of total licensed banks. Note if large banks vs small banks have different adoption rates. Distinguish transactions originating from bank accounts vs bank mobile apps. Compare bank vs non-bank (mobile money) usage if available. Data Collection Guidelines Search: \"[Country] bank payment system participation\", \"[Country] banks connected digital payment\", banking association reports, payment system participant lists, central bank bank supervision reports, transaction statistics by originator type. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "mobile-money-transaction-share",
+        "level": 3,
+        "title": "Mobile Money Transaction Share",
+        "text": "Field Value Variable Id pay-uptake-mobilemoneyshare Definition Share of digital payment system transactions originating from or intermediated by mobile money accounts compared to traditional bank accounts, indicating relative importance of mobile money vs banking channels. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify if share by transaction volume (count) or value (amount), as these often differ significantly. Note country context (mobile money-led vs bank-led market). Source data. Comment on trends if historical data available. Data Collection Guidelines Search: \"[Country] mobile money vs bank transactions\", \"[Country] mobile money market share\", GSMA State of the Industry reports, central bank payment statistics by channel, financial inclusion surveys, payment system statistics by participant type. For UEMOA/CEMAC member states, also search regional central bank (BCEAO/BEAC) payment system documentation and regional interoperability initiatives.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "credibility",
+        "level": 2,
+        "title": "Credibility",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "security-standards-and-certifications",
+        "level": 3,
+        "title": "Security Standards and Certifications",
+        "text": "Field Value Variable Id pay-credibility-securitystandards Definition Security protocols, international standards, and third-party certifications implemented to protect the payment system infrastructure and user data from cybersecurity threats, including encryption, authentication, monitoring, and incident response capabilities. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note if certifications are for system operator, participants, or both. Specify encryption standards (TLS, AES-256). Mention authentication methods (PIN, biometric, OTP, 2FA). Include audit frequency if disclosed. Cite cybersecurity regulations applied. Data Collection Guidelines Search: \"[Country] payment system security\", \"[Country] payment cybersecurity standards\", payment system security documentation, PCI-DSS compliance disclosures, central bank cybersecurity directives, ISO 27001 certifications, security audit reports, incident response frameworks.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "fraud-and-scam-incidents",
+        "level": 3,
+        "title": "Fraud and Scam Incidents",
+        "text": "Field Value Variable Id pay-credibility-fraudrate Definition Documented rate of fraud, unauthorized transactions, scams, or security incidents affecting the payment system, typically expressed as fraud value as percentage of total transaction value or fraud incidents per million transactions. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify fraud types included (unauthorized access, account takeover, merchant fraud, social engineering scams). Note if rate is for successful fraud only or attempts. Distinguish system vulnerabilities vs user-targeted scams. Source (regulator, operator, police). Comment on trend. Data Collection Guidelines Search: \"[Country] payment fraud rate\", \"[Country] mobile money fraud\", \"[Country] digital payment scams\", central bank consumer complaints, payment system operator security reports, police cybercrime statistics, consumer protection authority reports, media reports on payment fraud.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dispute-resolution-mechanism",
+        "level": 3,
+        "title": "Dispute Resolution Mechanism",
+        "text": "Field Value Variable Id pay-credibility-disputeresolution Definition Formal processes and institutional arrangements available for users to report and resolve payment errors, unauthorized transactions, fraud, or service quality issues, including complaint channels, resolution timeframes, and appeal mechanisms. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Formal Mechanism Exists; Informal/Provider-Level Only; No Clear Mechanism. If formal mechanism exists, describe: complaint channels (hotline, online, in-person), resolution timeline (e.g., \"within 10 business days\"), escalation path, regulatory oversight, compensation/refund policies. Note if financial ombudsman covers payments. Data Collection Guidelines Search: \"[Country] payment dispute resolution\", \"[Country] payment complaint mechanism\", \"[Country] financial ombudsman\", scheme rules on disputes, consumer protection regulations, payment service provider complaint procedures, central bank complaint handling frameworks, ombudsman services.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "consumer-awareness-and-education-programs",
+        "level": 3,
+        "title": "Consumer Awareness and Education Programs",
+        "text": "Field Value Variable Id pay-credibility-customerawareness Definition Whether systematic, organized programs exist to educate users about payment system features, security best practices, fraud prevention, user rights, and safe usage, delivered by regulators, operators, providers, or civil society. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Yes - Comprehensive Programs; Limited - Ad Hoc Initiatives; No. Comprehensive: Regular, multi-channel education with measurable reach. Limited: Occasional campaigns. If Yes, describe programs: financial literacy training, security awareness campaigns, user guides, helplines, school programs. Note reach (e.g., \"trained 1M users in 2023\"). Data Collection Guidelines Search: \"[Country] financial literacy digital payments\", \"[Country] payment security awareness\", \"[Country] mobile money education\", central bank financial literacy programs, payment operator user education, consumer protection campaigns, NGO financial education programs, media public service announcements.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "regulatory-oversight-and-supervision",
+        "level": 3,
+        "title": "Regulatory Oversight and Supervision",
+        "text": "Field Value Variable Id pay-credibility-regulatoryoversight Definition Extent, nature, and effectiveness of regulatory oversight of payment system operations, risk management, financial soundness, consumer protection, and participant conduct by central bank, financial regulator, or other authorities. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Comprehensive Oversight; Basic Oversight; Limited Oversight. Comprehensive: Regular inspections, prudential standards, conduct monitoring, enforcement actions. Basic: Licensing and reporting only. Describe oversight activities: on-site inspections, off-site surveillance, stress testing, risk assessments. Note enforcement actions taken if disclosed. Data Collection Guidelines Search: \"[Country] payment system supervision\", \"[Country] central bank payment oversight\", payment system regulations, central bank supervision reports, payment system designations (systemically important), regulatory frameworks, enforcement actions, supervisory approach statements.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "development-partner-and-technical-assistance-support",
+        "level": 3,
+        "title": "Development Partner and Technical Assistance Support",
+        "text": "Field Value Variable Id pay-credibility-techsupport Definition Development partners, donors, technical assistance providers, or international organizations that have provided or are providing financial grants, technical expertise, capacity building, or infrastructure support for payment system development and operations. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify support type: funding/grants, technical design, capacity building, software/infrastructure, policy advisory, governance support. Note if support is historical (system launch) or ongoing. Mention specific projects/programs if known (e.g., \"AFIN project\", \"Payment Systems Development\"). Data Collection Guidelines Search: \"[Country] payment system development partners\", \"[Country] digital payment technical assistance\", \"[Country] World Bank payment project\", project databases (World Bank, AfDB, donors), payment system operator acknowledgments, central bank collaboration statements, donor reports, technical assistance facility disclosures.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-value",
+        "level": 2,
+        "title": "Public Value",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "economic-impact-and-gdp-contribution",
+        "level": 3,
+        "title": "Economic Impact and GDP Contribution",
+        "text": "Field Value Variable Id pay-publicvalue-econimpact Definition Estimated economic value or GDP contribution from digital payment system including direct transaction value, productivity gains, cost savings, formalization effects, and multiplier impacts on economic activity. May be from economic studies, modeling, or official statistics. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note methodology (econometric study, input-output model, payment value as proxy). Distinguish direct contribution (transaction value) vs induced effects (productivity, formalization). Cite source study. Comment on counterfactual assumptions (vs cash economy). Data Collection Guidelines Search: \"[Country] digital payment economic impact\", \"[Country] mobile money GDP contribution\", economic impact studies, World Bank/IMF economic assessments, academic research on payment impact, payment industry reports, central bank financial stability assessments, fintech economic contribution studies.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "financial-inclusion-impact",
+        "level": 3,
+        "title": "Financial Inclusion Impact",
+        "text": "Field Value Variable Id pay-publicvalue-financialinclusion Definition Evidence that the digital payment system has expanded financial inclusion, particularly bringing previously unbanked or underbanked populations into the formal financial system, with supporting data on account ownership growth, demographic reach, or inclusion metrics. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Include account ownership growth, unbanked reduction, rural inclusion, gender gap closure, youth inclusion. Distinguish correlation vs causation. Note if payment access is gateway to other services (credit, savings, insurance). Cite Global Findex, FinScope, or national surveys. Data Collection Guidelines Search: \"[Country] financial inclusion growth\", \"[Country] unbanked reduction digital payments\", \"[Country] mobile money inclusion impact\", Global Findex time series, FinScope surveys, financial inclusion strategies with baseline/targets, impact evaluation studies, central bank inclusion reports.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "benefits-for-micro-and-small-businesses",
+        "level": 3,
+        "title": "Benefits for Micro and Small Businesses",
+        "text": "Field Value Variable Id pay-publicvalue-smebenefits Definition Documented benefits for micro, small, and medium enterprises from accepting and using digital payments, including increased sales, reduced cash handling costs, improved recordkeeping, access to credit based on transaction data, or business formalization. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note types of benefits documented: sales growth %, cost reduction %, credit access, digital recordkeeping, tax compliance, supplier payments. Distinguish quantified impacts vs qualitative perceptions. Cite MSME surveys, case studies, payment provider impact reports. Data Collection Guidelines Search: \"[Country] MSME digital payments benefits\", \"[Country] small business mobile money impact\", MSME surveys, IFC/World Bank enterprise surveys, payment provider MSME programs, fintech MSME lending linked to payments, MSME association reports, academic studies on MSME digitization.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "government-service-delivery-efficiency",
+        "level": 3,
+        "title": "Government Service Delivery Efficiency",
+        "text": "Field Value Variable Id pay-publicvalue-govtefficiency Definition Documented improvements in government efficiency from digital payments including faster disbursement speeds, reduced leakage and fraud in social programs, lower administrative costs, improved targeting accuracy, and better reconciliation. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note efficiency gains: disbursement speed, leakage reduction %, administrative cost savings, duplicate beneficiary elimination, real-time visibility. Distinguish G2P vs P2G efficiency. Cite government assessments, donor evaluations, audit reports. Data Collection Guidelines Search: \"[Country] G2P digitization efficiency\", \"[Country] social transfer leakage reduction digital\", \"[Country] digital payment government savings\", treasury reports, social protection program evaluations, World Bank G2P assessments, IMF PFM reforms, government digital transformation impact reports, audit reports on program efficiency.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "anti-corruption-and-transparency-benefits",
+        "level": 3,
+        "title": "Anti-Corruption and Transparency Benefits",
+        "text": "Field Value Variable Id pay-publicvalue-reducedcorruption Definition Evidence that digital payment trails, transaction transparency, and reduced cash handling have reduced corruption, petty bribery, or fraud, or improved government accountability through better audit trails and real-time monitoring. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note corruption reduction evidence: petty bribery in service delivery, ghost workers eliminated, procurement transparency, payment trail for audits. Distinguish measured reduction vs perception surveys. Cite anti-corruption agency reports, governance indices, audit findings, transparency assessments. Data Collection Guidelines Search: \"[Country] digital payments reduce corruption\", \"[Country] transparency digital government payments\", \"[Country] ghost workers eliminated digital payments\", anti-corruption commission reports, audit general reports, governance perception surveys (TI Corruption Perceptions, Afrobarometer), PFM assessments, digital governance impact studies.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "governance-transparency-index",
+        "level": 3,
+        "title": "Governance Transparency Index",
+        "text": "Field Value Variable Id pay-publicvalue-transparencyindex Definition Composite assessment of transparency in payment system governance including availability of public documentation (scheme rules, performance data, governance structure), stakeholder consultation processes, public reporting frequency, and information accessibility. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata High: Public scheme rules, regular performance reporting, governance documentation, stakeholder consultation. Moderate: Some public info but gaps. Low: Limited public disclosure. Summarise the publicly available governance documentation (scheme rules, performance reports, consultation records) and assess transparency as High/Moderate/Low with brief justification based on evidence from other governance variables. Data Collection Guidelines This is primarily a synthetic variable derived from other governance variables (scheme rules availability, performance reporting, stakeholder engagement). Assess based on: publicly available documentation, reporting frequency/detail, consultation mechanisms, governance clarity. Cross-check payment system operator transparency practices.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "multi-stakeholder-participation",
+        "level": 3,
+        "title": "Multi-Stakeholder Participation",
+        "text": "Field Value Variable Id pay-publicvalue-stakeholderengage Definition Whether payment system governance involves diverse stakeholders beyond banks and government, including civil society organizations, consumer representatives, MSME associations, fintech sector, mobile operators, and affected communities in policy-making, rule-setting, or oversight. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Yes - Broad Multi-Stakeholder; Limited - Industry Only; No - Closed Governance. Broad: Includes CSOs, consumer groups, diverse PSPs. Limited: Banks/MNOs only. Describe participation mechanisms: advisory boards, public consultations, co-governance structures. Note frequency and influence of stakeholder input. Cite specific committees or forums. Data Collection Guidelines Search: \"[Country] payment system stakeholder consultation\", \"[Country] payment governance committees\", governance documents, stakeholder advisory board membership, public consultation notices, civil society participation in policy, consumer group representation, scheme governance structures, regulatory consultation processes.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "social-equity",
+        "level": 2,
+        "title": "Social Equity",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-urban-access-and-usage-gap",
+        "level": 3,
+        "title": "Rural-Urban Access and Usage Gap",
+        "text": "Field Value Variable Id pay-socialequity-ruralurbangap Definition Difference in digital payment access (account ownership, agent availability) and usage (active users, transaction frequency) between rural and urban populations, reflecting infrastructure and service availability disparities. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify if gap in account ownership, active usage, agent access, network coverage. Note absolute gap and trend. Distinguish access (can obtain account) vs usage (actively transacting). Comment on rural-specific barriers (connectivity, literacy, agent liquidity). Source surveys. Data Collection Guidelines Search: \"[Country] rural urban financial inclusion gap\", \"[Country] rural digital payments\", \"[Country] mobile money rural\", Global Findex urban/rural breakdowns, FinScope spatial analysis, household surveys with rural/urban, mobile network coverage maps, agent network rural distribution, financial access strand surveys.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "wealthincome-inequality-in-access",
+        "level": 3,
+        "title": "Wealth/Income Inequality in Access",
+        "text": "Field Value Variable Id pay-socialequity-wealthgap Definition Difference in digital payment access and usage across income quintiles or poverty status (poorest vs richest, poor vs non-poor), indicating whether payment systems are reaching low-income populations or exacerbating financial exclusion. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Specify if by income quintile, wealth quintile, or poverty status. Note gap magnitude and if narrowing/widening. Comment on affordability barriers for poor (fees, device costs, minimum balance). Distinguish account ownership vs active usage by wealth. Source household surveys with income/wealth data. Data Collection Guidelines Search: \"[Country] financial inclusion by income\", \"[Country] poor unbanked digital\", Global Findex wealth/income quintile data, FinScope income analysis, household income surveys with financial access modules, poverty assessments with digital payment usage, pro-poor payment studies.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "women-economic-empowerment",
+        "level": 3,
+        "title": "Women Economic Empowerment",
+        "text": "Field Value Variable Id pay-socialequity-womenempowerment Definition Evidence that digital payments have enhanced women's economic agency, control over finances, economic participation, and bargaining power within households and communities, including qualitative and quantitative evidence. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Note evidence types: women controlling own accounts/income, increased business participation, intrahousehold bargaining power, economic decision-making autonomy. Distinguish measured impacts vs perception studies. Cite women empowerment studies, gender impact assessments, mobile money gender research. Data Collection Guidelines Search: \"[Country] women economic empowerment digital payments\", \"[Country] mobile money women empowerment\", \"[Country] gender impact digital finance\", gender impact assessments, women economic empowerment studies, GSMA mobile money gender research, household decision-making studies, qualitative research on women financial autonomy, DFS gender impact evaluations.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equity-and-inclusion-impact-assessment",
+        "level": 3,
+        "title": "Equity and Inclusion Impact Assessment",
+        "text": "Field Value Variable Id pay-socialequity-equityassessment Definition Whether formal assessments of equity impacts, exclusion risks, and distributional effects of the payment system have been conducted by government, regulator, operators, academics, or civil society, and whether findings informed policy or design changes. Format Text (400 characters max); \"NA\" if unknown or not applicable Other Metadata Classification anchors: Yes - Comprehensive Assessment; Partial - Limited Assessment; No Assessment. Comprehensive: Multi-dimensional equity analysis with policy follow-up. Partial: Single study or ad hoc analysis. If Yes, cite assessment, date, conducting organization, key findings. Note if assessment led to policy/design changes (e.g., fee caps, tiered KYC, rural targets). Data Collection Guidelines Search: \"[Country] payment system equity assessment\", \"[Country] digital financial inclusion impact evaluation\", \"[Country] payment system inclusion analysis\", government impact assessments, regulatory reviews, academic impact studies, World Bank/donor evaluations, civil society equity reports, financial sector assessments with inclusion analysis.",
+        "path": [],
+        "tags": []
+      }
+    ],
+    "title": "Case digital payment metadata",
+    "toc": [
+      {
+        "title": "Case digital payment metadata",
+        "id": "case-digital-payment-metadata",
+        "url": "#case-digital-payment-metadata",
+        "children": [
+          {
+            "title": "System",
+            "id": "system",
+            "url": "#system",
+            "children": [
+              {
+                "title": "Payment System Name",
+                "id": "payment-system-name",
+                "url": "#payment-system-name",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Payment System Type",
+                "id": "payment-system-type",
+                "url": "#payment-system-type",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Technical Standards Compliance",
+                "id": "technical-standards-compliance",
+                "url": "#technical-standards-compliance",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Interoperability Model",
+                "id": "interoperability-model",
+                "url": "#interoperability-model",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Supported Payment Channels",
+                "id": "supported-payment-channels",
+                "url": "#supported-payment-channels",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Payment Instruments Supported",
+                "id": "payment-instruments-supported",
+                "url": "#payment-instruments-supported",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Governance",
+            "id": "governance",
+            "url": "#governance",
+            "children": [
+              {
+                "title": "Governing Authority",
+                "id": "governing-authority",
+                "url": "#governing-authority",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Payment System Operator",
+                "id": "payment-system-operator",
+                "url": "#payment-system-operator",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Ownership Model",
+                "id": "ownership-model",
+                "url": "#ownership-model",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Inclusivity",
+            "id": "inclusivity",
+            "url": "#inclusivity",
+            "children": [
+              {
+                "title": "Participant Eligibility Scope",
+                "id": "participant-eligibility-scope",
+                "url": "#participant-eligibility-scope",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Number of Direct Participants",
+                "id": "number-of-direct-participants",
+                "url": "#number-of-direct-participants",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Transaction Fee for Person-to-Person Payments",
+                "id": "transaction-fee-for-person-to-person-payments",
+                "url": "#transaction-fee-for-person-to-person-payments",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Tiered KYC/CDD Requirements",
+                "id": "tiered-kyccdd-requirements",
+                "url": "#tiered-kyccdd-requirements",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Agent Network Availability",
+                "id": "agent-network-availability",
+                "url": "#agent-network-availability",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Accessibility Features for Vulnerable Groups",
+                "id": "accessibility-features-for-vulnerable-groups",
+                "url": "#accessibility-features-for-vulnerable-groups",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Functionality",
+            "id": "functionality",
+            "url": "#functionality",
+            "children": [
+              {
+                "title": "Offline Payment Capability",
+                "id": "offline-payment-capability",
+                "url": "#offline-payment-capability",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Uptake",
+            "id": "uptake",
+            "url": "#uptake",
+            "children": [
+              {
+                "title": "Annual Transaction Volume",
+                "id": "annual-transaction-volume",
+                "url": "#annual-transaction-volume",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Annual Transaction Value",
+                "id": "annual-transaction-value",
+                "url": "#annual-transaction-value",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Banking Sector Adoption",
+                "id": "banking-sector-adoption",
+                "url": "#banking-sector-adoption",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Mobile Money Transaction Share",
+                "id": "mobile-money-transaction-share",
+                "url": "#mobile-money-transaction-share",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Credibility",
+            "id": "credibility",
+            "url": "#credibility",
+            "children": [
+              {
+                "title": "Security Standards and Certifications",
+                "id": "security-standards-and-certifications",
+                "url": "#security-standards-and-certifications",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Fraud and Scam Incidents",
+                "id": "fraud-and-scam-incidents",
+                "url": "#fraud-and-scam-incidents",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Dispute Resolution Mechanism",
+                "id": "dispute-resolution-mechanism",
+                "url": "#dispute-resolution-mechanism",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Consumer Awareness and Education Programs",
+                "id": "consumer-awareness-and-education-programs",
+                "url": "#consumer-awareness-and-education-programs",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Regulatory Oversight and Supervision",
+                "id": "regulatory-oversight-and-supervision",
+                "url": "#regulatory-oversight-and-supervision",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Development Partner and Technical Assistance Support",
+                "id": "development-partner-and-technical-assistance-support",
+                "url": "#development-partner-and-technical-assistance-support",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Public Value",
+            "id": "public-value",
+            "url": "#public-value",
+            "children": [
+              {
+                "title": "Economic Impact and GDP Contribution",
+                "id": "economic-impact-and-gdp-contribution",
+                "url": "#economic-impact-and-gdp-contribution",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Financial Inclusion Impact",
+                "id": "financial-inclusion-impact",
+                "url": "#financial-inclusion-impact",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Benefits for Micro and Small Businesses",
+                "id": "benefits-for-micro-and-small-businesses",
+                "url": "#benefits-for-micro-and-small-businesses",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Government Service Delivery Efficiency",
+                "id": "government-service-delivery-efficiency",
+                "url": "#government-service-delivery-efficiency",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Anti-Corruption and Transparency Benefits",
+                "id": "anti-corruption-and-transparency-benefits",
+                "url": "#anti-corruption-and-transparency-benefits",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Governance Transparency Index",
+                "id": "governance-transparency-index",
+                "url": "#governance-transparency-index",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Multi-Stakeholder Participation",
+                "id": "multi-stakeholder-participation",
+                "url": "#multi-stakeholder-participation",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Social Equity",
+            "id": "social-equity",
+            "url": "#social-equity",
+            "children": [
+              {
+                "title": "Rural-Urban Access and Usage Gap",
+                "id": "rural-urban-access-and-usage-gap",
+                "url": "#rural-urban-access-and-usage-gap",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Wealth/Income Inequality in Access",
+                "id": "wealthincome-inequality-in-access",
+                "url": "#wealthincome-inequality-in-access",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Women Economic Empowerment",
+                "id": "women-economic-empowerment",
+                "url": "#women-economic-empowerment",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equity and Inclusion Impact Assessment",
+                "id": "equity-and-inclusion-impact-assessment",
+                "url": "#equity-and-inclusion-impact-assessment",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "hash": 15065797814506993683
+}

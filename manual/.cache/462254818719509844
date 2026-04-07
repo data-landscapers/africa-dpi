@@ -1,0 +1,638 @@
+{
+  "data": {
+    "meta": {},
+    "content": "<h1 id=\"case-institution-stakeholder-metadata\">Case institution &amp; stakeholder metadata<a class=\"headerlink\" href=\"#case-institution-stakeholder-metadata\" title=\"Permanent link\">&para;</a></h1>\n<p>Variable definitions and collection guidance for case institution and stakeholder.</p>\n<h2 id=\"basic-information\">Basic Information<a class=\"headerlink\" href=\"#basic-information\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"institution_id\">Institution_ID<a class=\"headerlink\" href=\"#institution_id\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_001</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Unique identifier for the institution</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Auto-generated. Format: [ISO country code][3-digit sequence]. Start at 001 for each country.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"country\">Country<a class=\"headerlink\" href=\"#country\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_002</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Country where institution is based</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Use ISO 3166-1 alpha-2 codes only (ZA, KE, NG, etc.). For pan-African institutions, use country of headquarters.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"institution_name\">Institution_Name<a class=\"headerlink\" href=\"#institution_name\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_003</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Official name of the institution</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Search official websites, company registries, NGO databases. Example: 'Central Bank of Kenya (CBK)'. Use English name if multiple languages available.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"institution_type\">Institution_Type<a class=\"headerlink\" href=\"#institution_type\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_004</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Primary institutional category</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical: Government | Private Sector | Civil Society/NGO | Media | Academic/Research | International Organization | Hybrid/Multi-Sector</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Determine based on legal status, funding, governance. Government = state-owned/controlled; Private = commercial entity; Civil Society = non-profit advocacy/service; Media = journalism focus; Academic = research/teaching; International = multilateral/foreign; Hybrid = multiple types.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"institution_subtype\">Institution_Subtype<a class=\"headerlink\" href=\"#institution_subtype\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_005</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>More specific institutional classification</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Examples: Ministry, Regulatory Agency, Central Bank, State-Owned Enterprise, Bank, Telco, Fintech, Payment Provider, Advocacy NGO, Think Tank, News Outlet, University, UN Agency. Use consistent terminology.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"dpi-mandate-role\">DPI Mandate &amp; Role<a class=\"headerlink\" href=\"#dpi-mandate-role\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"dpi_mandate\">DPI_Mandate<a class=\"headerlink\" href=\"#dpi_mandate\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_006</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether institution has explicit DPI mandate in legislation/policy</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical: Yes | No | Unclear</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Search enabling laws, regulations, strategic plans for explicit mention of digital identity, digital payments, data exchange, or digital infrastructure responsibilities. Yes = clear mandate; No = no formal mandate; Unclear = ambiguous or emerging mandate.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"dpi_role\">DPI_Role<a class=\"headerlink\" href=\"#dpi_role\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_007</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Primary functional roles in DPI ecosystem</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Policy Maker | Regulator | Implementer | System Integrator | Service Provider | Funding Source | Advocacy/Watchdog | Research/Advisory | Capacity Builder | User Representative | Technical Standards Setter | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Review institutional functions, project portfolios, press releases, partnerships. Select ALL applicable roles. Separate with semicolon (;). Examples: 'Policy Maker;Regulator' or 'Service Provider;System Integrator'.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"dpi_focus_areas\">DPI_Focus_Areas<a class=\"headerlink\" href=\"#dpi_focus_areas\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_008</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Specific DPI domains where institution is active</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Digital Identity | Digital Payments | Data Sharing/Exchange | Connectivity Infrastructure | Cybersecurity | Data Protection/Privacy | Digital Skills/Literacy | Interoperability Standards | Digital Public Services | Other</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Search reports, project descriptions, news articles about DPI work. Select ALL applicable areas. Separate with semicolon (;). Include 'Other' if significant work doesn't fit categories.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"legal_authority\">Legal_Authority<a class=\"headerlink\" href=\"#legal_authority\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_009</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Type of legal authority held by institution</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical: Legislative Authority | Regulatory Authority | Policy Development Authority | Operational Authority | Advisory/Consultative | Commercial/Market-Based | None/Limited | Unclear</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check enabling legislation, regulatory powers, licensing authority. Legislative = law-making power; Regulatory = rule-making/enforcement; Policy Development = strategy/guidance; Operational = implementation; Advisory = consultation only; Commercial = market participation; None/Limited = no formal authority.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"contact-digital-presence\">Contact &amp; Digital Presence<a class=\"headerlink\" href=\"#contact-digital-presence\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"website_url\">Website_URL<a class=\"headerlink\" href=\"#website_url\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_010</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Official institutional website</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (URL)</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Search Google for official website, verify authenticity. Use 'None' if no website exists, 'Unknown' if cannot be determined. Include protocol (https:// or http://).</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"contact_email\">Contact_Email<a class=\"headerlink\" href=\"#contact_email\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_011</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>General institutional contact email</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text (Email)</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Find on website contact page. Use general/info email, not personal addresses. Use 'None' if not publicly available.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"physical_location\">Physical_Location<a class=\"headerlink\" href=\"#physical_location\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_012</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>City and country of headquarters</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Find on website or company registry. Format: 'Nairobi, Kenya' or 'Cape Town, South Africa'. Use headquarters if multiple offices.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"influence-assessment\">Influence Assessment<a class=\"headerlink\" href=\"#influence-assessment\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"power_level\">Power_Level<a class=\"headerlink\" href=\"#power_level\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_013</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Overall ability to influence DPI outcomes</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Very High | High | Medium | Low | Very Low</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Consider authority, resources, network, expertise, track record. Very High = can veto/independently decide (minister, regulator); High = strong influence (director, influential advocate); Medium = moderate influence (program manager); Low = limited influence; Very Low = minimal influence.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"legitimacy\">Legitimacy<a class=\"headerlink\" href=\"#legitimacy\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_014</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Recognized right to be involved in DPI decisions</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Very High | High | Medium | Low | Very Low</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Assess formal mandate and recognized role. Very High = clear legal/constitutional mandate; High = strong regulatory/policy mandate; Medium = recognized stakeholder; Low = informal role; Very Low = limited/disputed legitimacy.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"decision_authority\">Decision_Authority<a class=\"headerlink\" href=\"#decision_authority\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_015</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Level of decision-making power in DPI domain</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Full Authority | Significant Authority | Moderate Authority | Limited Authority | No Authority</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check governance documents, decision processes. Full = final decision-maker; Significant = most decisions within domain; Moderate = shared decision-making; Limited = advisory role; No Authority = observer/external.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"resource_control\">Resource_Control<a class=\"headerlink\" href=\"#resource_control\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_016</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Control over financial/technical resources for DPI</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Full Control | Significant Control | Moderate Control | Limited Control | No Control</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check budget documents, funding announcements. Full = controls budget/resources; Significant = substantial allocation power; Moderate = some resource influence; Limited = minimal access; No Control = dependent on others.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"network_strength\">Network_Strength<a class=\"headerlink\" href=\"#network_strength\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_017</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Connectivity to other key DPI stakeholders</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Very Strong | Strong | Moderate | Weak | Very Weak</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check forum participation, partnerships, board memberships, MOUs. Very Strong = central hub; Strong = well-connected to key actors; Moderate = connected to some actors; Weak = limited connections; Very Weak = isolated.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"technical_expertise\">Technical_Expertise<a class=\"headerlink\" href=\"#technical_expertise\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_018</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Level of technical knowledge in DPI domains</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Expert | Advanced | Intermediate | Basic | Non-technical</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check publications, presentations, qualifications of staff, technical outputs. Expert = recognized technical authority; Advanced = strong technical knowledge; Intermediate = moderate understanding; Basic = limited knowledge; Non-technical = no technical expertise.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"engagement\">Engagement<a class=\"headerlink\" href=\"#engagement\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"interest_level\">Interest_Level<a class=\"headerlink\" href=\"#interest_level\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_019</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Degree of interest/priority given to DPI work</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Very High | High | Medium | Low | Very Low</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check speeches, publications, project allocations, public statements. Very High = priority focus; High = significant interest; Medium = moderate interest; Low = peripheral interest; Very Low = minimal/no interest.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"current_engagement\">Current_Engagement<a class=\"headerlink\" href=\"#current_engagement\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_020</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Current level of active participation in DPI</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Leading | Active | Involved | Monitoring | Inactive | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check recent activities, meeting minutes, project documents. Leading = actively driving initiatives; Active = regularly participating; Involved = occasionally participating; Monitoring = observing only; Inactive = no recent participation; Unknown = unclear.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"dpi_advocacy\">DPI_Advocacy<a class=\"headerlink\" href=\"#dpi_advocacy\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_021</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Public advocacy stance on DPI development</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Strong Advocate | Moderate Advocate | Neutral | Moderate Critic | Strong Critic | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Review public statements, policy positions, campaigns. Strong Advocate = actively promotes DPI; Moderate Advocate = generally supportive; Neutral = no clear position; Moderate Critic = raises concerns; Strong Critic = opposes DPI; Unknown = unclear.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"collaboration_type\">Collaboration_Type<a class=\"headerlink\" href=\"#collaboration_type\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_022</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Types of collaborative relationships with other stakeholders</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Public-Private Partnership | Co-governance | Service Delivery Partnership | Funding Relationship | Research Collaboration | Technical Advisory | Regulator-Regulatee | Multi-stakeholder Forum | Informal Network | None</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Identify formal/informal collaboration mechanisms. Select ALL applicable. Separate with semicolon (;). Check partnership agreements, MOUs, forum participation, joint projects.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"engagement_barriers\">Engagement_Barriers<a class=\"headerlink\" href=\"#engagement_barriers\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_023</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Identified barriers to effective engagement</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Document challenges from reports, interviews, news articles. Examples: funding constraints, technical capacity gaps, political interference, coordination failures, data access issues, regulatory uncertainty. Use 'None identified' if no barriers found.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"positioning\">Positioning<a class=\"headerlink\" href=\"#positioning\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"policy_position\">Policy_Position<a class=\"headerlink\" href=\"#policy_position\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_024</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Overall policy stance on DPI development approach</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Strongly Supportive | Supportive | Neutral/Balanced | Supportive (privacy concerns | Supportive (equity concerns | Supportive (governance concerns | Critical | Strongly Critical | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Synthesize from policy documents, public statements, advocacy positions. Note specific concerns in parentheses (privacy, equity, governance) if generally supportive but with reservations.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"activity-tracking\">Activity Tracking<a class=\"headerlink\" href=\"#activity-tracking\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"recent_activity\">Recent_Activity<a class=\"headerlink\" href=\"#recent_activity\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_025</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Recent DPI-related activities, projects, statements (last 12-24 months)</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Document recent activities with brief description and date/timeframe. Format: 'Activity description - Month Year; Another activity - Month Year'. Check press releases, annual reports, news coverage, project announcements.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"funding\">Funding<a class=\"headerlink\" href=\"#funding\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"funding_source\">Funding_Source<a class=\"headerlink\" href=\"#funding_source\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_026</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Primary sources of institutional funding</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Government Budget | Private Sector | Donor/Development Partner | Membership Fees | Revenue Generation | Mixed Sources | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check annual reports, financial statements, about pages. Select ALL significant sources (&gt;10% of budget). Separate with semicolon (;). Mixed Sources = diverse funding without clear dominance.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"participation\">Participation<a class=\"headerlink\" href=\"#participation\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"multi_stakeholder_forums\">Multi_Stakeholder_Forums<a class=\"headerlink\" href=\"#multi_stakeholder_forums\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_027</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Participation in multi-stakeholder DPI forums/processes</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Categorical : Active Participant | Occasional Participant | Involved | Not Participating | Unknown</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Check participation in national DPI forums, working groups, consultations, regional forums. Active = regular participation with substantive input; Occasional = attends but limited input; Involved = observes or minimal participation; Not Participating = absent from multi-stakeholder processes.</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"data-provenance\">Data Provenance<a class=\"headerlink\" href=\"#data-provenance\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"data_source\">Data_Source<a class=\"headerlink\" href=\"#data_source\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_028</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Sources consulted for institutional data</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Document ALL sources used. Format: 'Source description | URL | YYYY-MM-DD'. Separate multiple sources with semicolon (;). Example: 'Institution website | <a href=\"https://example.org\">https://example.org</a> | 2026-03-09; Annual report | <a href=\"https://example.org/report.pdf\">https://example.org/report.pdf</a> | 2025-12-31'.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"data_collection_date\">Data_Collection_Date<a class=\"headerlink\" href=\"#data_collection_date\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_029</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Date when data was collected</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Date</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Use ISO 8601 format (YYYY-MM-DD). Record date when data collection was completed for this institution.</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"data_collector\">Data_Collector<a class=\"headerlink\" href=\"#data_collector\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable ID</td>\n<td>INST_030</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Person/team who collected the data</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>Text</td>\n</tr>\n<tr>\n<td>Data Collection Guidance</td>\n<td>Record researcher name or initials for quality control and follow-up. Use consistent format within dataset.</td>\n</tr>\n</tbody>\n</table>",
+    "search": [
+      {
+        "location": null,
+        "level": 1,
+        "title": "Case institution &amp; stakeholder metadata",
+        "text": "<p>Variable definitions and collection guidance for case institution and stakeholder.</p>",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "basic-information",
+        "level": 2,
+        "title": "Basic Information",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "institution_id",
+        "level": 3,
+        "title": "Institution_ID",
+        "text": "Field Value Variable ID INST_001 Definition Unique identifier for the institution Format Text Data Collection Guidance Auto-generated. Format: [ISO country code][3-digit sequence]. Start at 001 for each country.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "country",
+        "level": 3,
+        "title": "Country",
+        "text": "Field Value Variable ID INST_002 Definition Country where institution is based Format Text Data Collection Guidance Use ISO 3166-1 alpha-2 codes only (ZA, KE, NG, etc.). For pan-African institutions, use country of headquarters.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "institution_name",
+        "level": 3,
+        "title": "Institution_Name",
+        "text": "Field Value Variable ID INST_003 Definition Official name of the institution Format Text Data Collection Guidance Search official websites, company registries, NGO databases. Example: 'Central Bank of Kenya (CBK)'. Use English name if multiple languages available.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "institution_type",
+        "level": 3,
+        "title": "Institution_Type",
+        "text": "Field Value Variable ID INST_004 Definition Primary institutional category Format Categorical: Government | Private Sector | Civil Society/NGO | Media | Academic/Research | International Organization | Hybrid/Multi-Sector Data Collection Guidance Determine based on legal status, funding, governance. Government = state-owned/controlled; Private = commercial entity; Civil Society = non-profit advocacy/service; Media = journalism focus; Academic = research/teaching; International = multilateral/foreign; Hybrid = multiple types.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "institution_subtype",
+        "level": 3,
+        "title": "Institution_Subtype",
+        "text": "Field Value Variable ID INST_005 Definition More specific institutional classification Format Text Data Collection Guidance Examples: Ministry, Regulatory Agency, Central Bank, State-Owned Enterprise, Bank, Telco, Fintech, Payment Provider, Advocacy NGO, Think Tank, News Outlet, University, UN Agency. Use consistent terminology.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dpi-mandate-role",
+        "level": 2,
+        "title": "DPI Mandate &amp; Role",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dpi_mandate",
+        "level": 3,
+        "title": "DPI_Mandate",
+        "text": "Field Value Variable ID INST_006 Definition Whether institution has explicit DPI mandate in legislation/policy Format Categorical: Yes | No | Unclear Data Collection Guidance Search enabling laws, regulations, strategic plans for explicit mention of digital identity, digital payments, data exchange, or digital infrastructure responsibilities. Yes = clear mandate; No = no formal mandate; Unclear = ambiguous or emerging mandate.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dpi_role",
+        "level": 3,
+        "title": "DPI_Role",
+        "text": "Field Value Variable ID INST_007 Definition Primary functional roles in DPI ecosystem Format Categorical : Policy Maker | Regulator | Implementer | System Integrator | Service Provider | Funding Source | Advocacy/Watchdog | Research/Advisory | Capacity Builder | User Representative | Technical Standards Setter | Unknown Data Collection Guidance Review institutional functions, project portfolios, press releases, partnerships. Select ALL applicable roles. Separate with semicolon (;). Examples: 'Policy Maker;Regulator' or 'Service Provider;System Integrator'.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dpi_focus_areas",
+        "level": 3,
+        "title": "DPI_Focus_Areas",
+        "text": "Field Value Variable ID INST_008 Definition Specific DPI domains where institution is active Format Categorical : Digital Identity | Digital Payments | Data Sharing/Exchange | Connectivity Infrastructure | Cybersecurity | Data Protection/Privacy | Digital Skills/Literacy | Interoperability Standards | Digital Public Services | Other Data Collection Guidance Search reports, project descriptions, news articles about DPI work. Select ALL applicable areas. Separate with semicolon (;). Include 'Other' if significant work doesn't fit categories.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "legal_authority",
+        "level": 3,
+        "title": "Legal_Authority",
+        "text": "Field Value Variable ID INST_009 Definition Type of legal authority held by institution Format Categorical: Legislative Authority | Regulatory Authority | Policy Development Authority | Operational Authority | Advisory/Consultative | Commercial/Market-Based | None/Limited | Unclear Data Collection Guidance Check enabling legislation, regulatory powers, licensing authority. Legislative = law-making power; Regulatory = rule-making/enforcement; Policy Development = strategy/guidance; Operational = implementation; Advisory = consultation only; Commercial = market participation; None/Limited = no formal authority.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "contact-digital-presence",
+        "level": 2,
+        "title": "Contact &amp; Digital Presence",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "website_url",
+        "level": 3,
+        "title": "Website_URL",
+        "text": "Field Value Variable ID INST_010 Definition Official institutional website Format Text (URL) Data Collection Guidance Search Google for official website, verify authenticity. Use 'None' if no website exists, 'Unknown' if cannot be determined. Include protocol (https:// or http://).",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "contact_email",
+        "level": 3,
+        "title": "Contact_Email",
+        "text": "Field Value Variable ID INST_011 Definition General institutional contact email Format Text (Email) Data Collection Guidance Find on website contact page. Use general/info email, not personal addresses. Use 'None' if not publicly available.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "physical_location",
+        "level": 3,
+        "title": "Physical_Location",
+        "text": "Field Value Variable ID INST_012 Definition City and country of headquarters Format Text Data Collection Guidance Find on website or company registry. Format: 'Nairobi, Kenya' or 'Cape Town, South Africa'. Use headquarters if multiple offices.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "influence-assessment",
+        "level": 2,
+        "title": "Influence Assessment",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "power_level",
+        "level": 3,
+        "title": "Power_Level",
+        "text": "Field Value Variable ID INST_013 Definition Overall ability to influence DPI outcomes Format Categorical : Very High | High | Medium | Low | Very Low Data Collection Guidance Consider authority, resources, network, expertise, track record. Very High = can veto/independently decide (minister, regulator); High = strong influence (director, influential advocate); Medium = moderate influence (program manager); Low = limited influence; Very Low = minimal influence.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "legitimacy",
+        "level": 3,
+        "title": "Legitimacy",
+        "text": "Field Value Variable ID INST_014 Definition Recognized right to be involved in DPI decisions Format Categorical : Very High | High | Medium | Low | Very Low Data Collection Guidance Assess formal mandate and recognized role. Very High = clear legal/constitutional mandate; High = strong regulatory/policy mandate; Medium = recognized stakeholder; Low = informal role; Very Low = limited/disputed legitimacy.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "decision_authority",
+        "level": 3,
+        "title": "Decision_Authority",
+        "text": "Field Value Variable ID INST_015 Definition Level of decision-making power in DPI domain Format Categorical : Full Authority | Significant Authority | Moderate Authority | Limited Authority | No Authority Data Collection Guidance Check governance documents, decision processes. Full = final decision-maker; Significant = most decisions within domain; Moderate = shared decision-making; Limited = advisory role; No Authority = observer/external.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "resource_control",
+        "level": 3,
+        "title": "Resource_Control",
+        "text": "Field Value Variable ID INST_016 Definition Control over financial/technical resources for DPI Format Categorical : Full Control | Significant Control | Moderate Control | Limited Control | No Control Data Collection Guidance Check budget documents, funding announcements. Full = controls budget/resources; Significant = substantial allocation power; Moderate = some resource influence; Limited = minimal access; No Control = dependent on others.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "network_strength",
+        "level": 3,
+        "title": "Network_Strength",
+        "text": "Field Value Variable ID INST_017 Definition Connectivity to other key DPI stakeholders Format Categorical : Very Strong | Strong | Moderate | Weak | Very Weak Data Collection Guidance Check forum participation, partnerships, board memberships, MOUs. Very Strong = central hub; Strong = well-connected to key actors; Moderate = connected to some actors; Weak = limited connections; Very Weak = isolated.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "technical_expertise",
+        "level": 3,
+        "title": "Technical_Expertise",
+        "text": "Field Value Variable ID INST_018 Definition Level of technical knowledge in DPI domains Format Categorical : Expert | Advanced | Intermediate | Basic | Non-technical Data Collection Guidance Check publications, presentations, qualifications of staff, technical outputs. Expert = recognized technical authority; Advanced = strong technical knowledge; Intermediate = moderate understanding; Basic = limited knowledge; Non-technical = no technical expertise.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "engagement",
+        "level": 2,
+        "title": "Engagement",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "interest_level",
+        "level": 3,
+        "title": "Interest_Level",
+        "text": "Field Value Variable ID INST_019 Definition Degree of interest/priority given to DPI work Format Categorical : Very High | High | Medium | Low | Very Low Data Collection Guidance Check speeches, publications, project allocations, public statements. Very High = priority focus; High = significant interest; Medium = moderate interest; Low = peripheral interest; Very Low = minimal/no interest.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "current_engagement",
+        "level": 3,
+        "title": "Current_Engagement",
+        "text": "Field Value Variable ID INST_020 Definition Current level of active participation in DPI Format Categorical : Leading | Active | Involved | Monitoring | Inactive | Unknown Data Collection Guidance Check recent activities, meeting minutes, project documents. Leading = actively driving initiatives; Active = regularly participating; Involved = occasionally participating; Monitoring = observing only; Inactive = no recent participation; Unknown = unclear.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "dpi_advocacy",
+        "level": 3,
+        "title": "DPI_Advocacy",
+        "text": "Field Value Variable ID INST_021 Definition Public advocacy stance on DPI development Format Categorical : Strong Advocate | Moderate Advocate | Neutral | Moderate Critic | Strong Critic | Unknown Data Collection Guidance Review public statements, policy positions, campaigns. Strong Advocate = actively promotes DPI; Moderate Advocate = generally supportive; Neutral = no clear position; Moderate Critic = raises concerns; Strong Critic = opposes DPI; Unknown = unclear.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "collaboration_type",
+        "level": 3,
+        "title": "Collaboration_Type",
+        "text": "Field Value Variable ID INST_022 Definition Types of collaborative relationships with other stakeholders Format Categorical : Public-Private Partnership | Co-governance | Service Delivery Partnership | Funding Relationship | Research Collaboration | Technical Advisory | Regulator-Regulatee | Multi-stakeholder Forum | Informal Network | None Data Collection Guidance Identify formal/informal collaboration mechanisms. Select ALL applicable. Separate with semicolon (;). Check partnership agreements, MOUs, forum participation, joint projects.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "engagement_barriers",
+        "level": 3,
+        "title": "Engagement_Barriers",
+        "text": "Field Value Variable ID INST_023 Definition Identified barriers to effective engagement Format Text Data Collection Guidance Document challenges from reports, interviews, news articles. Examples: funding constraints, technical capacity gaps, political interference, coordination failures, data access issues, regulatory uncertainty. Use 'None identified' if no barriers found.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "positioning",
+        "level": 2,
+        "title": "Positioning",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "policy_position",
+        "level": 3,
+        "title": "Policy_Position",
+        "text": "Field Value Variable ID INST_024 Definition Overall policy stance on DPI development approach Format Categorical : Strongly Supportive | Supportive | Neutral/Balanced | Supportive (privacy concerns | Supportive (equity concerns | Supportive (governance concerns | Critical | Strongly Critical | Unknown Data Collection Guidance Synthesize from policy documents, public statements, advocacy positions. Note specific concerns in parentheses (privacy, equity, governance) if generally supportive but with reservations.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "activity-tracking",
+        "level": 2,
+        "title": "Activity Tracking",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "recent_activity",
+        "level": 3,
+        "title": "Recent_Activity",
+        "text": "Field Value Variable ID INST_025 Definition Recent DPI-related activities, projects, statements (last 12-24 months) Format Text Data Collection Guidance Document recent activities with brief description and date/timeframe. Format: 'Activity description - Month Year; Another activity - Month Year'. Check press releases, annual reports, news coverage, project announcements.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "funding",
+        "level": 2,
+        "title": "Funding",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "funding_source",
+        "level": 3,
+        "title": "Funding_Source",
+        "text": "Field Value Variable ID INST_026 Definition Primary sources of institutional funding Format Categorical : Government Budget | Private Sector | Donor/Development Partner | Membership Fees | Revenue Generation | Mixed Sources | Unknown Data Collection Guidance Check annual reports, financial statements, about pages. Select ALL significant sources (&gt;10% of budget). Separate with semicolon (;). Mixed Sources = diverse funding without clear dominance.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "participation",
+        "level": 2,
+        "title": "Participation",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "multi_stakeholder_forums",
+        "level": 3,
+        "title": "Multi_Stakeholder_Forums",
+        "text": "Field Value Variable ID INST_027 Definition Participation in multi-stakeholder DPI forums/processes Format Categorical : Active Participant | Occasional Participant | Involved | Not Participating | Unknown Data Collection Guidance Check participation in national DPI forums, working groups, consultations, regional forums. Active = regular participation with substantive input; Occasional = attends but limited input; Involved = observes or minimal participation; Not Participating = absent from multi-stakeholder processes.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "data-provenance",
+        "level": 2,
+        "title": "Data Provenance",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "data_source",
+        "level": 3,
+        "title": "Data_Source",
+        "text": "Field Value Variable ID INST_028 Definition Sources consulted for institutional data Format Text Data Collection Guidance Document ALL sources used. Format: 'Source description | URL | YYYY-MM-DD'. Separate multiple sources with semicolon (;). Example: 'Institution website | https://example.org | 2026-03-09; Annual report | https://example.org/report.pdf | 2025-12-31'.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "data_collection_date",
+        "level": 3,
+        "title": "Data_Collection_Date",
+        "text": "Field Value Variable ID INST_029 Definition Date when data was collected Format Date Data Collection Guidance Use ISO 8601 format (YYYY-MM-DD). Record date when data collection was completed for this institution.",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "data_collector",
+        "level": 3,
+        "title": "Data_Collector",
+        "text": "Field Value Variable ID INST_030 Definition Person/team who collected the data Format Text Data Collection Guidance Record researcher name or initials for quality control and follow-up. Use consistent format within dataset.",
+        "path": [],
+        "tags": []
+      }
+    ],
+    "title": "Case institution &amp; stakeholder metadata",
+    "toc": [
+      {
+        "title": "Case institution &amp; stakeholder metadata",
+        "id": "case-institution-stakeholder-metadata",
+        "url": "#case-institution-stakeholder-metadata",
+        "children": [
+          {
+            "title": "Basic Information",
+            "id": "basic-information",
+            "url": "#basic-information",
+            "children": [
+              {
+                "title": "Institution_ID",
+                "id": "institution_id",
+                "url": "#institution_id",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Country",
+                "id": "country",
+                "url": "#country",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Institution_Name",
+                "id": "institution_name",
+                "url": "#institution_name",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Institution_Type",
+                "id": "institution_type",
+                "url": "#institution_type",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Institution_Subtype",
+                "id": "institution_subtype",
+                "url": "#institution_subtype",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "DPI Mandate &amp; Role",
+            "id": "dpi-mandate-role",
+            "url": "#dpi-mandate-role",
+            "children": [
+              {
+                "title": "DPI_Mandate",
+                "id": "dpi_mandate",
+                "url": "#dpi_mandate",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "DPI_Role",
+                "id": "dpi_role",
+                "url": "#dpi_role",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "DPI_Focus_Areas",
+                "id": "dpi_focus_areas",
+                "url": "#dpi_focus_areas",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Legal_Authority",
+                "id": "legal_authority",
+                "url": "#legal_authority",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Contact &amp; Digital Presence",
+            "id": "contact-digital-presence",
+            "url": "#contact-digital-presence",
+            "children": [
+              {
+                "title": "Website_URL",
+                "id": "website_url",
+                "url": "#website_url",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Contact_Email",
+                "id": "contact_email",
+                "url": "#contact_email",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Physical_Location",
+                "id": "physical_location",
+                "url": "#physical_location",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Influence Assessment",
+            "id": "influence-assessment",
+            "url": "#influence-assessment",
+            "children": [
+              {
+                "title": "Power_Level",
+                "id": "power_level",
+                "url": "#power_level",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Legitimacy",
+                "id": "legitimacy",
+                "url": "#legitimacy",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Decision_Authority",
+                "id": "decision_authority",
+                "url": "#decision_authority",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Resource_Control",
+                "id": "resource_control",
+                "url": "#resource_control",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Network_Strength",
+                "id": "network_strength",
+                "url": "#network_strength",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Technical_Expertise",
+                "id": "technical_expertise",
+                "url": "#technical_expertise",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Engagement",
+            "id": "engagement",
+            "url": "#engagement",
+            "children": [
+              {
+                "title": "Interest_Level",
+                "id": "interest_level",
+                "url": "#interest_level",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Current_Engagement",
+                "id": "current_engagement",
+                "url": "#current_engagement",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "DPI_Advocacy",
+                "id": "dpi_advocacy",
+                "url": "#dpi_advocacy",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Collaboration_Type",
+                "id": "collaboration_type",
+                "url": "#collaboration_type",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Engagement_Barriers",
+                "id": "engagement_barriers",
+                "url": "#engagement_barriers",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Positioning",
+            "id": "positioning",
+            "url": "#positioning",
+            "children": [
+              {
+                "title": "Policy_Position",
+                "id": "policy_position",
+                "url": "#policy_position",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Activity Tracking",
+            "id": "activity-tracking",
+            "url": "#activity-tracking",
+            "children": [
+              {
+                "title": "Recent_Activity",
+                "id": "recent_activity",
+                "url": "#recent_activity",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Funding",
+            "id": "funding",
+            "url": "#funding",
+            "children": [
+              {
+                "title": "Funding_Source",
+                "id": "funding_source",
+                "url": "#funding_source",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Participation",
+            "id": "participation",
+            "url": "#participation",
+            "children": [
+              {
+                "title": "Multi_Stakeholder_Forums",
+                "id": "multi_stakeholder_forums",
+                "url": "#multi_stakeholder_forums",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Data Provenance",
+            "id": "data-provenance",
+            "url": "#data-provenance",
+            "children": [
+              {
+                "title": "Data_Source",
+                "id": "data_source",
+                "url": "#data_source",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Data_Collection_Date",
+                "id": "data_collection_date",
+                "url": "#data_collection_date",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Data_Collector",
+                "id": "data_collector",
+                "url": "#data_collector",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "hash": 2967318643864251139
+}
