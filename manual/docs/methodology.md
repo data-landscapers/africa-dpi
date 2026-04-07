@@ -1,6 +1,13 @@
 # Data collection methodology
 
-Is it possible to collect reasonably accurate, comparable data for 54 countries on a limited budget. This was the challenge taken on for this exercise.
+Is it possible to collect reasonably accurate, comparable data for 54 countries on a limited budget? This was the challenge taken on for this exercise.
+
+Using the methodology outlined below data for all 54 African countries has been collected for:  
+- ICT Infrastructure  
+- Data Exchange  
+- Digital Identity  
+- Digital Payments  
+- Registries  
 
 ## The changing technology landscape.
 

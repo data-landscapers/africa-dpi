@@ -1,8 +1,8 @@
 # Mo Ibrahim Governance Index metadata
 
-Metadata for a selection of indicators from the Mo Ibrahim Index of African Governance Index. 2023. Source: https://iiag.online/data.html
+Metadata for a selection of indicators from the Mo Ibrahim Index of African Governance. 2023. Source: https://iiag.online/data.html
 
-## Security & Safety
+## Security \& Safety
 
 ### Absence of Armed Conflict
 
@@ -31,7 +31,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - AbsForcedMig. Original data source/s - IDMC/UNHCR|
 
-### Absence of Human Trafficking & Forced Labour
+### Absence of Human Trafficking \& Forced Labour
 
 |Field|Value|
 |-|-|
@@ -49,7 +49,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - AbsCrim. Original data source/s - ENACT/WHO|
 
-### Public Perception of Security & Safety
+### Public Perception of Security \& Safety
 
 |Field|Value|
 |-|-|
@@ -58,7 +58,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PubPercSaf. Original data source/s - AFR|
 
-## Rule Of Law & Justice
+## Rule Of Law \& Justice
 
 ### Executive Compliance with the Rule of Law
 
@@ -123,9 +123,9 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PubPercROL. Original data source/s - AFR|
 
-## Accountability & Transparency
+## Accountability \& Transparency
 
-### Institutional Checks & Balances
+### Institutional Checks \& Balances
 
 |Field|Value|
 |-|-|
@@ -143,7 +143,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - AbsUnInfGov. Original data source/s - AFIDEP/BS/FH|
 
-### Civic Checks & Balances
+### Civic Checks \& Balances
 
 |Field|Value|
 |-|-|
@@ -237,7 +237,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 
 ## Participation
 
-### Freedom of Association & Assembly
+### Freedom of Association \& Assembly
 
 |Field|Value|
 |-|-|
@@ -273,7 +273,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - DemElec. Original data source/s - AFIDEP/CDD-Ghana/V-DEM|
 
-### Deliberative & Participatory Governance
+### Deliberative \& Participatory Governance
 
 |Field|Value|
 |-|-|
@@ -302,7 +302,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PersLibert. Original data source/s - FH/V-DEM/WJP|
 
-### Freedom of Expression & Belief
+### Freedom of Expression \& Belief
 
 |Field|Value|
 |-|-|
@@ -327,7 +327,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Variable Id|iiag-rights-digrights|
 |Definition|Assesses the extent to which there is a legal framework to protect internet users' privacy and their data.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - DigRights. Original data source/s - AFIDEP/DSP&V-DEM/V-DEM|
+|Other Metadata|IIAG Series Id - DigRights. Original data source/s - AFIDEP/DSP\&V-DEM/V-DEM|
 
 ### Protection against Discrimination
 
@@ -347,7 +347,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PubFreeSpAFR. Original data source/s - AFR|
 
-## Inclusion & Equality
+## Inclusion \& Equality
 
 ### Equal Political Power
 
@@ -394,7 +394,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - EqAccPubServ. Original data source/s - V-DEM|
 
-### Public Perception of Inclusion & Equality
+### Public Perception of Inclusion \& Equality
 
 |Field|Value|
 |-|-|
@@ -405,7 +405,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 
 ## Women's Equality
 
-### Political Power & Representation of Women
+### Political Power \& Representation of Women
 
 |Field|Value|
 |-|-|
@@ -414,7 +414,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PolPowRepWom. Original data source/s - AFIDEP/IPU/V-DEM|
 
-### Rights & Civil Liberties for Women
+### Rights \& Civil Liberties for Women
 
 |Field|Value|
 |-|-|
@@ -488,7 +488,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - EffAdmin. Original data source/s - AfDB/AFIDEP/V-DEM/WB|
 
-### Tax & Revenue Mobilisation
+### Tax \& Revenue Mobilisation
 
 |Field|Value|
 |-|-|
@@ -497,7 +497,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - TaxRevMob. Original data source/s - AfDB/UNU-WIDER/WB|
 
-### Budgetary & Financial Management
+### Budgetary \& Financial Management
 
 |Field|Value|
 |-|-|
@@ -515,7 +515,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - PubPercPubAdmin. Original data source/s - AFR|
 
-## Business & Labour Environment
+## Business \& Labour Environment
 
 ### Regional Integration
 
@@ -524,7 +524,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Variable Id|iiag-business-reginteg|
 |Definition|Assesses the extent to which government’s actions and efforts (i) promote free movement of persons and labour and easy right of establishment; and (ii) contribute to regional financial integration.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - RegInteg. Original data source/s - AfDB/AfDB&AUC/UNCTAD|
+|Other Metadata|IIAG Series Id - RegInteg. Original data source/s - AfDB/AfDB\&AUC/UNCTAD|
 
 ### Economic Diversification
 
@@ -535,7 +535,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - EconDiv. Original data source/s - OEC/UNCTAD|
 
-### Business & Competition Regulations
+### Business \& Competition Regulations
 
 |Field|Value|
 |-|-|
@@ -609,7 +609,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - MobComm. Original data source/s - ITU|
 
-### Internet & Computers
+### Internet \& Computers
 
 |Field|Value|
 |-|-|
@@ -618,7 +618,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - DigAcc. Original data source/s - ITU/Cable/WB|
 
-### Shipping & Postal Network
+### Shipping \& Postal Network
 
 |Field|Value|
 |-|-|
@@ -638,7 +638,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 
 ## Rural Economy
 
-### Rural Land & Water Access
+### Rural Land \& Water Access
 
 |Field|Value|
 |-|-|
@@ -665,7 +665,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - RurEcoSupp. Original data source/s - IFAD|
 
-### Rural Representation & Participation
+### Rural Representation \& Participation
 
 |Field|Value|
 |-|-|
@@ -685,14 +685,14 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - AccHealth. Original data source/s - V-DEM/WHO|
 
-### Access to Water & Sanitation
+### Access to Water \& Sanitation
 
 |Field|Value|
 |-|-|
 |Variable Id|iiag-health-accwatersanit|
 |Definition|Measures the availability of drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip, including queuing.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - AccWaterSanit. Original data source/s - WHO&UNICEF|
+|Other Metadata|IIAG Series Id - AccWaterSanit. Original data source/s - WHO\&UNICEF|
 
 ### Control of Communicable Diseases
 
@@ -712,14 +712,14 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - ContNonComDis. Original data source/s - IHME|
 
-### Child & Maternal Health
+### Child \& Maternal Health
 
 |Field|Value|
 |-|-|
 |Variable Id|iiag-health-contchildmathealth|
 |Definition|Measures the probability of dying between birth and exact age 5, expressed per 1,000 live births.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - ContChildMatHealth. Original data source/s - UN IGME/UN MMEIG/UNDESA/UNICEF&WHO&WB|
+|Other Metadata|IIAG Series Id - ContChildMatHealth. Original data source/s - UN IGME/UN MMEIG/UNDESA/UNICEF\&WHO\&WB|
 
 ### Health Quality
 
@@ -795,7 +795,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - SatEduc. Original data source/s - AFR|
 
-## Social Protection & Welfare
+## Social Protection \& Welfare
 
 ### Social Safety Nets
 
@@ -842,7 +842,7 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - FoodSec. Original data source/s - FAO|
 
-### Public Perception of Social Protection & Lived Poverty
+### Public Perception of Social Protection \& Lived Poverty
 
 |Field|Value|
 |-|-|
@@ -878,9 +878,9 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Variable Id|iiag-environ-airqual|
 |Definition|Measures the ratio of disability-adjusted life-years (DALYs) to the population per 100,000 people due to air pollution.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - AirQual. Original data source/s - HEI&IHME|
+|Other Metadata|IIAG Series Id - AirQual. Original data source/s - HEI\&IHME|
 
-### Sustainable Use of Land & Forests
+### Sustainable Use of Land \& Forests
 
 |Field|Value|
 |-|-|
@@ -889,14 +889,14 @@ Metadata for a selection of indicators from the Mo Ibrahim Index of African Gove
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
 |Other Metadata|IIAG Series Id - SusUseLandFor. Original data source/s - FAO/WB/WRI|
 
-### Land & Water Biodiversity Protection
+### Land \& Water Biodiversity Protection
 
 |Field|Value|
 |-|-|
 |Variable Id|iiag-environ-landwatbiodiv|
 |Definition|Assesses a country’s efforts to achieve 30% protection for all biomes within its borders. It is calculated using the percentage of each country’s biomes covered by protected areas. It is calculated using the proportions of the area of each of a country’s biome types that are covered by protected areas and then constructing a weighted sum of the protection percentages for all biomes within that country. Protection percentages are weighted according to the prevalence of each biome type within that country.|
 |Format|0=Unknown or n.a.; 1=<20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=>89%|
-|Other Metadata|IIAG Series Id - LandWatBiodiv. Original data source/s - ENACT/WB/Yale&Columbia|
+|Other Metadata|IIAG Series Id - LandWatBiodiv. Original data source/s - ENACT/WB/Yale\&Columbia|
 
 
 

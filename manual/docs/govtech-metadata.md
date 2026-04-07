@@ -1,6 +1,6 @@
 # GovTech Maturity Index metadata
 
-Metadata for a selection of performance indicators from the World Bank GovTech Maturity Index. 2025. Source: https://datacatalog.worldbank.org/search/dataset/0037889/govtech-datasetCloud
+Metadata for a selection of performance indicators from the World Bank GovTech Maturity Index. 2025. Source: https://datacatalog.worldbank.org/search/dataset/0037889/govtech-dataset
 
 ### Shared cloud platform
 

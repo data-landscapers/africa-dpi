@@ -1,13 +1,13 @@
 {
   "data": {
     "meta": {},
-    "content": "<h1 id=\"africa-dpi-methodology\">Africa DPI Methodology<a class=\"headerlink\" href=\"#africa-dpi-methodology\" title=\"Permanent link\">&para;</a></h1>\n<p>Overview</p>",
+    "content": "<h1 id=\"africa-dpi-methodology\">Africa DPI Methodology<a class=\"headerlink\" href=\"#africa-dpi-methodology\" title=\"Permanent link\">&para;</a></h1>\n<p>This manual summarises the methodologies and metadata employed to construct the Africa Digital Public Infrastructure continental dashboard as part of Research ICT Africa's <strong><em>Africa Digital Public Infrastructure Study</em></strong> for the African Development Bank.</p>\n<p>It covers:  </p>\n<ul>\n<li>Data collection methodology</li>\n<li>The use of third-party datasets</li>\n<li>Metadata</li>\n<li>Unstructured data collection for country case studies</li>\n</ul>",
     "search": [
       {
         "location": null,
         "level": 1,
         "title": "Africa DPI Methodology",
-        "text": "<p>Overview</p>",
+        "text": "<p>This manual summarises the methodologies and metadata employed to construct the Africa Digital Public Infrastructure continental dashboard as part of Research ICT Africa's Africa Digital Public Infrastructure Study for the African Development Bank.</p> <p>It covers:  </p> <ul> <li>Data collection methodology</li> <li>The use of third-party datasets</li> <li>Metadata</li> <li>Unstructured data collection for country case studies</li> </ul>",
         "path": [],
         "tags": []
       }
@@ -23,5 +23,5 @@
       }
     ]
   },
-  "hash": 5758719244203920097
+  "hash": 296547877150549808
 }
