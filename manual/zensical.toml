@@ -52,6 +52,8 @@ nav = [
    {"Metadata" = [
      {"Data exchange" = "data-exchange-metadata.md" },
      {"Digital identity" = "digital-id-metadata.md" },
+     {"Digital payments" = "digital-pay-metadata.md" },
+     {"ICT infrastructure" = "ict-infrastructure-metadata.md" },
     ]}
 ]
 
