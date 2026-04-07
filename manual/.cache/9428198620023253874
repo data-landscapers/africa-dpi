@@ -1,0 +1,271 @@
+{
+  "data": {
+    "meta": {},
+    "content": "<h1 id=\"statistics-metadata\">Statistics metadata<a class=\"headerlink\" href=\"#statistics-metadata\" title=\"Permanent link\">&para;</a></h1>\n<p>Variable definitions and collection guidance for the statistics module.</p>\n<h2 id=\"census\">Census<a class=\"headerlink\" href=\"#census\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"population-housing-census-availability-score-over-20-years\">Population &amp; Housing census (Availability score over 20 years)<a class=\"headerlink\" href=\"#population-housing-census-availability-score-over-20-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-census-population</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. Population census done within last 10 years. 0.5 Points. Population census done within last 20 years. 0 Points. Otherwise</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.1.POPU</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"agriculture-census-availability-score-over-20-years\">Agriculture census (Availability score over 20 years)<a class=\"headerlink\" href=\"#agriculture-census-availability-score-over-20-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-census-agriculture</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Agriculture censuses collect information on agricultural activities, such as size of holding, land tenure, land use, employment and production, and provide basic structural data and sampling frames for agricultural surveys.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. census done within last 10 years. 0.5 Points. census done within last 20 years. 0 Points. Otherwise</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.2.AGRI</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"businessestablishment-census-availability-score-over-20-years\">Business/establishment census (Availability score over 20 years)<a class=\"headerlink\" href=\"#businessestablishment-census-availability-score-over-20-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-census-business</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Business/establishment censuses provide valuable information on all economic activities, number of employed and size of establishments in the economy.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. census done within last 10 years. 0.5 Points. census done within last 20 years. 0 Points. Otherwise</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.3.BIZZ</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"survey\">Survey<a class=\"headerlink\" href=\"#survey\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"household-survey-on-income-etc-availability-score-over-10-years\">Household Survey on income, etc (Availability score over 10 years)<a class=\"headerlink\" href=\"#household-survey-on-income-etc-availability-score-over-10-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-survey-household</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>These surveys collect data on household income (including income in kind), consumption and expenditure.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.4.HOUS</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"agriculture-survey-availability-score-over-10-years\">Agriculture survey (Availability score over 10 years)<a class=\"headerlink\" href=\"#agriculture-survey-availability-score-over-10-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-survey-agriculture</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Agricultural surveys refer to surveys of agricultural holdings based on the sampling frames established by the agricultural census.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.5.AGSVY</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"labor-force-survey-availability-score-over-10-years\">Labor Force Survey (Availability score over 10 years)<a class=\"headerlink\" href=\"#labor-force-survey-availability-score-over-10-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-survey-labour</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Labor force survey is a standard household-based survey of work-related statistics at the national and sub-national employment or unemployment levels, rates or trends.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.6.LABR</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"healthdemographic-survey-availability-score-over-10-years\">Health/Demographic survey (Availability score over 10 years)<a class=\"headerlink\" href=\"#healthdemographic-survey-availability-score-over-10-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-survey-health</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Health surveys collect information on various aspects of health of populations, such as health expenditure, access, utilization, and outcomes.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.7.HLTH</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"businessestablishment-survey-availability-score-over-10-years\">Business/establishment survey (Availability score over 10 years)<a class=\"headerlink\" href=\"#businessestablishment-survey-availability-score-over-10-years\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-survey-business</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>The business/establishment survey provides information on employment, hours, and earnings of employees from a sample of business establishments including private and public, entities that are classified based on an establishment's principal activity from the business or establishment census.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.D4.1.8.BZSVY</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"score\">Score<a class=\"headerlink\" href=\"#score\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"pillar-1-data-use-score\">Pillar 1 - Data Use - Score<a class=\"headerlink\" href=\"#pillar-1-data-use-score\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-score-use</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Indicators that capture demand side of statistical system</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: Weighted average of statistical performance indicators related to data services. Scores range from 0-100 with 100 representing the best score.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL1</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"pillar-2-data-services-score\">Pillar 2 - Data Services - Score<a class=\"headerlink\" href=\"#pillar-2-data-services-score\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-score-service</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Information on data releases, online access, and other data services</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: Weighted average of statistical performance indicators related to data services. Scores range from 0-100 with 100 representing the best score.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL2</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"pillar-3-data-products-score\">Pillar 3 - Data Products - Score<a class=\"headerlink\" href=\"#pillar-3-data-products-score\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-score-products</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Whether the country is able to produce relevant indicators, primarily related to SDGs</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: Weighted average of statistical performance indicators related to data products. Scores range from 0-100 with 100 representing the best score.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL3</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"pillar-4-data-sources-score\">Pillar 4 - Data Sources - Score<a class=\"headerlink\" href=\"#pillar-4-data-sources-score\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-score-sources</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Censuses and surveys, admin data, geospatial</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: Weighted average of statistical performance indicators related to data sources. Scores range from 0-100 with 100 representing the best score.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL4</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"pillar-5-data-infrastructure-score\">Pillar 5 - Data Infrastructure - Score<a class=\"headerlink\" href=\"#pillar-5-data-infrastructure-score\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>stats-score-infrastructure</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Standards and methodology used in classification</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>Original scoring: Weighted average of statistical performance indicators related to data infrastructure. Scores range from 0-100 with 100 representing the best score.</td>\n</tr>\n<tr>\n<td>Data Collection Guidelines</td>\n<td>From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL5</td>\n</tr>\n</tbody>\n</table>",
+    "search": [
+      {
+        "location": null,
+        "level": 1,
+        "title": "Statistics metadata",
+        "text": "<p>Variable definitions and collection guidance for the statistics module.</p>",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "census",
+        "level": 2,
+        "title": "Census",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "population-housing-census-availability-score-over-20-years",
+        "level": 3,
+        "title": "Population &amp; Housing census (Availability score over 20 years)",
+        "text": "Field Value Variable Id stats-census-population Definition Population censuses collect data on the size, distribution and composition of population and information on a broad range of social and economic characteristics of the population. Format 0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years Other Metadata Original scoring: 1 Point. Population census done within last 10 years. 0.5 Points. Population census done within last 20 years. 0 Points. Otherwise Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.1.POPU",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "agriculture-census-availability-score-over-20-years",
+        "level": 3,
+        "title": "Agriculture census (Availability score over 20 years)",
+        "text": "Field Value Variable Id stats-census-agriculture Definition Agriculture censuses collect information on agricultural activities, such as size of holding, land tenure, land use, employment and production, and provide basic structural data and sampling frames for agricultural surveys. Format 0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years Other Metadata Original scoring: 1 Point. census done within last 10 years. 0.5 Points. census done within last 20 years. 0 Points. Otherwise Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.2.AGRI",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "businessestablishment-census-availability-score-over-20-years",
+        "level": 3,
+        "title": "Business/establishment census (Availability score over 20 years)",
+        "text": "Field Value Variable Id stats-census-business Definition Business/establishment censuses provide valuable information on all economic activities, number of employed and size of establishments in the economy. Format 0=Unknown or n.a.; 1=No census done within last 20 years; 2=Census done within last 20 years; 3=Census done within last 10 years Other Metadata Original scoring: 1 Point. census done within last 10 years. 0.5 Points. census done within last 20 years. 0 Points. Otherwise Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.3.BIZZ",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "survey",
+        "level": 2,
+        "title": "Survey",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "household-survey-on-income-etc-availability-score-over-10-years",
+        "level": 3,
+        "title": "Household Survey on income, etc (Availability score over 10 years)",
+        "text": "Field Value Variable Id stats-survey-household Definition These surveys collect data on household income (including income in kind), consumption and expenditure. Format 0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years Other Metadata Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.4.HOUS",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "agriculture-survey-availability-score-over-10-years",
+        "level": 3,
+        "title": "Agriculture survey (Availability score over 10 years)",
+        "text": "Field Value Variable Id stats-survey-agriculture Definition Agricultural surveys refer to surveys of agricultural holdings based on the sampling frames established by the agricultural census. Format 0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years Other Metadata Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.5.AGSVY",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "labor-force-survey-availability-score-over-10-years",
+        "level": 3,
+        "title": "Labor Force Survey (Availability score over 10 years)",
+        "text": "Field Value Variable Id stats-survey-labour Definition Labor force survey is a standard household-based survey of work-related statistics at the national and sub-national employment or unemployment levels, rates or trends. Format 0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years Other Metadata Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.6.LABR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "healthdemographic-survey-availability-score-over-10-years",
+        "level": 3,
+        "title": "Health/Demographic survey (Availability score over 10 years)",
+        "text": "Field Value Variable Id stats-survey-health Definition Health surveys collect information on various aspects of health of populations, such as health expenditure, access, utilization, and outcomes. Format 0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years Other Metadata Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.7.HLTH",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "businessestablishment-survey-availability-score-over-10-years",
+        "level": 3,
+        "title": "Business/establishment survey (Availability score over 10 years)",
+        "text": "Field Value Variable Id stats-survey-business Definition The business/establishment survey provides information on employment, hours, and earnings of employees from a sample of business establishments including private and public, entities that are classified based on an establishment's principal activity from the business or establishment census. Format 0=Unknown or n.a.; 1=No survey done within last 10 years; 2=1 survey done within past 10 years; 3=2 surveys done within past 10 years; 4=3 or more surveys done within last 10 years Other Metadata Original scoring: 1 Point. 3 or more surveys done within past 10 years. 0.6 Points. 2 surveys done within past 10 years. 0.3 Points. 1 survey done within past 10 years. 0 Points. None within past 10 years Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.D4.1.8.BZSVY",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "score",
+        "level": 2,
+        "title": "Score",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "pillar-1-data-use-score",
+        "level": 3,
+        "title": "Pillar 1 - Data Use - Score",
+        "text": "Field Value Variable Id stats-score-use Definition Indicators that capture demand side of statistical system Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata Original scoring: Weighted average of statistical performance indicators related to data services. Scores range from 0-100 with 100 representing the best score. Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL1",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "pillar-2-data-services-score",
+        "level": 3,
+        "title": "Pillar 2 - Data Services - Score",
+        "text": "Field Value Variable Id stats-score-service Definition Information on data releases, online access, and other data services Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata Original scoring: Weighted average of statistical performance indicators related to data services. Scores range from 0-100 with 100 representing the best score. Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL2",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "pillar-3-data-products-score",
+        "level": 3,
+        "title": "Pillar 3 - Data Products - Score",
+        "text": "Field Value Variable Id stats-score-products Definition Whether the country is able to produce relevant indicators, primarily related to SDGs Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata Original scoring: Weighted average of statistical performance indicators related to data products. Scores range from 0-100 with 100 representing the best score. Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL3",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "pillar-4-data-sources-score",
+        "level": 3,
+        "title": "Pillar 4 - Data Sources - Score",
+        "text": "Field Value Variable Id stats-score-sources Definition Censuses and surveys, admin data, geospatial Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata Original scoring: Weighted average of statistical performance indicators related to data sources. Scores range from 0-100 with 100 representing the best score. Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL4",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "pillar-5-data-infrastructure-score",
+        "level": 3,
+        "title": "Pillar 5 - Data Infrastructure - Score",
+        "text": "Field Value Variable Id stats-score-infrastructure Definition Standards and methodology used in classification Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%;3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata Original scoring: Weighted average of statistical performance indicators related to data infrastructure. Scores range from 0-100 with 100 representing the best score. Data Collection Guidelines From World Bank Statistical Performance Indicators. Series SPI.INDEX.PIL5",
+        "path": [],
+        "tags": []
+      }
+    ],
+    "title": "Statistics metadata",
+    "toc": [
+      {
+        "title": "Statistics metadata",
+        "id": "statistics-metadata",
+        "url": "#statistics-metadata",
+        "children": [
+          {
+            "title": "Census",
+            "id": "census",
+            "url": "#census",
+            "children": [
+              {
+                "title": "Population &amp; Housing census (Availability score over 20 years)",
+                "id": "population-housing-census-availability-score-over-20-years",
+                "url": "#population-housing-census-availability-score-over-20-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Agriculture census (Availability score over 20 years)",
+                "id": "agriculture-census-availability-score-over-20-years",
+                "url": "#agriculture-census-availability-score-over-20-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Business/establishment census (Availability score over 20 years)",
+                "id": "businessestablishment-census-availability-score-over-20-years",
+                "url": "#businessestablishment-census-availability-score-over-20-years",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Survey",
+            "id": "survey",
+            "url": "#survey",
+            "children": [
+              {
+                "title": "Household Survey on income, etc (Availability score over 10 years)",
+                "id": "household-survey-on-income-etc-availability-score-over-10-years",
+                "url": "#household-survey-on-income-etc-availability-score-over-10-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Agriculture survey (Availability score over 10 years)",
+                "id": "agriculture-survey-availability-score-over-10-years",
+                "url": "#agriculture-survey-availability-score-over-10-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Labor Force Survey (Availability score over 10 years)",
+                "id": "labor-force-survey-availability-score-over-10-years",
+                "url": "#labor-force-survey-availability-score-over-10-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Health/Demographic survey (Availability score over 10 years)",
+                "id": "healthdemographic-survey-availability-score-over-10-years",
+                "url": "#healthdemographic-survey-availability-score-over-10-years",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Business/establishment survey (Availability score over 10 years)",
+                "id": "businessestablishment-survey-availability-score-over-10-years",
+                "url": "#businessestablishment-survey-availability-score-over-10-years",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Score",
+            "id": "score",
+            "url": "#score",
+            "children": [
+              {
+                "title": "Pillar 1 - Data Use - Score",
+                "id": "pillar-1-data-use-score",
+                "url": "#pillar-1-data-use-score",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Pillar 2 - Data Services - Score",
+                "id": "pillar-2-data-services-score",
+                "url": "#pillar-2-data-services-score",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Pillar 3 - Data Products - Score",
+                "id": "pillar-3-data-products-score",
+                "url": "#pillar-3-data-products-score",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Pillar 4 - Data Sources - Score",
+                "id": "pillar-4-data-sources-score",
+                "url": "#pillar-4-data-sources-score",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Pillar 5 - Data Infrastructure - Score",
+                "id": "pillar-5-data-infrastructure-score",
+                "url": "#pillar-5-data-infrastructure-score",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "hash": 494313045294430922
+}

@@ -54,6 +54,11 @@ nav = [
      {"Digital identity" = "digital-id-metadata.md" },
      {"Digital payments" = "digital-pay-metadata.md" },
      {"ICT infrastructure" = "ict-infrastructure-metadata.md" },
+     {"Registries" = "registry-metadata.md" },
+     {"GovTech Maturity Index" = "govtech-metadata.md" },
+     {"Statistical performance" = "stats-metadata.md" },
+     {"Open data" = "open-data-metadata.md" },
+     {"Ibrahim Governance Index" = "-metadata.md" },
     ]}
 ]
 

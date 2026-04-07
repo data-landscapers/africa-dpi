@@ -1,0 +1,1724 @@
+{
+  "data": {
+    "meta": {},
+    "content": "<h1 id=\"ibrahim-metadata\">Ibrahim metadata<a class=\"headerlink\" href=\"#ibrahim-metadata\" title=\"Permanent link\">&para;</a></h1>\n<p>Variable definitions and collection guidance for the Ibrahim module.</p>\n<h2 id=\"security-safety\">Security &amp; Safety<a class=\"headerlink\" href=\"#security-safety\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"absence-of-armed-conflict\">Absence of Armed Conflict<a class=\"headerlink\" href=\"#absence-of-armed-conflict\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-absarmedconf</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the number of violent events that happen as a result of battles or explosions/remote violence between state forces and non-state actors. Battles are violent interactions between two politically organised armed groups and can occur between armed and organised state, non-state and external groups and in combination therein. Explosions/Remote violence are one-sided violent events in which the tool for engaging in conflict creates asymmetry by taking away the ability of the target to respond. State forces are defined as collective actors that are recognised to perform government functions, including military and police, over a given territory. Non-state actors include rebels, political and communal/identity militias and external forces.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsArmedConf. Original data source/s - ACLED/UCDP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-violence-against-civilians\">Absence of Violence against Civilians<a class=\"headerlink\" href=\"#absence-of-violence-against-civilians\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-absviolciv</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the number of violent events against civilians perpetrated by government forces and the levels of political violence in a country.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsViolCiv. Original data source/s - ACLED/PTS</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-forced-migration\">Absence of Forced Migration<a class=\"headerlink\" href=\"#absence-of-forced-migration\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-absforcedmig</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Estimates the total stock of internally displaced persons (IDPs) due to conflict and violence in a given year, calculated by MIF per 100,000 population using the World Population Prospects by UNDESA. IDMC defines IDPs as “persons or groups of persons who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of or in order to avoid the effects of armed conflict, situations of generalised violence, violations of human rights or natural or human-made disasters, and who have not crossed an internationally recognised state border.”</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsForcedMig. Original data source/s - IDMC/UNHCR</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-human-trafficking-forced-labour\">Absence of Human Trafficking &amp; Forced Labour<a class=\"headerlink\" href=\"#absence-of-human-trafficking-forced-labour\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-abhumtraforclab</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent of human trafficking activity. Human trafficking includes activity, means and purpose, and reflects all stages of the illicit activity, from recruitment and transfer, to harbouring and receipt of persons and it does not require the movement of persons. In line with the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supplementing the United Nations Convention against Transnational Organized Crime (UNTOC), exploitation shall include, at a minimum, the exploitation or the prostitution of others or other forms of sexual exploitation, forced labour or services, slavery or practices similar to slavery, servitude or the removal of organs.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbHumTraForcLab. Original data source/s - ENACT/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-crime\">Absence of Crime<a class=\"headerlink\" href=\"#absence-of-crime\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-abscrim</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent of organised crime in a country based on the presence of criminal actors and criminal markets.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsCrim. Original data source/s - ENACT/WHO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-security-safety\">Public Perception of Security &amp; Safety<a class=\"headerlink\" href=\"#public-perception-of-security-safety\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-sec-pubpercsaf</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel safe walking in their neighbourhood.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercSaf. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"rule-of-law-justice\">Rule Of Law &amp; Justice<a class=\"headerlink\" href=\"#rule-of-law-justice\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"executive-compliance-with-the-rule-of-law\">Executive Compliance with the Rule of Law<a class=\"headerlink\" href=\"#executive-compliance-with-the-rule-of-law\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-execcomprol</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which members of the executive (the head of state, the head of government and cabinet ministers) respect the constitution.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ExecCompRoL. Original data source/s - V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"impartiality-of-the-judicial-system\">Impartiality of the Judicial System<a class=\"headerlink\" href=\"#impartiality-of-the-judicial-system\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-judsys</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the high court, lower courts and judges are independent.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - JudSys. Original data source/s - AFIDEP/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"judicial-processes\">Judicial Processes<a class=\"headerlink\" href=\"#judicial-processes\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-judproc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which justice is accessible and affordable.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - JudProc. Original data source/s - V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equality-before-the-law\">Equality before the Law<a class=\"headerlink\" href=\"#equality-before-the-law\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-eqtreatlaw</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which laws, policies and practices guarantee equal treatments to various distinct groups, including ethnic, racial, religious, gender, LGBT+ and other relevant groups and the extent to which these groups are able to exercise their human rights with full equality before the law.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqTreatLaw. Original data source/s - FH/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"law-enforcement\">Law Enforcement<a class=\"headerlink\" href=\"#law-enforcement\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-lawenf</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the police are reliable and there is a functioning system for investigating and sanctioning police misconduct.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - LawEnf. Original data source/s - AFIDEP/WEF/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"property-rights\">Property Rights<a class=\"headerlink\" href=\"#property-rights\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-proprights</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which government authorities ensure well-defined rights of private property and regulate the acquisition, benefits, use and sale of property.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PropRights. Original data source/s - BS/V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-the-rule-of-law\">Public Perception of the Rule of Law<a class=\"headerlink\" href=\"#public-perception-of-the-rule-of-law\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-law-pubpercrol</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel the head of the executive does not ignore the courts and laws.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercROL. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"accountability-transparency\">Accountability &amp; Transparency<a class=\"headerlink\" href=\"#accountability-transparency\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"institutional-checks-balances\">Institutional Checks &amp; Balances<a class=\"headerlink\" href=\"#institutional-checks-balances\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-instchecbal</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there is a working separation of powers (checks and balances). It Assesses the extent to which there is a clear separation of powers with mutual checks and balances and the basic configuration and operation of the separation of powers. It includes the subjection of state power to the law.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - InstChecBal. Original data source/s - BS/V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-undue-influence\">Absence of Undue Influence<a class=\"headerlink\" href=\"#absence-of-undue-influence\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-absuninfgov</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which democratically elected political representatives have the effective power to govern, or the extent to which there are veto powers and political enclaves. It Assesses the extent to which individuals or groups have the power to undermine democratic procedures without questioning the system as such. Veto powers can come from the military, the clergy, landowners, business elites, and external actors, among others. They can 'veto' the results of democratic decisions or retain prerogatives that cannot be touched by democratically elected officeholders (e.g., nominating the commander-in-chief of the armed forces).</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsUnInfGov. Original data source/s - AFIDEP/BS/FH</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"civic-checks-balances\">Civic Checks &amp; Balances<a class=\"headerlink\" href=\"#civic-checks-balances\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-civcheckbal</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there are effective mechanisms for citizens to make complaints and there is a right to petition and civic engagement.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - CivCheckBal. Original data source/s - BS/V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"disclosure-of-public-records\">Disclosure of Public Records<a class=\"headerlink\" href=\"#disclosure-of-public-records\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-discpubrec</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the amount and timeliness of budget information that governments make publicly available in eight key budget documents in accordance with international good practice standards.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DiscPubRec. Original data source/s - AFIDEP/IBP/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"accessibility-of-public-records\">Accessibility of Public Records<a class=\"headerlink\" href=\"#accessibility-of-public-records\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-accpubrec</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which publicly available records, legislative information and records of state-owned companies are accessible.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccPubRec. Original data source/s - AFIDEP/UNDESA/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-accountability\">Public Perception of Accountability<a class=\"headerlink\" href=\"#public-perception-of-accountability\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-account-pubpercacc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel the head of the executive does not ignore parliament and does not just do what they want.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercAcc. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"anti-corruption\">Anti-Corruption<a class=\"headerlink\" href=\"#anti-corruption\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"anti-corruption-mechanisms\">Anti-Corruption Mechanisms<a class=\"headerlink\" href=\"#anti-corruption-mechanisms\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-anticorrmech</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the government successfully contains corruption. It Assesses the extent to which adequate institutional arrangements exist to implement an anti-corruption policy and if they successfully contribute to an effective prosecution of corruption. It also Assesses the extent to which the government implements and monitors the following integrity mechanisms: auditing of state spending, regulation of party financing, citizen and media access to information, accountability of officeholders including asset declarations, conflict of interest rules, codes of conduct and transparent public procurement system.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AntiCorrMech. Original data source/s - AFIDEP/BS</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-corruption-in-state-institutions\">Absence of Corruption in State Institutions<a class=\"headerlink\" href=\"#absence-of-corruption-in-state-institutions\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-abscorrstateinst</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the judicial system is free from bribes and officials in the judicial branch do not use their public office for private gain.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsCorrStateInst. Original data source/s - V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-corruption-in-the-public-sector\">Absence of Corruption in the Public Sector<a class=\"headerlink\" href=\"#absence-of-corruption-in-the-public-sector\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-abscorrpubsect</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which public funds are not illegally being diverted and public sector employees do not engage in embezzlement and theft.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsCorrPubSect. Original data source/s - V-DEM/WEF/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-procurement-procedures\">Public Procurement Procedures<a class=\"headerlink\" href=\"#public-procurement-procedures\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-pubprocuproc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which bids from competing contractors, suppliers, or vendors are invited through open advertising of the scope, specifications, and terms of the proposed contract, and the criteria by which the bids are evaluated are available for scrutiny.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubProcuProc. Original data source/s - AFIDEP/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"absence-of-corruption-in-the-private-sector\">Absence of Corruption in the Private Sector<a class=\"headerlink\" href=\"#absence-of-corruption-in-the-private-sector\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-abscorrprivsect</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses how common it is for firms to make undocumented extra payments or bribes connected with (a) imports and exports; (b) public utilities; &copy; annual tax payments; (d) awarding of public contracts and licenses; (e) obtaining favourable judicial decisions. is an aggregate of these five underlying variables and the calculation is done by MIF.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AbsCorrPrivSect. Original data source/s - WB/WEF</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-anti-corruption\">Public Perception of Anti-Corruption<a class=\"headerlink\" href=\"#public-perception-of-anti-corruption\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-corrupt-pubperccorr</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel the head of the executive, members of parliament and the police are not involved in corruption.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercCorr. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"participation\">Participation<a class=\"headerlink\" href=\"#participation\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"freedom-of-association-assembly\">Freedom of Association &amp; Assembly<a class=\"headerlink\" href=\"#freedom-of-association-assembly\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-freeassocass</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens are able to associate freely with their peers in public, they are free to express dissent in public settings and are free to participate in civic and political organisations.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - FreeAssocAss. Original data source/s - AFIDEP/FH</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"political-pluralism\">Political Pluralism<a class=\"headerlink\" href=\"#political-pluralism\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-polplur</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which any political parties are banned, barriers to party formation exist and the opposition parties are independent from the ruling regime.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PolPlur. Original data source/s - AFIDEP/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"civil-society-space\">Civil Society Space<a class=\"headerlink\" href=\"#civil-society-space\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-civsocspace</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which civil society and non-governmental organisations (NGOs) can establish and operate freely.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - CivSocSpace. Original data source/s - AFIDEP/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"democratic-elections\">Democratic Elections<a class=\"headerlink\" href=\"#democratic-elections\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-demelec</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which elections are free and fair and held regularly without irregularities and/or violence.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DemElec. Original data source/s - AFIDEP/CDD-Ghana/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"deliberative-participatory-governance\">Deliberative &amp; Participatory Governance<a class=\"headerlink\" href=\"#deliberative-participatory-governance\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-delibpartgov</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures to what extent political elites give public and reasoned justifications for their positions when important policy changes are being considered, i.e. before a decision has been made.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DelibPartGov. Original data source/s - V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-political-participation\">Public Perception of Political Participation<a class=\"headerlink\" href=\"#public-perception-of-political-participation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-participate-pubpercelecfree</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel the last national election was free and fair as well as the extent to which citizens trust the national electoral commission.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercElecFree. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"rights\">Rights<a class=\"headerlink\" href=\"#rights\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"personal-liberties\">Personal Liberties<a class=\"headerlink\" href=\"#personal-liberties\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-perslibert</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there is freedom of foreign travel and emigration and the extent to which citizens enjoy freedom of movement and residence without restrictions by public authorities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PersLibert. Original data source/s - FH/V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"freedom-of-expression-belief\">Freedom of Expression &amp; Belief<a class=\"headerlink\" href=\"#freedom-of-expression-belief\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-freeexpbelief</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens enjoy freedom to express personal opinion and academic freedom.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - FreeExpBelief. Original data source/s - FH/V-DEM/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"media-freedom\">Media Freedom<a class=\"headerlink\" href=\"#media-freedom\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-mediafree</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the political context allows journalists to do their work freely as well as the extent to which media is impartial.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - MediaFree. Original data source/s - AFIDEP/RSF/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"digital-freedom\">Digital Freedom<a class=\"headerlink\" href=\"#digital-freedom\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-digrights</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there is a legal framework to protect internet users' privacy and their data.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DigRights. Original data source/s - AFIDEP/DSP&amp;V-DEM/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"protection-against-discrimination\">Protection against Discrimination<a class=\"headerlink\" href=\"#protection-against-discrimination\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-protagdiscrim</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there is an official mechanism that receives and investigates complaints of ethnic discrimination (whether investigations are undertaken independently or in collaboration with other entities). It also Assesses the extent to which, in the last year, the mechanism has been proactive and implemented programs designed to reduce/combat ethnic discrimination (such as conducting sensitisation campaigns), and the mechanism is accessible to most members of minority ethnic groups.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ProtAgDiscrim. Original data source/s - AFIDEP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-freedom-of-speech\">Public Perception of Freedom of Speech<a class=\"headerlink\" href=\"#public-perception-of-freedom-of-speech\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rights-pubfreespafr</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel free to say what they think.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubFreeSpAFR. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"inclusion-equality\">Inclusion &amp; Equality<a class=\"headerlink\" href=\"#inclusion-equality\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"equal-political-power\">Equal Political Power<a class=\"headerlink\" href=\"#equal-political-power\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-eqpolpow</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which political power is distributed according to socioeconomic position. is concerned not with the degree of social inequality but rather with the political eﬀects of this inequality. Speciﬁcally, the extent to which wealth and income translates into political power.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqPolPow. Original data source/s - V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equal-political-representation\">Equal Political Representation<a class=\"headerlink\" href=\"#equal-political-representation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-eqpolrep</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses to the extent to which various segments of the population (including ethnic, racial, religious, gender, LGBT+, and other relevant groups) have full political rights and electoral opportunities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqPolRep. Original data source/s - FH/IPU/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equal-civil-liberties\">Equal Civil Liberties<a class=\"headerlink\" href=\"#equal-civil-liberties\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-equcivlib</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Estimates the percentage of the total population of the country that lives in the areas where government oﬃcials’ respect for civil liberties is signiﬁcantly weaker than the country average.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EquCivLib. Original data source/s - V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equal-socioeconomic-opportunity\">Equal Socioeconomic Opportunity<a class=\"headerlink\" href=\"#equal-socioeconomic-opportunity\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-eqsoceconopp</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which state jobs and state business opportunities are equally open to qualified individuals regardless of socioeconomic position.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqSocEconOpp. Original data source/s - AFIDEP/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"equal-access-to-public-services\">Equal Access to Public Services<a class=\"headerlink\" href=\"#equal-access-to-public-services\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-eqaccpubserv</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which access to basic public services, such as order and security, primary education, clean water, and healthcare, are distributed equally according to socioeconomic position. Assesses the extent to which the socio-economic position is an important cleavage in society for the distribution of public services.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqAccPubServ. Original data source/s - V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-inclusion-equality\">Public Perception of Inclusion &amp; Equality<a class=\"headerlink\" href=\"#public-perception-of-inclusion-equality\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-inclusion-pubpercinceq</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel their ethnic group is treated fairly by the government.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercIncEq. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"womens-equality\">Women's Equality<a class=\"headerlink\" href=\"#womens-equality\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"political-power-representation-of-women\">Political Power &amp; Representation of Women<a class=\"headerlink\" href=\"#political-power-representation-of-women\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-polpowrepwom</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which political power is distributed according to gender.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PolPowRepWom. Original data source/s - AFIDEP/IPU/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"rights-civil-liberties-for-women\">Rights &amp; Civil Liberties for Women<a class=\"headerlink\" href=\"#rights-civil-liberties-for-women\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-eqcivlibwom</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which women enjoy the same level of civil liberties as men. Here, civil liberties are understood to include access to justice, private property rights, freedom of movement, and freedom from forced labour.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EqCivLibWom. Original data source/s - V-DEM/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"socioeconomic-opportunity-for-women\">Socioeconomic Opportunity for Women<a class=\"headerlink\" href=\"#socioeconomic-opportunity-for-women\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-socioeconoppwom</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which state jobs and state business opportunities are equally open to qualified individuals or firms regardless of gender.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SocioEconOppWom. Original data source/s - AFIDEP/V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"access-to-public-services-for-women\">Access to Public Services for Women<a class=\"headerlink\" href=\"#access-to-public-services-for-women\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-accpubservwomvdem</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which access to basic public services, such as order and security, primary education, clean water, and healthcare, are distributed equally according to gender. Assesses if gender is an important cleavage in society for the distribution of public services.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccPubServWomVDEM. Original data source/s - V-DEM</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"laws-on-violence-against-women\">Laws on Violence against Women<a class=\"headerlink\" href=\"#laws-on-violence-against-women\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-lawsviolencewomwb</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there are laws and regulations on violence against women by assessing whether there is legislation specifically addressing domestic violence, there is legislation on sexual harassment in employment, there are criminal penalties or civil remedies for sexual harassment in employment, whether the law is free of legal provisions that require a married woman to obey her husband, and whether a woman can obtain a judgment of divorce in the same way as a man.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - LawsViolenceWomWB. Original data source/s - WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-female-leadership\">Public Perception of Female Leadership<a class=\"headerlink\" href=\"#public-perception-of-female-leadership\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-women-pubpercfemleadafr</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>This indicator Assesses the extent to which citizens believe women should have the same chance of being elected to political office as men.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercFemLeadAFR. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"public-administration\">Public Administration<a class=\"headerlink\" href=\"#public-administration\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"civil-registration\">Civil Registration<a class=\"headerlink\" href=\"#civil-registration\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-civreg</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses to the extent to which citizens can obtain birth certification upon request and both of the following conditions are met: certification is provided within 30 days or less; and certification is provided for no charge.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - CivREg. Original data source/s - AFIDEP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"capacity-of-the-statistical-system\">Capacity of the Statistical System<a class=\"headerlink\" href=\"#capacity-of-the-statistical-system\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-capstatsys</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the capacity of a country's national statistical system based on a diagnostic framework thereby assessing three dimensions: methodology, source data, periodicity and timeliness.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - CapStatSys. Original data source/s - AFIDEP/ODW/V-DEM/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"effective-administration\">Effective Administration<a class=\"headerlink\" href=\"#effective-administration\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-effadmin</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which appointments to the civil service are merit-based and the extent to which public officials perform their duties rigorously and impartially.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EffAdmin. Original data source/s - AfDB/AFIDEP/V-DEM/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"tax-revenue-mobilisation\">Tax &amp; Revenue Mobilisation<a class=\"headerlink\" href=\"#tax-revenue-mobilisation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-taxrevmob</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures total non-resource tax revenue, excluding social contributions.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - TaxRevMob. Original data source/s - AfDB/UNU-WIDER/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"budgetary-financial-management\">Budgetary &amp; Financial Management<a class=\"headerlink\" href=\"#budgetary-financial-management\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-budgmgmt</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there is: (i) a comprehensive and credible budget, linked to policy priorities, which in turn are linked to a poverty reduction strategy, (ii) effective financial management systems to ensure that incurred expenditures are consistent with the approved budget, that budgeted revenues are achieved, and that aggregate fiscal control is maintained, (iii) timely and accurate fiscal reporting, including timely and audited public accounts and effective arrangements for follow up and (iv) clear and balanced assignment of expenditures and revenues to each level of government.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - BudgMgmt. Original data source/s - AfDB/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-easiness-to-obtain-an-identity-document\">Public Perception of Easiness to Obtain an Identity Document<a class=\"headerlink\" href=\"#public-perception-of-easiness-to-obtain-an-identity-document\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-pubadmin-pubpercpubadmin</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses citizens' perceptions of how easy it is to obtain the identity documents they needed.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PubPercPubAdmin. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"business-labour-environment\">Business &amp; Labour Environment<a class=\"headerlink\" href=\"#business-labour-environment\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"regional-integration\">Regional Integration<a class=\"headerlink\" href=\"#regional-integration\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-reginteg</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which government’s actions and efforts (i) promote free movement of persons and labour and easy right of establishment; and (ii) contribute to regional financial integration.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - RegInteg. Original data source/s - AfDB/AfDB&amp;AUC/UNCTAD</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"economic-diversification\">Economic Diversification<a class=\"headerlink\" href=\"#economic-diversification\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-econdiv</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses to which degree exports and imports of a country are concentrated on a few products rather than being distributed in a more homogenous manner among several products.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EconDiv. Original data source/s - OEC/UNCTAD</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"business-competition-regulations\">Business &amp; Competition Regulations<a class=\"headerlink\" href=\"#business-competition-regulations\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-buscompreg</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the legal, regulatory, and policy environments help or hinder private businesses in investing, creating jobs and becoming more productive.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - BusCompReg. Original data source/s - AfDB/BS/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"access-to-banking-services\">Access to Banking Services<a class=\"headerlink\" href=\"#access-to-banking-services\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-accbankserv</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures bank branches and ATMs per 100,000 adults.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccBankServ. Original data source/s - IMF/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"labour-relations\">Labour Relations<a class=\"headerlink\" href=\"#labour-relations\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-labrel</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which labour-employer relations are generally cooperative.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - LabRel. Original data source/s - AFIDEP/ITUC/WEF</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"secure-employment-opportunities\">Secure Employment Opportunities<a class=\"headerlink\" href=\"#secure-employment-opportunities\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-secemplopp</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the percentage of employed persons living in poverty in spite of being employed. Poverty is defined using the international poverty line of US$1.90 per day in purchasing power parity (PPP).</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SecEmplOpp. Original data source/s - ILO/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-economic-opportunities\">Public Perception of Economic Opportunities<a class=\"headerlink\" href=\"#public-perception-of-economic-opportunities\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-business-sateo</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses extent to which citizens feel the government is doing well at creating jobs.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SatEO. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"infrastructure\">Infrastructure<a class=\"headerlink\" href=\"#infrastructure\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"transport-network\">Transport Network<a class=\"headerlink\" href=\"#transport-network\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-transpnet</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the extent of the total road network in km (per km2 of exploitable land area) and the total paved roads (km per 10,000 inhabitants) in a country.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - TranspNet. Original data source/s - AfDB/WEF</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"access-to-energy\">Access to Energy<a class=\"headerlink\" href=\"#access-to-energy\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-accenergy</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the percentage of the population with access to electricity.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccEnergy. Original data source/s - WB/WHO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"mobile-communications\">Mobile Communications<a class=\"headerlink\" href=\"#mobile-communications\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-mobcomm</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the number of subscriptions to a public mobile-telephone service that provide access to the public switched telephone network (PSTN) using cellular technology. It includes the number of postpaid subscriptions and the number of active prepaid accounts, divided by population and multiplied by 100.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - MobComm. Original data source/s - ITU</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"internet-computers\">Internet &amp; Computers<a class=\"headerlink\" href=\"#internet-computers\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-digacc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the proportion of households that have a computer. A computer refers to a desktop computer, a laptop (portable) computer or a tablet (or similar handheld computer).</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DigAcc. Original data source/s - ITU/Cable/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"shipping-postal-network\">Shipping &amp; Postal Network<a class=\"headerlink\" href=\"#shipping-postal-network\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-shippostfac</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent of a country's integration level into global shipping liner networks, using six components: i) the number of scheduled ships calls per week in the country; ii) deployed annual capacity in Twenty-Foot-equivalent Units (TEU): total deployed capacity offered at the country; iii) the number of regular liner shipping services from and to the country; iv) the number of liner shipping companies that provide services from and to the country; v) the average size in TEU of the ships deployed by the scheduled service with the largest average vessel size; vi) the number of the other countries that are connected to the country through direct liner shipping services.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ShipPostFac. Original data source/s - UNCTAD/UPU</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-infrastructure\">Public Perception of Infrastructure<a class=\"headerlink\" href=\"#public-perception-of-infrastructure\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-infrastructure-satinfr</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which citizens feel the government is doing well at maintaining roads and bridges.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SatInfr. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"rural-economy\">Rural Economy<a class=\"headerlink\" href=\"#rural-economy\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"rural-land-water-access\">Rural Land &amp; Water Access<a class=\"headerlink\" href=\"#rural-land-water-access\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rural-rurlandwatacc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which access to land is afforded to rural people via the policy framework, which is key to their capacity to undergo rural transformation.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - RurLandWatAcc. Original data source/s - IFAD</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"rural-market-access\">Rural Market Access<a class=\"headerlink\" href=\"#rural-market-access\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rural-rurmarkaccifad</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which existing agricultural input markets and produce markets are reliably providing value for money to smallholders for inputs and the highest proportion of the retail price for produce.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - RurMarkAccIFAD. Original data source/s - IFAD</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"rural-economy-support\">Rural Economy Support<a class=\"headerlink\" href=\"#rural-economy-support\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rural-rurecosupp</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which government prioritises strategies for and investment in the rural poor and is actively promoting the development of a robust private sector in rural areas.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - RurEcoSupp. Original data source/s - IFAD</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"rural-representation-participation\">Rural Representation &amp; Participation<a class=\"headerlink\" href=\"#rural-representation-participation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-rural-rurreppart</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which rural people can organize into autonomous groups.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - RurRepPart. Original data source/s - IFAD</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"health\">Health<a class=\"headerlink\" href=\"#health\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"access-to-healthcare\">Access to Healthcare<a class=\"headerlink\" href=\"#access-to-healthcare\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-acchealth</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Estimates how much households in each country are spending on health directly out of pocket. It Estimates the share of out of pocket payment of total current health expenditures.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccHealth. Original data source/s - V-DEM/WHO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"access-to-water-sanitation\">Access to Water &amp; Sanitation<a class=\"headerlink\" href=\"#access-to-water-sanitation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-accwatersanit</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the availability of drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip, including queuing.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AccWaterSanit. Original data source/s - WHO&amp;UNICEF</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"control-of-communicable-diseases\">Control of Communicable Diseases<a class=\"headerlink\" href=\"#control-of-communicable-diseases\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-contcomdis</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the estimated number of deaths from malaria in a given year, calculated by MIF per 100,000 of the population using the World Population Prospects by UNDESA.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ContComDis. Original data source/s - UNAIDS/WHO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"control-of-non-communicable-diseases\">Control of Non-Communicable Diseases<a class=\"headerlink\" href=\"#control-of-non-communicable-diseases\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-contnoncomdis</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the age-standardised percentage of DALY's (disability adjusted life years) due to metabolic risks. Disability-Adjusted Life Years (DALYs) are defined as the sum of years lost due to premature death and years lived with disability. DALYs are also defined as years of healthy life lost.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ContNonComDis. Original data source/s - IHME</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"child-maternal-health\">Child &amp; Maternal Health<a class=\"headerlink\" href=\"#child-maternal-health\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-contchildmathealth</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the probability of dying between birth and exact age 5, expressed per 1,000 live births.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - ContChildMatHealth. Original data source/s - UN IGME/UN MMEIG/UNDESA/UNICEF&amp;WHO&amp;WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"health-quality\">Health Quality<a class=\"headerlink\" href=\"#health-quality\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-healthqual</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures compliance with 1 out of 15 WHO International Health Regulations core capacity scores: Human resources. The revised International Health Regulations (IHR) were adopted in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged to develop and maintain minimum core capacities for surveillance and response, including at points of entry, in order to early detect, assess, notify, and respond to any potential public health events of international concern. The 15 capacities are: C1. Policy, legal and normative instruments to implement IHR, C2. IHR coordination and National IHR Focal Point, C.3. Financing, C4. Laboratory, C5. Surveillance, C6. Human resources, C7. Health emergency management, C8. Health services provision, C9. Infection prevention and control (IPC) C10. Risk communication and community engagement (RCCE), C11. Points of entry (PoEs) and border health, C12. Zoonotic diseases, C13. Food safety, C14. Chemical events, C15. Radiation emergencies.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - HealthQual. Original data source/s - WHO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-health-provision\">Public Perception of Health Provision<a class=\"headerlink\" href=\"#public-perception-of-health-provision\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-health-sathealth</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses citizens' perceptions of how easy it is to obtain the medical care they need.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SatHealth. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"education\">Education<a class=\"headerlink\" href=\"#education\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"equality-in-education\">Equality in Education<a class=\"headerlink\" href=\"#equality-in-education\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-equeduc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the ratio of female gross enrolment to male gross enrolment in primary and lower secondary education.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EquEduc. Original data source/s - V-DEM/UNESCO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"education-enrolment\">Education Enrolment<a class=\"headerlink\" href=\"#education-enrolment\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-educenr</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the number of students enrolled in pre-primary level of education, regardless of age, expressed as a percentage of the eligible official school-age population corresponding to pre-primary education.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EducEnr. Original data source/s - UNESCO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"education-completion\">Education Completion<a class=\"headerlink\" href=\"#education-completion\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-compeduc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of the primary level of education who have completed that grade.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - CompEduc. Original data source/s - UNESCO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"human-resources-in-education\">Human Resources in Education<a class=\"headerlink\" href=\"#human-resources-in-education\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-educres</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the average number of pupils per qualified teacher at the primary level of education in a given academic year. A qualified teacher is one who has at least the minimum academic qualifications required for teaching their subjects at the relevant level in a given country in a given academic year. The higher the pupil/qualified teacher ratio, the lower the relative access of pupils to qualified teachers.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EducRes. Original data source/s - UNESCO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"education-quality\">Education Quality<a class=\"headerlink\" href=\"#education-quality\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-eduqqual</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there are solid institutions for basic, secondary, and tertiary education, as well as for research and development. It Assesses whether education policy is successful in delivering high quality education and training, and research and development receive effective support from the government. It does not focus on expenditures alone, but also on the quality and competitiveness of the education system and the research sector, considering the structure of funding and knowledge providers (public, private and international cooperation), the output of the educational and developmental efforts, e.g. enrolment rates, literacy rates, percentage of people with higher education and number of patent applications.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EduqQual. Original data source/s - BS/WB/WEF</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-education-provision\">Public Perception of Education Provision<a class=\"headerlink\" href=\"#public-perception-of-education-provision\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-education-sateduc</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses citizens' perceptions of how easy it was to obtain the services they needed from teachers or school officials.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SatEduc. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"social-protection-welfare\">Social Protection &amp; Welfare<a class=\"headerlink\" href=\"#social-protection-welfare\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"social-safety-nets\">Social Safety Nets<a class=\"headerlink\" href=\"#social-safety-nets\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-socialsafnet</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which there are departments or equivalent mandated to ensure social safety nets for the elderly, those with an illness or health conditions and the unemployed.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SocialSafNet. Original data source/s - AFIDEP/BS</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"poverty-reduction-policies\">Poverty Reduction Policies<a class=\"headerlink\" href=\"#poverty-reduction-policies\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-povredpol</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which significant parts of the population are fundamentally excluded from society due to poverty and inequality. It Assesses the level of social exclusion as a determining factor for economic transformation. It refers to structural exclusion and not to the output strength of a country’s economy as reflected in macroeconomic data like unemployment or GDP growth.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PovRedPol. Original data source/s - AfDB/BS/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"socioeconomic-inequality-mitigation\">Socioeconomic Inequality Mitigation<a class=\"headerlink\" href=\"#socioeconomic-inequality-mitigation\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-ineqmitig</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which the pattern of public expenditures and revenue collection affects the poor and is consistent with national poverty reduction priorities.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - IneqMitig. Original data source/s - AfDB/FFP/WB/WID.World</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"decent-housing\">Decent Housing<a class=\"headerlink\" href=\"#decent-housing\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-dechous</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the proportion of the urban population living in slums. Slum households are households whose members suffer one or more of the following ‘household deprivations’: i) Lack of access to improved water source, ii) Lack of access to improved sanitation facilities, iii) Lack of sufficient living area, iv)Lack of housing durability and, v) Lack of security of tenure. Estimations do not include security of tenure due to data limitations.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - DecHous. Original data source/s - CAHF/UN-Habitat</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"food-security\">Food Security<a class=\"headerlink\" href=\"#food-security\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-foodsec</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the prevalence of undernourishment, expressed as the probability that a randomly selected individual from the population consumes an amount of calories that is insufficient to cover her/his energy requirement for an active and healthy life.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - FoodSec. Original data source/s - FAO</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"public-perception-of-social-protection-lived-poverty\">Public Perception of Social Protection &amp; Lived Poverty<a class=\"headerlink\" href=\"#public-perception-of-social-protection-lived-poverty\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-social-livpovpubpercsocprot</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses citizens' perceptions of their present living conditions.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - LivPovPubPercSocProt. Original data source/s - AFR</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"sustainable-environment\">Sustainable Environment<a class=\"headerlink\" href=\"#sustainable-environment\" title=\"Permanent link\">&para;</a></h2>\n<h3 id=\"promotion-of-environmental-sustainability\">Promotion of Environmental Sustainability<a class=\"headerlink\" href=\"#promotion-of-environmental-sustainability\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-environ-promenvsust</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which environmental concerns are effectively taken into account in both macro and microeconomic terms. It considers the extent to which externalisation of costs or inadequate time horizons are avoided or restrained by environmental regulation. In macroeconomic terms, it Assesses the extent to which tax and energy policies take ecological goals and Measures into account (e.g. promotion of renewable energies, CO2 reduction goals). In microeconomic terms, it Assesses the extent to which the government sets incentives for environmentally sound consumption and investments to households and companies. A deeply ingrained awareness of the environment or nature in society may serve as a functional equivalent.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - PromEnvSust. Original data source/s - AfDB/BS/WB</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"enforcement-of-environmental-policies\">Enforcement of Environmental Policies<a class=\"headerlink\" href=\"#enforcement-of-environmental-policies\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-environ-enfenvpol</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses the extent to which environmental protection authorities enforce environmental laws. This is based on the following criteria: the extent to which companies comply with the law after notification of violations from environmental protection authorities; firms get audited or inspected by environmental protection authorities as a result of allegations of pollution by neighbours; firms are routinely audited by the environmental protection authorities; it is likely that environmental protection authorities will impose sanctions if violations are detected.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - EnfEnvPol. Original data source/s - WEF/WJP</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"air-quality\">Air Quality<a class=\"headerlink\" href=\"#air-quality\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-environ-airqual</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the ratio of disability-adjusted life-years (DALYs) to the population per 100,000 people due to air pollution.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - AirQual. Original data source/s - HEI&amp;IHME</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"sustainable-use-of-land-forests\">Sustainable Use of Land &amp; Forests<a class=\"headerlink\" href=\"#sustainable-use-of-land-forests\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-environ-sususelandfor</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Measures the diversification of agricultural production as well as the extent to which the agricultural area is under certified organic agriculture.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - SusUseLandFor. Original data source/s - FAO/WB/WRI</td>\n</tr>\n</tbody>\n</table>\n<h3 id=\"land-water-biodiversity-protection\">Land &amp; Water Biodiversity Protection<a class=\"headerlink\" href=\"#land-water-biodiversity-protection\" title=\"Permanent link\">&para;</a></h3>\n<table>\n<thead>\n<tr>\n<th>Field</th>\n<th>Value</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Variable Id</td>\n<td>iiag-environ-landwatbiodiv</td>\n</tr>\n<tr>\n<td>Definition</td>\n<td>Assesses a country’s efforts to achieve 30% protection for all biomes within its borders. It is calculated using the percentage of each country’s biomes covered by protected areas. It is calculated using the proportions of the area of each of a country’s biome types that are covered by protected areas and then constructing a weighted sum of the protection percentages for all biomes within that country. Protection percentages are weighted according to the prevalence of each biome type within that country.</td>\n</tr>\n<tr>\n<td>Format</td>\n<td>0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89%</td>\n</tr>\n<tr>\n<td>Other Metadata</td>\n<td>IIAG Series Id - LandWatBiodiv. Original data source/s - ENACT/WB/Yale&amp;Columbia</td>\n</tr>\n</tbody>\n</table>",
+    "search": [
+      {
+        "location": null,
+        "level": 1,
+        "title": "Ibrahim metadata",
+        "text": "<p>Variable definitions and collection guidance for the Ibrahim module.</p>",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "security-safety",
+        "level": 2,
+        "title": "Security &amp; Safety",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-armed-conflict",
+        "level": 3,
+        "title": "Absence of Armed Conflict",
+        "text": "Field Value Variable Id iiag-sec-absarmedconf Definition Measures the number of violent events that happen as a result of battles or explosions/remote violence between state forces and non-state actors. Battles are violent interactions between two politically organised armed groups and can occur between armed and organised state, non-state and external groups and in combination therein. Explosions/Remote violence are one-sided violent events in which the tool for engaging in conflict creates asymmetry by taking away the ability of the target to respond. State forces are defined as collective actors that are recognised to perform government functions, including military and police, over a given territory. Non-state actors include rebels, political and communal/identity militias and external forces. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsArmedConf. Original data source/s - ACLED/UCDP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-violence-against-civilians",
+        "level": 3,
+        "title": "Absence of Violence against Civilians",
+        "text": "Field Value Variable Id iiag-sec-absviolciv Definition Measures the number of violent events against civilians perpetrated by government forces and the levels of political violence in a country. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsViolCiv. Original data source/s - ACLED/PTS",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-forced-migration",
+        "level": 3,
+        "title": "Absence of Forced Migration",
+        "text": "Field Value Variable Id iiag-sec-absforcedmig Definition Estimates the total stock of internally displaced persons (IDPs) due to conflict and violence in a given year, calculated by MIF per 100,000 population using the World Population Prospects by UNDESA. IDMC defines IDPs as “persons or groups of persons who have been forced or obliged to flee or to leave their homes or places of habitual residence, in particular as a result of or in order to avoid the effects of armed conflict, situations of generalised violence, violations of human rights or natural or human-made disasters, and who have not crossed an internationally recognised state border.” Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsForcedMig. Original data source/s - IDMC/UNHCR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-human-trafficking-forced-labour",
+        "level": 3,
+        "title": "Absence of Human Trafficking &amp; Forced Labour",
+        "text": "Field Value Variable Id iiag-sec-abhumtraforclab Definition Assesses the extent of human trafficking activity. Human trafficking includes activity, means and purpose, and reflects all stages of the illicit activity, from recruitment and transfer, to harbouring and receipt of persons and it does not require the movement of persons. In line with the Protocol to Prevent, Suppress and Punish Trafficking in Persons, Especially Women and Children, supplementing the United Nations Convention against Transnational Organized Crime (UNTOC), exploitation shall include, at a minimum, the exploitation or the prostitution of others or other forms of sexual exploitation, forced labour or services, slavery or practices similar to slavery, servitude or the removal of organs. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbHumTraForcLab. Original data source/s - ENACT/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-crime",
+        "level": 3,
+        "title": "Absence of Crime",
+        "text": "Field Value Variable Id iiag-sec-abscrim Definition Assesses the extent of organised crime in a country based on the presence of criminal actors and criminal markets. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsCrim. Original data source/s - ENACT/WHO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-security-safety",
+        "level": 3,
+        "title": "Public Perception of Security &amp; Safety",
+        "text": "Field Value Variable Id iiag-sec-pubpercsaf Definition Assesses the extent to which citizens feel safe walking in their neighbourhood. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercSaf. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rule-of-law-justice",
+        "level": 2,
+        "title": "Rule Of Law &amp; Justice",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "executive-compliance-with-the-rule-of-law",
+        "level": 3,
+        "title": "Executive Compliance with the Rule of Law",
+        "text": "Field Value Variable Id iiag-law-execcomprol Definition Assesses the extent to which members of the executive (the head of state, the head of government and cabinet ministers) respect the constitution. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ExecCompRoL. Original data source/s - V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "impartiality-of-the-judicial-system",
+        "level": 3,
+        "title": "Impartiality of the Judicial System",
+        "text": "Field Value Variable Id iiag-law-judsys Definition Assesses the extent to which the high court, lower courts and judges are independent. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - JudSys. Original data source/s - AFIDEP/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "judicial-processes",
+        "level": 3,
+        "title": "Judicial Processes",
+        "text": "Field Value Variable Id iiag-law-judproc Definition Assesses the extent to which justice is accessible and affordable. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - JudProc. Original data source/s - V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equality-before-the-law",
+        "level": 3,
+        "title": "Equality before the Law",
+        "text": "Field Value Variable Id iiag-law-eqtreatlaw Definition Assesses the extent to which laws, policies and practices guarantee equal treatments to various distinct groups, including ethnic, racial, religious, gender, LGBT+ and other relevant groups and the extent to which these groups are able to exercise their human rights with full equality before the law. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqTreatLaw. Original data source/s - FH/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "law-enforcement",
+        "level": 3,
+        "title": "Law Enforcement",
+        "text": "Field Value Variable Id iiag-law-lawenf Definition Assesses the extent to which the police are reliable and there is a functioning system for investigating and sanctioning police misconduct. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - LawEnf. Original data source/s - AFIDEP/WEF/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "property-rights",
+        "level": 3,
+        "title": "Property Rights",
+        "text": "Field Value Variable Id iiag-law-proprights Definition Assesses the extent to which government authorities ensure well-defined rights of private property and regulate the acquisition, benefits, use and sale of property. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PropRights. Original data source/s - BS/V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-the-rule-of-law",
+        "level": 3,
+        "title": "Public Perception of the Rule of Law",
+        "text": "Field Value Variable Id iiag-law-pubpercrol Definition Assesses the extent to which citizens feel the head of the executive does not ignore the courts and laws. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercROL. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "accountability-transparency",
+        "level": 2,
+        "title": "Accountability &amp; Transparency",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "institutional-checks-balances",
+        "level": 3,
+        "title": "Institutional Checks &amp; Balances",
+        "text": "Field Value Variable Id iiag-account-instchecbal Definition Assesses the extent to which there is a working separation of powers (checks and balances). It Assesses the extent to which there is a clear separation of powers with mutual checks and balances and the basic configuration and operation of the separation of powers. It includes the subjection of state power to the law. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - InstChecBal. Original data source/s - BS/V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-undue-influence",
+        "level": 3,
+        "title": "Absence of Undue Influence",
+        "text": "Field Value Variable Id iiag-account-absuninfgov Definition Assesses the extent to which democratically elected political representatives have the effective power to govern, or the extent to which there are veto powers and political enclaves. It Assesses the extent to which individuals or groups have the power to undermine democratic procedures without questioning the system as such. Veto powers can come from the military, the clergy, landowners, business elites, and external actors, among others. They can 'veto' the results of democratic decisions or retain prerogatives that cannot be touched by democratically elected officeholders (e.g., nominating the commander-in-chief of the armed forces). Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsUnInfGov. Original data source/s - AFIDEP/BS/FH",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "civic-checks-balances",
+        "level": 3,
+        "title": "Civic Checks &amp; Balances",
+        "text": "Field Value Variable Id iiag-account-civcheckbal Definition Assesses the extent to which there are effective mechanisms for citizens to make complaints and there is a right to petition and civic engagement. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - CivCheckBal. Original data source/s - BS/V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "disclosure-of-public-records",
+        "level": 3,
+        "title": "Disclosure of Public Records",
+        "text": "Field Value Variable Id iiag-account-discpubrec Definition Assesses the amount and timeliness of budget information that governments make publicly available in eight key budget documents in accordance with international good practice standards. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DiscPubRec. Original data source/s - AFIDEP/IBP/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "accessibility-of-public-records",
+        "level": 3,
+        "title": "Accessibility of Public Records",
+        "text": "Field Value Variable Id iiag-account-accpubrec Definition Assesses the extent to which publicly available records, legislative information and records of state-owned companies are accessible. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccPubRec. Original data source/s - AFIDEP/UNDESA/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-accountability",
+        "level": 3,
+        "title": "Public Perception of Accountability",
+        "text": "Field Value Variable Id iiag-account-pubpercacc Definition Assesses the extent to which citizens feel the head of the executive does not ignore parliament and does not just do what they want. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercAcc. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "anti-corruption",
+        "level": 2,
+        "title": "Anti-Corruption",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "anti-corruption-mechanisms",
+        "level": 3,
+        "title": "Anti-Corruption Mechanisms",
+        "text": "Field Value Variable Id iiag-corrupt-anticorrmech Definition Assesses the extent to which the government successfully contains corruption. It Assesses the extent to which adequate institutional arrangements exist to implement an anti-corruption policy and if they successfully contribute to an effective prosecution of corruption. It also Assesses the extent to which the government implements and monitors the following integrity mechanisms: auditing of state spending, regulation of party financing, citizen and media access to information, accountability of officeholders including asset declarations, conflict of interest rules, codes of conduct and transparent public procurement system. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AntiCorrMech. Original data source/s - AFIDEP/BS",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-corruption-in-state-institutions",
+        "level": 3,
+        "title": "Absence of Corruption in State Institutions",
+        "text": "Field Value Variable Id iiag-corrupt-abscorrstateinst Definition Assesses the extent to which the judicial system is free from bribes and officials in the judicial branch do not use their public office for private gain. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsCorrStateInst. Original data source/s - V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-corruption-in-the-public-sector",
+        "level": 3,
+        "title": "Absence of Corruption in the Public Sector",
+        "text": "Field Value Variable Id iiag-corrupt-abscorrpubsect Definition Assesses the extent to which public funds are not illegally being diverted and public sector employees do not engage in embezzlement and theft. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsCorrPubSect. Original data source/s - V-DEM/WEF/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-procurement-procedures",
+        "level": 3,
+        "title": "Public Procurement Procedures",
+        "text": "Field Value Variable Id iiag-corrupt-pubprocuproc Definition Assesses the extent to which bids from competing contractors, suppliers, or vendors are invited through open advertising of the scope, specifications, and terms of the proposed contract, and the criteria by which the bids are evaluated are available for scrutiny. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubProcuProc. Original data source/s - AFIDEP/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "absence-of-corruption-in-the-private-sector",
+        "level": 3,
+        "title": "Absence of Corruption in the Private Sector",
+        "text": "Field Value Variable Id iiag-corrupt-abscorrprivsect Definition Assesses how common it is for firms to make undocumented extra payments or bribes connected with (a) imports and exports; (b) public utilities; © annual tax payments; (d) awarding of public contracts and licenses; (e) obtaining favourable judicial decisions. is an aggregate of these five underlying variables and the calculation is done by MIF. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AbsCorrPrivSect. Original data source/s - WB/WEF",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-anti-corruption",
+        "level": 3,
+        "title": "Public Perception of Anti-Corruption",
+        "text": "Field Value Variable Id iiag-corrupt-pubperccorr Definition Assesses the extent to which citizens feel the head of the executive, members of parliament and the police are not involved in corruption. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercCorr. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "participation",
+        "level": 2,
+        "title": "Participation",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "freedom-of-association-assembly",
+        "level": 3,
+        "title": "Freedom of Association &amp; Assembly",
+        "text": "Field Value Variable Id iiag-participate-freeassocass Definition Assesses the extent to which citizens are able to associate freely with their peers in public, they are free to express dissent in public settings and are free to participate in civic and political organisations. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - FreeAssocAss. Original data source/s - AFIDEP/FH",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "political-pluralism",
+        "level": 3,
+        "title": "Political Pluralism",
+        "text": "Field Value Variable Id iiag-participate-polplur Definition Assesses the extent to which any political parties are banned, barriers to party formation exist and the opposition parties are independent from the ruling regime. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PolPlur. Original data source/s - AFIDEP/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "civil-society-space",
+        "level": 3,
+        "title": "Civil Society Space",
+        "text": "Field Value Variable Id iiag-participate-civsocspace Definition Assesses the extent to which civil society and non-governmental organisations (NGOs) can establish and operate freely. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - CivSocSpace. Original data source/s - AFIDEP/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "democratic-elections",
+        "level": 3,
+        "title": "Democratic Elections",
+        "text": "Field Value Variable Id iiag-participate-demelec Definition Assesses the extent to which elections are free and fair and held regularly without irregularities and/or violence. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DemElec. Original data source/s - AFIDEP/CDD-Ghana/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "deliberative-participatory-governance",
+        "level": 3,
+        "title": "Deliberative &amp; Participatory Governance",
+        "text": "Field Value Variable Id iiag-participate-delibpartgov Definition Measures to what extent political elites give public and reasoned justifications for their positions when important policy changes are being considered, i.e. before a decision has been made. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DelibPartGov. Original data source/s - V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-political-participation",
+        "level": 3,
+        "title": "Public Perception of Political Participation",
+        "text": "Field Value Variable Id iiag-participate-pubpercelecfree Definition Assesses the extent to which citizens feel the last national election was free and fair as well as the extent to which citizens trust the national electoral commission. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercElecFree. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rights",
+        "level": 2,
+        "title": "Rights",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "personal-liberties",
+        "level": 3,
+        "title": "Personal Liberties",
+        "text": "Field Value Variable Id iiag-rights-perslibert Definition Assesses the extent to which there is freedom of foreign travel and emigration and the extent to which citizens enjoy freedom of movement and residence without restrictions by public authorities. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PersLibert. Original data source/s - FH/V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "freedom-of-expression-belief",
+        "level": 3,
+        "title": "Freedom of Expression &amp; Belief",
+        "text": "Field Value Variable Id iiag-rights-freeexpbelief Definition Assesses the extent to which citizens enjoy freedom to express personal opinion and academic freedom. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - FreeExpBelief. Original data source/s - FH/V-DEM/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "media-freedom",
+        "level": 3,
+        "title": "Media Freedom",
+        "text": "Field Value Variable Id iiag-rights-mediafree Definition Assesses the extent to which the political context allows journalists to do their work freely as well as the extent to which media is impartial. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - MediaFree. Original data source/s - AFIDEP/RSF/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "digital-freedom",
+        "level": 3,
+        "title": "Digital Freedom",
+        "text": "Field Value Variable Id iiag-rights-digrights Definition Assesses the extent to which there is a legal framework to protect internet users' privacy and their data. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DigRights. Original data source/s - AFIDEP/DSP&amp;V-DEM/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "protection-against-discrimination",
+        "level": 3,
+        "title": "Protection against Discrimination",
+        "text": "Field Value Variable Id iiag-rights-protagdiscrim Definition Assesses the extent to which there is an official mechanism that receives and investigates complaints of ethnic discrimination (whether investigations are undertaken independently or in collaboration with other entities). It also Assesses the extent to which, in the last year, the mechanism has been proactive and implemented programs designed to reduce/combat ethnic discrimination (such as conducting sensitisation campaigns), and the mechanism is accessible to most members of minority ethnic groups. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ProtAgDiscrim. Original data source/s - AFIDEP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-freedom-of-speech",
+        "level": 3,
+        "title": "Public Perception of Freedom of Speech",
+        "text": "Field Value Variable Id iiag-rights-pubfreespafr Definition Assesses the extent to which citizens feel free to say what they think. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubFreeSpAFR. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "inclusion-equality",
+        "level": 2,
+        "title": "Inclusion &amp; Equality",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equal-political-power",
+        "level": 3,
+        "title": "Equal Political Power",
+        "text": "Field Value Variable Id iiag-inclusion-eqpolpow Definition Assesses the extent to which political power is distributed according to socioeconomic position. is concerned not with the degree of social inequality but rather with the political eﬀects of this inequality. Speciﬁcally, the extent to which wealth and income translates into political power. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqPolPow. Original data source/s - V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equal-political-representation",
+        "level": 3,
+        "title": "Equal Political Representation",
+        "text": "Field Value Variable Id iiag-inclusion-eqpolrep Definition Assesses to the extent to which various segments of the population (including ethnic, racial, religious, gender, LGBT+, and other relevant groups) have full political rights and electoral opportunities. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqPolRep. Original data source/s - FH/IPU/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equal-civil-liberties",
+        "level": 3,
+        "title": "Equal Civil Liberties",
+        "text": "Field Value Variable Id iiag-inclusion-equcivlib Definition Estimates the percentage of the total population of the country that lives in the areas where government oﬃcials’ respect for civil liberties is signiﬁcantly weaker than the country average. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EquCivLib. Original data source/s - V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equal-socioeconomic-opportunity",
+        "level": 3,
+        "title": "Equal Socioeconomic Opportunity",
+        "text": "Field Value Variable Id iiag-inclusion-eqsoceconopp Definition Assesses the extent to which state jobs and state business opportunities are equally open to qualified individuals regardless of socioeconomic position. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqSocEconOpp. Original data source/s - AFIDEP/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equal-access-to-public-services",
+        "level": 3,
+        "title": "Equal Access to Public Services",
+        "text": "Field Value Variable Id iiag-inclusion-eqaccpubserv Definition Assesses the extent to which access to basic public services, such as order and security, primary education, clean water, and healthcare, are distributed equally according to socioeconomic position. Assesses the extent to which the socio-economic position is an important cleavage in society for the distribution of public services. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqAccPubServ. Original data source/s - V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-inclusion-equality",
+        "level": 3,
+        "title": "Public Perception of Inclusion &amp; Equality",
+        "text": "Field Value Variable Id iiag-inclusion-pubpercinceq Definition Assesses the extent to which citizens feel their ethnic group is treated fairly by the government. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercIncEq. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "womens-equality",
+        "level": 2,
+        "title": "Women's Equality",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "political-power-representation-of-women",
+        "level": 3,
+        "title": "Political Power &amp; Representation of Women",
+        "text": "Field Value Variable Id iiag-women-polpowrepwom Definition Assesses the extent to which political power is distributed according to gender. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PolPowRepWom. Original data source/s - AFIDEP/IPU/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rights-civil-liberties-for-women",
+        "level": 3,
+        "title": "Rights &amp; Civil Liberties for Women",
+        "text": "Field Value Variable Id iiag-women-eqcivlibwom Definition Assesses the extent to which women enjoy the same level of civil liberties as men. Here, civil liberties are understood to include access to justice, private property rights, freedom of movement, and freedom from forced labour. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EqCivLibWom. Original data source/s - V-DEM/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "socioeconomic-opportunity-for-women",
+        "level": 3,
+        "title": "Socioeconomic Opportunity for Women",
+        "text": "Field Value Variable Id iiag-women-socioeconoppwom Definition Assesses the extent to which state jobs and state business opportunities are equally open to qualified individuals or firms regardless of gender. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SocioEconOppWom. Original data source/s - AFIDEP/V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "access-to-public-services-for-women",
+        "level": 3,
+        "title": "Access to Public Services for Women",
+        "text": "Field Value Variable Id iiag-women-accpubservwomvdem Definition Assesses the extent to which access to basic public services, such as order and security, primary education, clean water, and healthcare, are distributed equally according to gender. Assesses if gender is an important cleavage in society for the distribution of public services. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccPubServWomVDEM. Original data source/s - V-DEM",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "laws-on-violence-against-women",
+        "level": 3,
+        "title": "Laws on Violence against Women",
+        "text": "Field Value Variable Id iiag-women-lawsviolencewomwb Definition Assesses the extent to which there are laws and regulations on violence against women by assessing whether there is legislation specifically addressing domestic violence, there is legislation on sexual harassment in employment, there are criminal penalties or civil remedies for sexual harassment in employment, whether the law is free of legal provisions that require a married woman to obey her husband, and whether a woman can obtain a judgment of divorce in the same way as a man. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - LawsViolenceWomWB. Original data source/s - WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-female-leadership",
+        "level": 3,
+        "title": "Public Perception of Female Leadership",
+        "text": "Field Value Variable Id iiag-women-pubpercfemleadafr Definition This indicator Assesses the extent to which citizens believe women should have the same chance of being elected to political office as men. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercFemLeadAFR. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-administration",
+        "level": 2,
+        "title": "Public Administration",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "civil-registration",
+        "level": 3,
+        "title": "Civil Registration",
+        "text": "Field Value Variable Id iiag-pubadmin-civreg Definition Assesses to the extent to which citizens can obtain birth certification upon request and both of the following conditions are met: certification is provided within 30 days or less; and certification is provided for no charge. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - CivREg. Original data source/s - AFIDEP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "capacity-of-the-statistical-system",
+        "level": 3,
+        "title": "Capacity of the Statistical System",
+        "text": "Field Value Variable Id iiag-pubadmin-capstatsys Definition Assesses the capacity of a country's national statistical system based on a diagnostic framework thereby assessing three dimensions: methodology, source data, periodicity and timeliness. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - CapStatSys. Original data source/s - AFIDEP/ODW/V-DEM/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "effective-administration",
+        "level": 3,
+        "title": "Effective Administration",
+        "text": "Field Value Variable Id iiag-pubadmin-effadmin Definition Assesses the extent to which appointments to the civil service are merit-based and the extent to which public officials perform their duties rigorously and impartially. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EffAdmin. Original data source/s - AfDB/AFIDEP/V-DEM/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "tax-revenue-mobilisation",
+        "level": 3,
+        "title": "Tax &amp; Revenue Mobilisation",
+        "text": "Field Value Variable Id iiag-pubadmin-taxrevmob Definition Measures total non-resource tax revenue, excluding social contributions. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - TaxRevMob. Original data source/s - AfDB/UNU-WIDER/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "budgetary-financial-management",
+        "level": 3,
+        "title": "Budgetary &amp; Financial Management",
+        "text": "Field Value Variable Id iiag-pubadmin-budgmgmt Definition Assesses the extent to which there is: (i) a comprehensive and credible budget, linked to policy priorities, which in turn are linked to a poverty reduction strategy, (ii) effective financial management systems to ensure that incurred expenditures are consistent with the approved budget, that budgeted revenues are achieved, and that aggregate fiscal control is maintained, (iii) timely and accurate fiscal reporting, including timely and audited public accounts and effective arrangements for follow up and (iv) clear and balanced assignment of expenditures and revenues to each level of government. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - BudgMgmt. Original data source/s - AfDB/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-easiness-to-obtain-an-identity-document",
+        "level": 3,
+        "title": "Public Perception of Easiness to Obtain an Identity Document",
+        "text": "Field Value Variable Id iiag-pubadmin-pubpercpubadmin Definition Assesses citizens' perceptions of how easy it is to obtain the identity documents they needed. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PubPercPubAdmin. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "business-labour-environment",
+        "level": 2,
+        "title": "Business &amp; Labour Environment",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "regional-integration",
+        "level": 3,
+        "title": "Regional Integration",
+        "text": "Field Value Variable Id iiag-business-reginteg Definition Assesses the extent to which government’s actions and efforts (i) promote free movement of persons and labour and easy right of establishment; and (ii) contribute to regional financial integration. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - RegInteg. Original data source/s - AfDB/AfDB&amp;AUC/UNCTAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "economic-diversification",
+        "level": 3,
+        "title": "Economic Diversification",
+        "text": "Field Value Variable Id iiag-business-econdiv Definition Assesses to which degree exports and imports of a country are concentrated on a few products rather than being distributed in a more homogenous manner among several products. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EconDiv. Original data source/s - OEC/UNCTAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "business-competition-regulations",
+        "level": 3,
+        "title": "Business &amp; Competition Regulations",
+        "text": "Field Value Variable Id iiag-business-buscompreg Definition Assesses the extent to which the legal, regulatory, and policy environments help or hinder private businesses in investing, creating jobs and becoming more productive. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - BusCompReg. Original data source/s - AfDB/BS/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "access-to-banking-services",
+        "level": 3,
+        "title": "Access to Banking Services",
+        "text": "Field Value Variable Id iiag-business-accbankserv Definition Measures bank branches and ATMs per 100,000 adults. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccBankServ. Original data source/s - IMF/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "labour-relations",
+        "level": 3,
+        "title": "Labour Relations",
+        "text": "Field Value Variable Id iiag-business-labrel Definition Assesses the extent to which labour-employer relations are generally cooperative. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - LabRel. Original data source/s - AFIDEP/ITUC/WEF",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "secure-employment-opportunities",
+        "level": 3,
+        "title": "Secure Employment Opportunities",
+        "text": "Field Value Variable Id iiag-business-secemplopp Definition Measures the percentage of employed persons living in poverty in spite of being employed. Poverty is defined using the international poverty line of US$1.90 per day in purchasing power parity (PPP). Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SecEmplOpp. Original data source/s - ILO/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-economic-opportunities",
+        "level": 3,
+        "title": "Public Perception of Economic Opportunities",
+        "text": "Field Value Variable Id iiag-business-sateo Definition Assesses extent to which citizens feel the government is doing well at creating jobs. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SatEO. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "infrastructure",
+        "level": 2,
+        "title": "Infrastructure",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "transport-network",
+        "level": 3,
+        "title": "Transport Network",
+        "text": "Field Value Variable Id iiag-infrastructure-transpnet Definition Measures the extent of the total road network in km (per km2 of exploitable land area) and the total paved roads (km per 10,000 inhabitants) in a country. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - TranspNet. Original data source/s - AfDB/WEF",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "access-to-energy",
+        "level": 3,
+        "title": "Access to Energy",
+        "text": "Field Value Variable Id iiag-infrastructure-accenergy Definition Measures the percentage of the population with access to electricity. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccEnergy. Original data source/s - WB/WHO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "mobile-communications",
+        "level": 3,
+        "title": "Mobile Communications",
+        "text": "Field Value Variable Id iiag-infrastructure-mobcomm Definition Measures the number of subscriptions to a public mobile-telephone service that provide access to the public switched telephone network (PSTN) using cellular technology. It includes the number of postpaid subscriptions and the number of active prepaid accounts, divided by population and multiplied by 100. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - MobComm. Original data source/s - ITU",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "internet-computers",
+        "level": 3,
+        "title": "Internet &amp; Computers",
+        "text": "Field Value Variable Id iiag-infrastructure-digacc Definition Measures the proportion of households that have a computer. A computer refers to a desktop computer, a laptop (portable) computer or a tablet (or similar handheld computer). Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DigAcc. Original data source/s - ITU/Cable/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "shipping-postal-network",
+        "level": 3,
+        "title": "Shipping &amp; Postal Network",
+        "text": "Field Value Variable Id iiag-infrastructure-shippostfac Definition Assesses the extent of a country's integration level into global shipping liner networks, using six components: i) the number of scheduled ships calls per week in the country; ii) deployed annual capacity in Twenty-Foot-equivalent Units (TEU): total deployed capacity offered at the country; iii) the number of regular liner shipping services from and to the country; iv) the number of liner shipping companies that provide services from and to the country; v) the average size in TEU of the ships deployed by the scheduled service with the largest average vessel size; vi) the number of the other countries that are connected to the country through direct liner shipping services. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ShipPostFac. Original data source/s - UNCTAD/UPU",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-infrastructure",
+        "level": 3,
+        "title": "Public Perception of Infrastructure",
+        "text": "Field Value Variable Id iiag-infrastructure-satinfr Definition Assesses the extent to which citizens feel the government is doing well at maintaining roads and bridges. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SatInfr. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-economy",
+        "level": 2,
+        "title": "Rural Economy",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-land-water-access",
+        "level": 3,
+        "title": "Rural Land &amp; Water Access",
+        "text": "Field Value Variable Id iiag-rural-rurlandwatacc Definition Assesses the extent to which access to land is afforded to rural people via the policy framework, which is key to their capacity to undergo rural transformation. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - RurLandWatAcc. Original data source/s - IFAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-market-access",
+        "level": 3,
+        "title": "Rural Market Access",
+        "text": "Field Value Variable Id iiag-rural-rurmarkaccifad Definition Assesses the extent to which existing agricultural input markets and produce markets are reliably providing value for money to smallholders for inputs and the highest proportion of the retail price for produce. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - RurMarkAccIFAD. Original data source/s - IFAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-economy-support",
+        "level": 3,
+        "title": "Rural Economy Support",
+        "text": "Field Value Variable Id iiag-rural-rurecosupp Definition Assesses the extent to which government prioritises strategies for and investment in the rural poor and is actively promoting the development of a robust private sector in rural areas. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - RurEcoSupp. Original data source/s - IFAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "rural-representation-participation",
+        "level": 3,
+        "title": "Rural Representation &amp; Participation",
+        "text": "Field Value Variable Id iiag-rural-rurreppart Definition Assesses the extent to which rural people can organize into autonomous groups. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - RurRepPart. Original data source/s - IFAD",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "health",
+        "level": 2,
+        "title": "Health",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "access-to-healthcare",
+        "level": 3,
+        "title": "Access to Healthcare",
+        "text": "Field Value Variable Id iiag-health-acchealth Definition Estimates how much households in each country are spending on health directly out of pocket. It Estimates the share of out of pocket payment of total current health expenditures. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccHealth. Original data source/s - V-DEM/WHO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "access-to-water-sanitation",
+        "level": 3,
+        "title": "Access to Water &amp; Sanitation",
+        "text": "Field Value Variable Id iiag-health-accwatersanit Definition Measures the availability of drinking water from an improved source, provided collection time is not more than 30 minutes for a round trip, including queuing. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AccWaterSanit. Original data source/s - WHO&amp;UNICEF",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "control-of-communicable-diseases",
+        "level": 3,
+        "title": "Control of Communicable Diseases",
+        "text": "Field Value Variable Id iiag-health-contcomdis Definition Measures the estimated number of deaths from malaria in a given year, calculated by MIF per 100,000 of the population using the World Population Prospects by UNDESA. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ContComDis. Original data source/s - UNAIDS/WHO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "control-of-non-communicable-diseases",
+        "level": 3,
+        "title": "Control of Non-Communicable Diseases",
+        "text": "Field Value Variable Id iiag-health-contnoncomdis Definition Measures the age-standardised percentage of DALY's (disability adjusted life years) due to metabolic risks. Disability-Adjusted Life Years (DALYs) are defined as the sum of years lost due to premature death and years lived with disability. DALYs are also defined as years of healthy life lost. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ContNonComDis. Original data source/s - IHME",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "child-maternal-health",
+        "level": 3,
+        "title": "Child &amp; Maternal Health",
+        "text": "Field Value Variable Id iiag-health-contchildmathealth Definition Measures the probability of dying between birth and exact age 5, expressed per 1,000 live births. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - ContChildMatHealth. Original data source/s - UN IGME/UN MMEIG/UNDESA/UNICEF&amp;WHO&amp;WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "health-quality",
+        "level": 3,
+        "title": "Health Quality",
+        "text": "Field Value Variable Id iiag-health-healthqual Definition Measures compliance with 1 out of 15 WHO International Health Regulations core capacity scores: Human resources. The revised International Health Regulations (IHR) were adopted in 2005 and entered into force in 2007. Under the IHR, States Parties are obliged to develop and maintain minimum core capacities for surveillance and response, including at points of entry, in order to early detect, assess, notify, and respond to any potential public health events of international concern. The 15 capacities are: C1. Policy, legal and normative instruments to implement IHR, C2. IHR coordination and National IHR Focal Point, C.3. Financing, C4. Laboratory, C5. Surveillance, C6. Human resources, C7. Health emergency management, C8. Health services provision, C9. Infection prevention and control (IPC) C10. Risk communication and community engagement (RCCE), C11. Points of entry (PoEs) and border health, C12. Zoonotic diseases, C13. Food safety, C14. Chemical events, C15. Radiation emergencies. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - HealthQual. Original data source/s - WHO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-health-provision",
+        "level": 3,
+        "title": "Public Perception of Health Provision",
+        "text": "Field Value Variable Id iiag-health-sathealth Definition Assesses citizens' perceptions of how easy it is to obtain the medical care they need. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SatHealth. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "education",
+        "level": 2,
+        "title": "Education",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "equality-in-education",
+        "level": 3,
+        "title": "Equality in Education",
+        "text": "Field Value Variable Id iiag-education-equeduc Definition Measures the ratio of female gross enrolment to male gross enrolment in primary and lower secondary education. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EquEduc. Original data source/s - V-DEM/UNESCO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "education-enrolment",
+        "level": 3,
+        "title": "Education Enrolment",
+        "text": "Field Value Variable Id iiag-education-educenr Definition Measures the number of students enrolled in pre-primary level of education, regardless of age, expressed as a percentage of the eligible official school-age population corresponding to pre-primary education. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EducEnr. Original data source/s - UNESCO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "education-completion",
+        "level": 3,
+        "title": "Education Completion",
+        "text": "Field Value Variable Id iiag-education-compeduc Definition Measures the percentage of a cohort of children or young people aged 3-5 years above the intended age for the last grade of the primary level of education who have completed that grade. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - CompEduc. Original data source/s - UNESCO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "human-resources-in-education",
+        "level": 3,
+        "title": "Human Resources in Education",
+        "text": "Field Value Variable Id iiag-education-educres Definition Measures the average number of pupils per qualified teacher at the primary level of education in a given academic year. A qualified teacher is one who has at least the minimum academic qualifications required for teaching their subjects at the relevant level in a given country in a given academic year. The higher the pupil/qualified teacher ratio, the lower the relative access of pupils to qualified teachers. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EducRes. Original data source/s - UNESCO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "education-quality",
+        "level": 3,
+        "title": "Education Quality",
+        "text": "Field Value Variable Id iiag-education-eduqqual Definition Assesses the extent to which there are solid institutions for basic, secondary, and tertiary education, as well as for research and development. It Assesses whether education policy is successful in delivering high quality education and training, and research and development receive effective support from the government. It does not focus on expenditures alone, but also on the quality and competitiveness of the education system and the research sector, considering the structure of funding and knowledge providers (public, private and international cooperation), the output of the educational and developmental efforts, e.g. enrolment rates, literacy rates, percentage of people with higher education and number of patent applications. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EduqQual. Original data source/s - BS/WB/WEF",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-education-provision",
+        "level": 3,
+        "title": "Public Perception of Education Provision",
+        "text": "Field Value Variable Id iiag-education-sateduc Definition Assesses citizens' perceptions of how easy it was to obtain the services they needed from teachers or school officials. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SatEduc. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "social-protection-welfare",
+        "level": 2,
+        "title": "Social Protection &amp; Welfare",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "social-safety-nets",
+        "level": 3,
+        "title": "Social Safety Nets",
+        "text": "Field Value Variable Id iiag-social-socialsafnet Definition Assesses the extent to which there are departments or equivalent mandated to ensure social safety nets for the elderly, those with an illness or health conditions and the unemployed. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SocialSafNet. Original data source/s - AFIDEP/BS",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "poverty-reduction-policies",
+        "level": 3,
+        "title": "Poverty Reduction Policies",
+        "text": "Field Value Variable Id iiag-social-povredpol Definition Assesses the extent to which significant parts of the population are fundamentally excluded from society due to poverty and inequality. It Assesses the level of social exclusion as a determining factor for economic transformation. It refers to structural exclusion and not to the output strength of a country’s economy as reflected in macroeconomic data like unemployment or GDP growth. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PovRedPol. Original data source/s - AfDB/BS/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "socioeconomic-inequality-mitigation",
+        "level": 3,
+        "title": "Socioeconomic Inequality Mitigation",
+        "text": "Field Value Variable Id iiag-social-ineqmitig Definition Assesses the extent to which the pattern of public expenditures and revenue collection affects the poor and is consistent with national poverty reduction priorities. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - IneqMitig. Original data source/s - AfDB/FFP/WB/WID.World",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "decent-housing",
+        "level": 3,
+        "title": "Decent Housing",
+        "text": "Field Value Variable Id iiag-social-dechous Definition Measures the proportion of the urban population living in slums. Slum households are households whose members suffer one or more of the following ‘household deprivations’: i) Lack of access to improved water source, ii) Lack of access to improved sanitation facilities, iii) Lack of sufficient living area, iv)Lack of housing durability and, v) Lack of security of tenure. Estimations do not include security of tenure due to data limitations. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - DecHous. Original data source/s - CAHF/UN-Habitat",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "food-security",
+        "level": 3,
+        "title": "Food Security",
+        "text": "Field Value Variable Id iiag-social-foodsec Definition Measures the prevalence of undernourishment, expressed as the probability that a randomly selected individual from the population consumes an amount of calories that is insufficient to cover her/his energy requirement for an active and healthy life. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - FoodSec. Original data source/s - FAO",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "public-perception-of-social-protection-lived-poverty",
+        "level": 3,
+        "title": "Public Perception of Social Protection &amp; Lived Poverty",
+        "text": "Field Value Variable Id iiag-social-livpovpubpercsocprot Definition Assesses citizens' perceptions of their present living conditions. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - LivPovPubPercSocProt. Original data source/s - AFR",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "sustainable-environment",
+        "level": 2,
+        "title": "Sustainable Environment",
+        "text": "",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "promotion-of-environmental-sustainability",
+        "level": 3,
+        "title": "Promotion of Environmental Sustainability",
+        "text": "Field Value Variable Id iiag-environ-promenvsust Definition Assesses the extent to which environmental concerns are effectively taken into account in both macro and microeconomic terms. It considers the extent to which externalisation of costs or inadequate time horizons are avoided or restrained by environmental regulation. In macroeconomic terms, it Assesses the extent to which tax and energy policies take ecological goals and Measures into account (e.g. promotion of renewable energies, CO2 reduction goals). In microeconomic terms, it Assesses the extent to which the government sets incentives for environmentally sound consumption and investments to households and companies. A deeply ingrained awareness of the environment or nature in society may serve as a functional equivalent. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - PromEnvSust. Original data source/s - AfDB/BS/WB",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "enforcement-of-environmental-policies",
+        "level": 3,
+        "title": "Enforcement of Environmental Policies",
+        "text": "Field Value Variable Id iiag-environ-enfenvpol Definition Assesses the extent to which environmental protection authorities enforce environmental laws. This is based on the following criteria: the extent to which companies comply with the law after notification of violations from environmental protection authorities; firms get audited or inspected by environmental protection authorities as a result of allegations of pollution by neighbours; firms are routinely audited by the environmental protection authorities; it is likely that environmental protection authorities will impose sanctions if violations are detected. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - EnfEnvPol. Original data source/s - WEF/WJP",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "air-quality",
+        "level": 3,
+        "title": "Air Quality",
+        "text": "Field Value Variable Id iiag-environ-airqual Definition Measures the ratio of disability-adjusted life-years (DALYs) to the population per 100,000 people due to air pollution. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - AirQual. Original data source/s - HEI&amp;IHME",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "sustainable-use-of-land-forests",
+        "level": 3,
+        "title": "Sustainable Use of Land &amp; Forests",
+        "text": "Field Value Variable Id iiag-environ-sususelandfor Definition Measures the diversification of agricultural production as well as the extent to which the agricultural area is under certified organic agriculture. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - SusUseLandFor. Original data source/s - FAO/WB/WRI",
+        "path": [],
+        "tags": []
+      },
+      {
+        "location": "land-water-biodiversity-protection",
+        "level": 3,
+        "title": "Land &amp; Water Biodiversity Protection",
+        "text": "Field Value Variable Id iiag-environ-landwatbiodiv Definition Assesses a country’s efforts to achieve 30% protection for all biomes within its borders. It is calculated using the percentage of each country’s biomes covered by protected areas. It is calculated using the proportions of the area of each of a country’s biome types that are covered by protected areas and then constructing a weighted sum of the protection percentages for all biomes within that country. Protection percentages are weighted according to the prevalence of each biome type within that country. Format 0=Unknown or n.a.; 1=&lt;20%; 2=20-49%; 3=50-69%; 4=70-89%; 5=&gt;89% Other Metadata IIAG Series Id - LandWatBiodiv. Original data source/s - ENACT/WB/Yale&amp;Columbia",
+        "path": [],
+        "tags": []
+      }
+    ],
+    "title": "Ibrahim metadata",
+    "toc": [
+      {
+        "title": "Ibrahim metadata",
+        "id": "ibrahim-metadata",
+        "url": "#ibrahim-metadata",
+        "children": [
+          {
+            "title": "Security &amp; Safety",
+            "id": "security-safety",
+            "url": "#security-safety",
+            "children": [
+              {
+                "title": "Absence of Armed Conflict",
+                "id": "absence-of-armed-conflict",
+                "url": "#absence-of-armed-conflict",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Violence against Civilians",
+                "id": "absence-of-violence-against-civilians",
+                "url": "#absence-of-violence-against-civilians",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Forced Migration",
+                "id": "absence-of-forced-migration",
+                "url": "#absence-of-forced-migration",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Human Trafficking &amp; Forced Labour",
+                "id": "absence-of-human-trafficking-forced-labour",
+                "url": "#absence-of-human-trafficking-forced-labour",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Crime",
+                "id": "absence-of-crime",
+                "url": "#absence-of-crime",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Security &amp; Safety",
+                "id": "public-perception-of-security-safety",
+                "url": "#public-perception-of-security-safety",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Rule Of Law &amp; Justice",
+            "id": "rule-of-law-justice",
+            "url": "#rule-of-law-justice",
+            "children": [
+              {
+                "title": "Executive Compliance with the Rule of Law",
+                "id": "executive-compliance-with-the-rule-of-law",
+                "url": "#executive-compliance-with-the-rule-of-law",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Impartiality of the Judicial System",
+                "id": "impartiality-of-the-judicial-system",
+                "url": "#impartiality-of-the-judicial-system",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Judicial Processes",
+                "id": "judicial-processes",
+                "url": "#judicial-processes",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equality before the Law",
+                "id": "equality-before-the-law",
+                "url": "#equality-before-the-law",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Law Enforcement",
+                "id": "law-enforcement",
+                "url": "#law-enforcement",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Property Rights",
+                "id": "property-rights",
+                "url": "#property-rights",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of the Rule of Law",
+                "id": "public-perception-of-the-rule-of-law",
+                "url": "#public-perception-of-the-rule-of-law",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Accountability &amp; Transparency",
+            "id": "accountability-transparency",
+            "url": "#accountability-transparency",
+            "children": [
+              {
+                "title": "Institutional Checks &amp; Balances",
+                "id": "institutional-checks-balances",
+                "url": "#institutional-checks-balances",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Undue Influence",
+                "id": "absence-of-undue-influence",
+                "url": "#absence-of-undue-influence",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Civic Checks &amp; Balances",
+                "id": "civic-checks-balances",
+                "url": "#civic-checks-balances",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Disclosure of Public Records",
+                "id": "disclosure-of-public-records",
+                "url": "#disclosure-of-public-records",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Accessibility of Public Records",
+                "id": "accessibility-of-public-records",
+                "url": "#accessibility-of-public-records",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Accountability",
+                "id": "public-perception-of-accountability",
+                "url": "#public-perception-of-accountability",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Anti-Corruption",
+            "id": "anti-corruption",
+            "url": "#anti-corruption",
+            "children": [
+              {
+                "title": "Anti-Corruption Mechanisms",
+                "id": "anti-corruption-mechanisms",
+                "url": "#anti-corruption-mechanisms",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Corruption in State Institutions",
+                "id": "absence-of-corruption-in-state-institutions",
+                "url": "#absence-of-corruption-in-state-institutions",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Corruption in the Public Sector",
+                "id": "absence-of-corruption-in-the-public-sector",
+                "url": "#absence-of-corruption-in-the-public-sector",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Procurement Procedures",
+                "id": "public-procurement-procedures",
+                "url": "#public-procurement-procedures",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Absence of Corruption in the Private Sector",
+                "id": "absence-of-corruption-in-the-private-sector",
+                "url": "#absence-of-corruption-in-the-private-sector",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Anti-Corruption",
+                "id": "public-perception-of-anti-corruption",
+                "url": "#public-perception-of-anti-corruption",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Participation",
+            "id": "participation",
+            "url": "#participation",
+            "children": [
+              {
+                "title": "Freedom of Association &amp; Assembly",
+                "id": "freedom-of-association-assembly",
+                "url": "#freedom-of-association-assembly",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Political Pluralism",
+                "id": "political-pluralism",
+                "url": "#political-pluralism",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Civil Society Space",
+                "id": "civil-society-space",
+                "url": "#civil-society-space",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Democratic Elections",
+                "id": "democratic-elections",
+                "url": "#democratic-elections",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Deliberative &amp; Participatory Governance",
+                "id": "deliberative-participatory-governance",
+                "url": "#deliberative-participatory-governance",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Political Participation",
+                "id": "public-perception-of-political-participation",
+                "url": "#public-perception-of-political-participation",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Rights",
+            "id": "rights",
+            "url": "#rights",
+            "children": [
+              {
+                "title": "Personal Liberties",
+                "id": "personal-liberties",
+                "url": "#personal-liberties",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Freedom of Expression &amp; Belief",
+                "id": "freedom-of-expression-belief",
+                "url": "#freedom-of-expression-belief",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Media Freedom",
+                "id": "media-freedom",
+                "url": "#media-freedom",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Digital Freedom",
+                "id": "digital-freedom",
+                "url": "#digital-freedom",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Protection against Discrimination",
+                "id": "protection-against-discrimination",
+                "url": "#protection-against-discrimination",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Freedom of Speech",
+                "id": "public-perception-of-freedom-of-speech",
+                "url": "#public-perception-of-freedom-of-speech",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Inclusion &amp; Equality",
+            "id": "inclusion-equality",
+            "url": "#inclusion-equality",
+            "children": [
+              {
+                "title": "Equal Political Power",
+                "id": "equal-political-power",
+                "url": "#equal-political-power",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equal Political Representation",
+                "id": "equal-political-representation",
+                "url": "#equal-political-representation",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equal Civil Liberties",
+                "id": "equal-civil-liberties",
+                "url": "#equal-civil-liberties",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equal Socioeconomic Opportunity",
+                "id": "equal-socioeconomic-opportunity",
+                "url": "#equal-socioeconomic-opportunity",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Equal Access to Public Services",
+                "id": "equal-access-to-public-services",
+                "url": "#equal-access-to-public-services",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Inclusion &amp; Equality",
+                "id": "public-perception-of-inclusion-equality",
+                "url": "#public-perception-of-inclusion-equality",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Women's Equality",
+            "id": "womens-equality",
+            "url": "#womens-equality",
+            "children": [
+              {
+                "title": "Political Power &amp; Representation of Women",
+                "id": "political-power-representation-of-women",
+                "url": "#political-power-representation-of-women",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Rights &amp; Civil Liberties for Women",
+                "id": "rights-civil-liberties-for-women",
+                "url": "#rights-civil-liberties-for-women",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Socioeconomic Opportunity for Women",
+                "id": "socioeconomic-opportunity-for-women",
+                "url": "#socioeconomic-opportunity-for-women",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Access to Public Services for Women",
+                "id": "access-to-public-services-for-women",
+                "url": "#access-to-public-services-for-women",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Laws on Violence against Women",
+                "id": "laws-on-violence-against-women",
+                "url": "#laws-on-violence-against-women",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Female Leadership",
+                "id": "public-perception-of-female-leadership",
+                "url": "#public-perception-of-female-leadership",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Public Administration",
+            "id": "public-administration",
+            "url": "#public-administration",
+            "children": [
+              {
+                "title": "Civil Registration",
+                "id": "civil-registration",
+                "url": "#civil-registration",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Capacity of the Statistical System",
+                "id": "capacity-of-the-statistical-system",
+                "url": "#capacity-of-the-statistical-system",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Effective Administration",
+                "id": "effective-administration",
+                "url": "#effective-administration",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Tax &amp; Revenue Mobilisation",
+                "id": "tax-revenue-mobilisation",
+                "url": "#tax-revenue-mobilisation",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Budgetary &amp; Financial Management",
+                "id": "budgetary-financial-management",
+                "url": "#budgetary-financial-management",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Easiness to Obtain an Identity Document",
+                "id": "public-perception-of-easiness-to-obtain-an-identity-document",
+                "url": "#public-perception-of-easiness-to-obtain-an-identity-document",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Business &amp; Labour Environment",
+            "id": "business-labour-environment",
+            "url": "#business-labour-environment",
+            "children": [
+              {
+                "title": "Regional Integration",
+                "id": "regional-integration",
+                "url": "#regional-integration",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Economic Diversification",
+                "id": "economic-diversification",
+                "url": "#economic-diversification",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Business &amp; Competition Regulations",
+                "id": "business-competition-regulations",
+                "url": "#business-competition-regulations",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Access to Banking Services",
+                "id": "access-to-banking-services",
+                "url": "#access-to-banking-services",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Labour Relations",
+                "id": "labour-relations",
+                "url": "#labour-relations",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Secure Employment Opportunities",
+                "id": "secure-employment-opportunities",
+                "url": "#secure-employment-opportunities",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Economic Opportunities",
+                "id": "public-perception-of-economic-opportunities",
+                "url": "#public-perception-of-economic-opportunities",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Infrastructure",
+            "id": "infrastructure",
+            "url": "#infrastructure",
+            "children": [
+              {
+                "title": "Transport Network",
+                "id": "transport-network",
+                "url": "#transport-network",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Access to Energy",
+                "id": "access-to-energy",
+                "url": "#access-to-energy",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Mobile Communications",
+                "id": "mobile-communications",
+                "url": "#mobile-communications",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Internet &amp; Computers",
+                "id": "internet-computers",
+                "url": "#internet-computers",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Shipping &amp; Postal Network",
+                "id": "shipping-postal-network",
+                "url": "#shipping-postal-network",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Infrastructure",
+                "id": "public-perception-of-infrastructure",
+                "url": "#public-perception-of-infrastructure",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Rural Economy",
+            "id": "rural-economy",
+            "url": "#rural-economy",
+            "children": [
+              {
+                "title": "Rural Land &amp; Water Access",
+                "id": "rural-land-water-access",
+                "url": "#rural-land-water-access",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Rural Market Access",
+                "id": "rural-market-access",
+                "url": "#rural-market-access",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Rural Economy Support",
+                "id": "rural-economy-support",
+                "url": "#rural-economy-support",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Rural Representation &amp; Participation",
+                "id": "rural-representation-participation",
+                "url": "#rural-representation-participation",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Health",
+            "id": "health",
+            "url": "#health",
+            "children": [
+              {
+                "title": "Access to Healthcare",
+                "id": "access-to-healthcare",
+                "url": "#access-to-healthcare",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Access to Water &amp; Sanitation",
+                "id": "access-to-water-sanitation",
+                "url": "#access-to-water-sanitation",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Control of Communicable Diseases",
+                "id": "control-of-communicable-diseases",
+                "url": "#control-of-communicable-diseases",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Control of Non-Communicable Diseases",
+                "id": "control-of-non-communicable-diseases",
+                "url": "#control-of-non-communicable-diseases",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Child &amp; Maternal Health",
+                "id": "child-maternal-health",
+                "url": "#child-maternal-health",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Health Quality",
+                "id": "health-quality",
+                "url": "#health-quality",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Health Provision",
+                "id": "public-perception-of-health-provision",
+                "url": "#public-perception-of-health-provision",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Education",
+            "id": "education",
+            "url": "#education",
+            "children": [
+              {
+                "title": "Equality in Education",
+                "id": "equality-in-education",
+                "url": "#equality-in-education",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Education Enrolment",
+                "id": "education-enrolment",
+                "url": "#education-enrolment",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Education Completion",
+                "id": "education-completion",
+                "url": "#education-completion",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Human Resources in Education",
+                "id": "human-resources-in-education",
+                "url": "#human-resources-in-education",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Education Quality",
+                "id": "education-quality",
+                "url": "#education-quality",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Education Provision",
+                "id": "public-perception-of-education-provision",
+                "url": "#public-perception-of-education-provision",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Social Protection &amp; Welfare",
+            "id": "social-protection-welfare",
+            "url": "#social-protection-welfare",
+            "children": [
+              {
+                "title": "Social Safety Nets",
+                "id": "social-safety-nets",
+                "url": "#social-safety-nets",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Poverty Reduction Policies",
+                "id": "poverty-reduction-policies",
+                "url": "#poverty-reduction-policies",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Socioeconomic Inequality Mitigation",
+                "id": "socioeconomic-inequality-mitigation",
+                "url": "#socioeconomic-inequality-mitigation",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Decent Housing",
+                "id": "decent-housing",
+                "url": "#decent-housing",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Food Security",
+                "id": "food-security",
+                "url": "#food-security",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Public Perception of Social Protection &amp; Lived Poverty",
+                "id": "public-perception-of-social-protection-lived-poverty",
+                "url": "#public-perception-of-social-protection-lived-poverty",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          },
+          {
+            "title": "Sustainable Environment",
+            "id": "sustainable-environment",
+            "url": "#sustainable-environment",
+            "children": [
+              {
+                "title": "Promotion of Environmental Sustainability",
+                "id": "promotion-of-environmental-sustainability",
+                "url": "#promotion-of-environmental-sustainability",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Enforcement of Environmental Policies",
+                "id": "enforcement-of-environmental-policies",
+                "url": "#enforcement-of-environmental-policies",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Air Quality",
+                "id": "air-quality",
+                "url": "#air-quality",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Sustainable Use of Land &amp; Forests",
+                "id": "sustainable-use-of-land-forests",
+                "url": "#sustainable-use-of-land-forests",
+                "children": [],
+                "level": 3
+              },
+              {
+                "title": "Land &amp; Water Biodiversity Protection",
+                "id": "land-water-biodiversity-protection",
+                "url": "#land-water-biodiversity-protection",
+                "children": [],
+                "level": 3
+              }
+            ],
+            "level": 2
+          }
+        ],
+        "level": 1
+      }
+    ]
+  },
+  "hash": 9104423017903277739
+}
