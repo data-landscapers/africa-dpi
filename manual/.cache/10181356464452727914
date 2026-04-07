@@ -1,7 +1,7 @@
 {
   "data": {
     "meta": {},
-    "content": "<h1 id=\"third-party-datasets\">Third party datasets<a class=\"headerlink\" href=\"#third-party-datasets\" title=\"Permanent link\">&para;</a></h1>\n<p>To provide a broader context to DPI developments, selections of indicators have been included from five well-established datasets:</p>\n<ul>\n<li><a href=\"https://www.worldbank.org/en/programs/govtech/gtmi\" target=\"_blank\" rel=\"noopener noreferrer\">The World Bank's GovTech Maturity Index 2025</a>  </li>\n<li><a href=\"https://www.worldbank.org/en/programs/statistical-performance-indicators\" target=\"_blank\" rel=\"noopener noreferrer\">The World Bank's Statistical Performance Indicators, 2023</a>  </li>\n<li><a href=\"https://odin.opendatawatch.com/data\" target=\"_blank\" rel=\"noopener noreferrer\">Open Data Watch's Open Data Inventory, 2024</a>  </li>\n<li><a href=\"https://datacatalog.worldbank.org/search/dataset/0037889/govtech-dataset\" target=\"_blank\" rel=\"noopener noreferrer\">The Mo Ibrahim Index of African Governance, 2023</a>  </li>\n</ul>\n<p>Metadata from these sources has been provided in the same format as the Perplexity approach.</p>",
+    "content": "<h1 id=\"third-party-datasets\">Third party datasets<a class=\"headerlink\" href=\"#third-party-datasets\" title=\"Permanent link\">&para;</a></h1>\n<p>To provide a broader context to DPI developments, selections of indicators have been included from five well-established datasets:</p>\n<ul>\n<li><a href=\"https://www.worldbank.org/en/programs/govtech/gtmi\" target=\"_blank\" rel=\"noopener noreferrer\">The World Bank's GovTech Maturity Index 2025</a>  </li>\n<li><a href=\"https://www.worldbank.org/en/programs/statistical-performance-indicators\" target=\"_blank\" rel=\"noopener noreferrer\">The World Bank's Statistical Performance Indicators, 2023</a>  </li>\n<li><a href=\"https://odin.opendatawatch.com/data\" target=\"_blank\" rel=\"noopener noreferrer\">Open Data Watch's Open Data Inventory, 2024</a>  </li>\n<li><a href=\"https://iiag.online/data.html\" target=\"_blank\" rel=\"noopener noreferrer\">The Mo Ibrahim Index of African Governance, 2023</a>  </li>\n</ul>\n<p>Metadata from these sources has been provided in the same format as the Perplexity approach.</p>",
     "search": [
       {
         "location": null,
@@ -23,5 +23,5 @@
       }
     ]
   },
-  "hash": 17215079371338889622
+  "hash": 3095553212011183197
 }
