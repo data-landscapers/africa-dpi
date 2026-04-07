@@ -50,7 +50,7 @@ nav = [
    { "Third-party datasets" = "third-party-data.md" },
    { "Help" = "markdown.md" },
    {"Metadata" = [
-     {"Data exchange" = "data-exchange.md" },
+     {"Data exchange" = "data-exchange-metadata.md" },
     ]}
 ]
 
