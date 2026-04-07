@@ -58,7 +58,7 @@ Metadata employed in data collection using Perplexity Deep Research.
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Search digital identity strategies, authentication frameworks, Digital ID system documentation, service delivery platforms, identity verification protocols|
 
-### Civil Registration \& Vital Statistics Integration
+### Civil Registration & Vital Statistics Integration
 
 |Field|Value|
 |-|-|
@@ -78,7 +78,7 @@ Metadata employed in data collection using Perplexity Deep Research.
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Search digital payments strategies, G2P payment system documentation, financial inclusion frameworks, payment ecosystem modernization programs|
 
-### Tax \& Revenue Integration
+### Tax & Revenue Integration
 
 |Field|Value|
 |-|-|
@@ -98,7 +98,7 @@ Metadata employed in data collection using Perplexity Deep Research.
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Search electoral commission strategic plans, voter registration system documentation, election management body reports, data sharing agreements|
 
-### Passport \& Immigration Integration
+### Passport & Immigration Integration
 
 |Field|Value|
 |-|-|
@@ -168,12 +168,12 @@ Metadata employed in data collection using Perplexity Deep Research.
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Review justice sector ICT strategies, court digitization programs, case management system modernization, legal information systems|
 
-### National Planning \& Statistics Integration
+### National Planning & Statistics Integration
 
 |Field|Value|
 |-|-|
 |Variable|exchange-func-planning|
-|Definition|Integration of statistics, census data, administrative data for planning, M\&E, and evidence-based policymaking|
+|Definition|Integration of statistics, census data, administrative data for planning, M&E, and evidence-based policymaking|
 |Format|Categorical: 0=Unknown; 1=Not integrated; 2=Planned; 3=Under development; 4=Partially integrated; 5=Fully Integrated|
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Search national statistics strategies, census digitization, secure data facility documentation, statistical business registers, data for development initiatives|
@@ -188,7 +188,7 @@ Metadata employed in data collection using Perplexity Deep Research.
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Review labor department digital strategies, employment services modernization, unemployment insurance system documentation, youth employment platforms|
 
-### Business Registration \& Licensing Integration
+### Business Registration & Licensing Integration
 
 |Field|Value|
 |-|-|
@@ -240,7 +240,7 @@ Metadata employed in data collection using Perplexity Deep Research.
 |-|-|
 |Variable|exchange-cred-transparency|
 |Definition|Level of public transparency regarding data exchange operations, governance, and data sharing agreements|
-|Format|Categorical: 0=Unknown; 1=None; 2=Low = Limited Disclosure; 3=Moderate = Annual Reports; 4=High = Public Dashboard \& Reports|
+|Format|Categorical: 0=Unknown; 1=None; 2=Low = Limited Disclosure; 3=Moderate = Annual Reports; 4=High = Public Dashboard & Reports|
 |Other Metadata|Provide details in Comments|
 |Data Collection Guidelines|Review open government commitments, transparency portals, public API catalogs, open data initiatives, right to information disclosures|
 
