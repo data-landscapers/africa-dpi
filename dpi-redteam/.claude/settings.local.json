@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(wc *)",
+      "Bash(comm *)",
+      "Bash(sed 's/__.*//')",
+      "mcp__exa__web_search_exa",
+      "mcp__exa__web_fetch_exa",
+      "Bash(python *)",
+      "Skill(update-config)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "exa"
+  ]
+}
