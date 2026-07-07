@@ -1,0 +1,189 @@
+chapter,country,rows,file
+Data Exchange,AGO,1,Data-Exchange__AGO.csv
+Data Exchange,BDI,10,Data-Exchange__BDI.csv
+Data Exchange,BEN,1,Data-Exchange__BEN.csv
+Data Exchange,CIV,1,Data-Exchange__CIV.csv
+Data Exchange,CMR,4,Data-Exchange__CMR.csv
+Data Exchange,COD,2,Data-Exchange__COD.csv
+Data Exchange,COG,9,Data-Exchange__COG.csv
+Data Exchange,COM,1,Data-Exchange__COM.csv
+Data Exchange,CPV,7,Data-Exchange__CPV.csv
+Data Exchange,DJI,9,Data-Exchange__DJI.csv
+Data Exchange,GAB,2,Data-Exchange__GAB.csv
+Data Exchange,GNB,6,Data-Exchange__GNB.csv
+Data Exchange,LBY,3,Data-Exchange__LBY.csv
+Data Exchange,MAR,2,Data-Exchange__MAR.csv
+Data Exchange,MDG,5,Data-Exchange__MDG.csv
+Data Exchange,MRT,1,Data-Exchange__MRT.csv
+Data Exchange,MWI,1,Data-Exchange__MWI.csv
+Data Exchange,NAM,1,Data-Exchange__NAM.csv
+Data Exchange,NER,2,Data-Exchange__NER.csv
+Data Exchange,SDN,3,Data-Exchange__SDN.csv
+Data Exchange,SEN,2,Data-Exchange__SEN.csv
+Data Exchange,SOM,2,Data-Exchange__SOM.csv
+Data Exchange,SSD,1,Data-Exchange__SSD.csv
+Data Exchange,STP,1,Data-Exchange__STP.csv
+Data Exchange,SWZ,1,Data-Exchange__SWZ.csv
+Data Exchange,TCD,5,Data-Exchange__TCD.csv
+Data Exchange,TZA,8,Data-Exchange__TZA.csv
+Data Exchange,UGA,1,Data-Exchange__UGA.csv
+Data Exchange,ZAF,1,Data-Exchange__ZAF.csv
+Data Exchange,ZMB,1,Data-Exchange__ZMB.csv
+Digital Id,AGO,4,Digital-Id__AGO.csv
+Digital Id,BDI,4,Digital-Id__BDI.csv
+Digital Id,BEN,15,Digital-Id__BEN.csv
+Digital Id,BFA,1,Digital-Id__BFA.csv
+Digital Id,BWA,16,Digital-Id__BWA.csv
+Digital Id,CAF,11,Digital-Id__CAF.csv
+Digital Id,COD,6,Digital-Id__COD.csv
+Digital Id,COG,17,Digital-Id__COG.csv
+Digital Id,COM,7,Digital-Id__COM.csv
+Digital Id,DJI,11,Digital-Id__DJI.csv
+Digital Id,DZA,10,Digital-Id__DZA.csv
+Digital Id,ERI,12,Digital-Id__ERI.csv
+Digital Id,GAB,5,Digital-Id__GAB.csv
+Digital Id,GIN,25,Digital-Id__GIN.csv
+Digital Id,GMB,10,Digital-Id__GMB.csv
+Digital Id,GNB,12,Digital-Id__GNB.csv
+Digital Id,GNQ,12,Digital-Id__GNQ.csv
+Digital Id,KEN,20,Digital-Id__KEN.csv
+Digital Id,LBY,16,Digital-Id__LBY.csv
+Digital Id,LSO,24,Digital-Id__LSO.csv
+Digital Id,MAR,25,Digital-Id__MAR.csv
+Digital Id,MDG,2,Digital-Id__MDG.csv
+Digital Id,MLI,22,Digital-Id__MLI.csv
+Digital Id,MOZ,22,Digital-Id__MOZ.csv
+Digital Id,MRT,24,Digital-Id__MRT.csv
+Digital Id,MUS,9,Digital-Id__MUS.csv
+Digital Id,MWI,16,Digital-Id__MWI.csv
+Digital Id,NAM,9,Digital-Id__NAM.csv
+Digital Id,NER,5,Digital-Id__NER.csv
+Digital Id,NGA,12,Digital-Id__NGA.csv
+Digital Id,RWA,14,Digital-Id__RWA.csv
+Digital Id,SDN,23,Digital-Id__SDN.csv
+Digital Id,SEN,12,Digital-Id__SEN.csv
+Digital Id,SLE,17,Digital-Id__SLE.csv
+Digital Id,SOM,8,Digital-Id__SOM.csv
+Digital Id,SSD,4,Digital-Id__SSD.csv
+Digital Id,STP,3,Digital-Id__STP.csv
+Digital Id,SWZ,19,Digital-Id__SWZ.csv
+Digital Id,SYC,9,Digital-Id__SYC.csv
+Digital Id,TCD,21,Digital-Id__TCD.csv
+Digital Id,TGO,23,Digital-Id__TGO.csv
+Digital Id,TUN,16,Digital-Id__TUN.csv
+Digital Id,TZA,11,Digital-Id__TZA.csv
+Digital Id,UGA,11,Digital-Id__UGA.csv
+Digital Id,ZAF,9,Digital-Id__ZAF.csv
+Digital Id,ZMB,9,Digital-Id__ZMB.csv
+Digital Id,ZWE,20,Digital-Id__ZWE.csv
+Digital Pay,AGO,3,Digital-Pay__AGO.csv
+Digital Pay,BEN,1,Digital-Pay__BEN.csv
+Digital Pay,BFA,1,Digital-Pay__BFA.csv
+Digital Pay,BWA,1,Digital-Pay__BWA.csv
+Digital Pay,CAF,3,Digital-Pay__CAF.csv
+Digital Pay,CIV,2,Digital-Pay__CIV.csv
+Digital Pay,CMR,6,Digital-Pay__CMR.csv
+Digital Pay,COD,1,Digital-Pay__COD.csv
+Digital Pay,COM,1,Digital-Pay__COM.csv
+Digital Pay,DJI,1,Digital-Pay__DJI.csv
+Digital Pay,EGY,1,Digital-Pay__EGY.csv
+Digital Pay,ETH,1,Digital-Pay__ETH.csv
+Digital Pay,GHA,19,Digital-Pay__GHA.csv
+Digital Pay,GNB,1,Digital-Pay__GNB.csv
+Digital Pay,GNQ,1,Digital-Pay__GNQ.csv
+Digital Pay,KEN,4,Digital-Pay__KEN.csv
+Digital Pay,LBR,2,Digital-Pay__LBR.csv
+Digital Pay,LSO,4,Digital-Pay__LSO.csv
+Digital Pay,MAR,3,Digital-Pay__MAR.csv
+Digital Pay,MDG,3,Digital-Pay__MDG.csv
+Digital Pay,MLI,1,Digital-Pay__MLI.csv
+Digital Pay,MRT,2,Digital-Pay__MRT.csv
+Digital Pay,MWI,11,Digital-Pay__MWI.csv
+Digital Pay,RWA,3,Digital-Pay__RWA.csv
+Digital Pay,SDN,4,Digital-Pay__SDN.csv
+Digital Pay,SEN,1,Digital-Pay__SEN.csv
+Digital Pay,SLE,2,Digital-Pay__SLE.csv
+Digital Pay,SOM,1,Digital-Pay__SOM.csv
+Digital Pay,SSD,1,Digital-Pay__SSD.csv
+Digital Pay,STP,2,Digital-Pay__STP.csv
+Digital Pay,SWZ,2,Digital-Pay__SWZ.csv
+Digital Pay,SYC,4,Digital-Pay__SYC.csv
+Digital Pay,TCD,3,Digital-Pay__TCD.csv
+Digital Pay,TUN,5,Digital-Pay__TUN.csv
+Digital Pay,TZA,1,Digital-Pay__TZA.csv
+Digital Pay,UGA,1,Digital-Pay__UGA.csv
+Digital Pay,ZAF,3,Digital-Pay__ZAF.csv
+Digital Pay,ZMB,2,Digital-Pay__ZMB.csv
+ICT Infrastructure,AGO,2,ICT-Infrastructure__AGO.csv
+ICT Infrastructure,BDI,6,ICT-Infrastructure__BDI.csv
+ICT Infrastructure,BEN,2,ICT-Infrastructure__BEN.csv
+ICT Infrastructure,BFA,2,ICT-Infrastructure__BFA.csv
+ICT Infrastructure,BWA,1,ICT-Infrastructure__BWA.csv
+ICT Infrastructure,CAF,4,ICT-Infrastructure__CAF.csv
+ICT Infrastructure,CMR,6,ICT-Infrastructure__CMR.csv
+ICT Infrastructure,COD,1,ICT-Infrastructure__COD.csv
+ICT Infrastructure,COG,2,ICT-Infrastructure__COG.csv
+ICT Infrastructure,COM,1,ICT-Infrastructure__COM.csv
+ICT Infrastructure,DJI,4,ICT-Infrastructure__DJI.csv
+ICT Infrastructure,EGY,1,ICT-Infrastructure__EGY.csv
+ICT Infrastructure,ERI,3,ICT-Infrastructure__ERI.csv
+ICT Infrastructure,ETH,1,ICT-Infrastructure__ETH.csv
+ICT Infrastructure,GAB,1,ICT-Infrastructure__GAB.csv
+ICT Infrastructure,GHA,1,ICT-Infrastructure__GHA.csv
+ICT Infrastructure,GIN,1,ICT-Infrastructure__GIN.csv
+ICT Infrastructure,GMB,3,ICT-Infrastructure__GMB.csv
+ICT Infrastructure,GNB,3,ICT-Infrastructure__GNB.csv
+ICT Infrastructure,LBY,3,ICT-Infrastructure__LBY.csv
+ICT Infrastructure,LSO,3,ICT-Infrastructure__LSO.csv
+ICT Infrastructure,MDG,3,ICT-Infrastructure__MDG.csv
+ICT Infrastructure,MLI,2,ICT-Infrastructure__MLI.csv
+ICT Infrastructure,MOZ,2,ICT-Infrastructure__MOZ.csv
+ICT Infrastructure,MUS,2,ICT-Infrastructure__MUS.csv
+ICT Infrastructure,NAM,1,ICT-Infrastructure__NAM.csv
+ICT Infrastructure,NER,3,ICT-Infrastructure__NER.csv
+ICT Infrastructure,NGA,1,ICT-Infrastructure__NGA.csv
+ICT Infrastructure,RWA,1,ICT-Infrastructure__RWA.csv
+ICT Infrastructure,SDN,1,ICT-Infrastructure__SDN.csv
+ICT Infrastructure,SEN,2,ICT-Infrastructure__SEN.csv
+ICT Infrastructure,SLE,2,ICT-Infrastructure__SLE.csv
+ICT Infrastructure,SOM,4,ICT-Infrastructure__SOM.csv
+ICT Infrastructure,SSD,1,ICT-Infrastructure__SSD.csv
+ICT Infrastructure,STP,3,ICT-Infrastructure__STP.csv
+ICT Infrastructure,SWZ,1,ICT-Infrastructure__SWZ.csv
+ICT Infrastructure,SYC,6,ICT-Infrastructure__SYC.csv
+ICT Infrastructure,TCD,6,ICT-Infrastructure__TCD.csv
+ICT Infrastructure,TGO,3,ICT-Infrastructure__TGO.csv
+ICT Infrastructure,TUN,1,ICT-Infrastructure__TUN.csv
+ICT Infrastructure,TZA,2,ICT-Infrastructure__TZA.csv
+ICT Infrastructure,UGA,1,ICT-Infrastructure__UGA.csv
+ICT Infrastructure,ZAF,2,ICT-Infrastructure__ZAF.csv
+ICT Infrastructure,ZMB,1,ICT-Infrastructure__ZMB.csv
+Registries,AGO,1,Registries__AGO.csv
+Registries,BDI,2,Registries__BDI.csv
+Registries,BFA,4,Registries__BFA.csv
+Registries,BWA,2,Registries__BWA.csv
+Registries,CIV,1,Registries__CIV.csv
+Registries,CMR,3,Registries__CMR.csv
+Registries,COD,3,Registries__COD.csv
+Registries,COG,2,Registries__COG.csv
+Registries,COM,1,Registries__COM.csv
+Registries,DZA,1,Registries__DZA.csv
+Registries,ETH,1,Registries__ETH.csv
+Registries,GAB,1,Registries__GAB.csv
+Registries,GHA,4,Registries__GHA.csv
+Registries,GMB,1,Registries__GMB.csv
+Registries,GNQ,3,Registries__GNQ.csv
+Registries,KEN,4,Registries__KEN.csv
+Registries,LSO,6,Registries__LSO.csv
+Registries,MAR,1,Registries__MAR.csv
+Registries,MDG,1,Registries__MDG.csv
+Registries,MLI,2,Registries__MLI.csv
+Registries,MOZ,1,Registries__MOZ.csv
+Registries,SDN,7,Registries__SDN.csv
+Registries,SEN,3,Registries__SEN.csv
+Registries,SLE,1,Registries__SLE.csv
+Registries,SSD,2,Registries__SSD.csv
+Registries,SYC,2,Registries__SYC.csv
+Registries,TCD,2,Registries__TCD.csv
+Registries,TUN,2,Registries__TUN.csv
+Registries,UGA,2,Registries__UGA.csv

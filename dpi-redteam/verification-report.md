@@ -1680,3 +1680,272 @@ The re-verification surfaced several systematic defects in the original dataset 
 - **Status** (Population): 3 → **4** — The original source concerns the forthcoming national digital ID CARD project (planned issuance by end-2026 under DZAP/MOSIP) — a distinct system from the population register (INRIS) this variable asks about. INRIS is already operational: UNDP (Sept 2024) c…
 - **Uptake** (Population): 2 → **1** — Original Comments already computed coverage at ~17% (1.5m enrolled of ~9m eligible adults) but this was miscoded as 2 (20-49%) instead of 1 (<20%) per the metadata scale. Fresher ZNBC figure (28 Dec 2025: 1.3 million enrolled on INRIS) is consistent with, o…
 - **Status** (Social Protection): 2 → **4** — Replaced the weak Facebook citation. World Bank project documents (Scaling-up Shock Responsive Social Protection Project) confirm the Social Cash Transfer programme already runs a digital beneficiary database (5.7m+ records as of 2022; 1.31m households by e…
+
+---
+
+# Africa DPI re-verification — Low priority
+
+_Every row triaged `redteam_priority` = **Low** was re-verified by the `dpi-verifier` subagent (Sonnet), routed either down a fast path (a single light Exa check to confirm a genuine Unknown) or a full path (fetch and read authoritative sources, recalculate the Value Code against the metadata scale). Verification ran one country-batch at a time in a throttled sliding window of ~7._
+
+Merged into `africa-dpi-verified.csv` on (Country, Variable Id) — **all 2,467 Low rows matched a base row, 0 unmatched**, row order and every original column preserved. The original `Value Code` is never overwritten; each recalculation lives in `revised_value_code` with `revised_source_urls`, `revision_notes`, `revised_year` (+ confidence), `revised_comments`, and a `status` marker. The merge added a `status` column (now 25 columns) and left the existing 1,181 High/Medium revisions untouched. Pre-merge backup: `africa-dpi-verified.premerge.bak`.
+
+## Headline — Low
+
+| Tier | Rows | Score changed | Confirmed unchanged | Unknown (light-checked) | Flagged for human review |
+|---|---:|---:|---:|---:|---:|
+| **Low** | 2,467 | 1,238 | 282 | 757 | 322 |
+
+Roughly **half of all Low rows (1,238 / 2,467) had their score revised on verified evidence** — high for a tier triaged as low-risk, which is itself a finding (see data quality). A further **757** genuine Unknowns were confirmed on a light check, **282** substantive scores were confirmed (most now carrying an authoritative source the original triage lacked), and **322** rows carry a human-review flag (a cross-cutting marker: ~132 accompany a change, ~190 mark a score the verifier could not settle).
+
+## By chapter — Low
+
+| Chapter | Rows | Changed | Confirmed | Unknown (light-checked) | Flagged |
+|---|---:|---:|---:|---:|---:|
+| Data-Exchange | 342 | 265 | 70 | 0 | 33 |
+| Digital-Id | 83 | 36 | 5 | 37 | 10 |
+| Digital-Pay | 341 | 183 | 20 | 105 | 53 |
+| ICT-Infrastructure | 331 | 187 | 25 | 83 | 70 |
+| Registries | 1,370 | 567 | 162 | 532 | 156 |
+| **All** | **2,467** | **1,238** | **282** | **757** | **322** |
+
+## Countries with the most revisions — Low
+
+| Country | Score changes | Rows | Human-review flags |
+|---|---:|---:|---:|
+| MLI | 44 | 56 | 8 |
+| ERI | 41 | 90 | 2 |
+| GNQ | 38 | 67 | 3 |
+| SDN | 38 | 72 | 9 |
+| LBY | 36 | 70 | 15 |
+| GIN | 35 | 62 | 9 |
+| SWZ | 35 | 58 | 3 |
+| TCD | 35 | 67 | 11 |
+| BDI | 33 | 63 | 4 |
+| SSD | 33 | 59 | 5 |
+
+Most human-review flags: **LBY (15), NER (15), DJI (13), EGY (12), TCD (11)**, then CIV / COG / DZA / MOZ (10 each). These cluster on uptake-percentage denominators, conflict-affected states with fast-moving facts, and register data-exchange links that are policy-level rather than confirmed technical integrations.
+
+## Data-quality issue — Low
+
+Several batches — most sharply **Mali**, with a similar pattern across other **Sahel / AES** states — were scored `Unknown` / "no register" in the original data despite the relevant systems demonstrably existing in official government sources (Mali's RAVEC / Mali Kura Biométrie population-civil-electoral register, the RSU social registry, DGI e-Impôt tax system, RCCM business registry). The verifier upgraded 44 of Mali's 56 Low rows on primary sources. This points to the original (Perplexity-sourced) triage having under-researched Francophone/Sahel countries specifically — worth spot-checking in their High and Medium batches too.
+
+## For human review — Low
+
+The 322 `status = human_review` rows are the priority follow-up; each is documented in its `revision_notes`. Recurring themes:
+- **Uptake denominators** — registry/payment coverage percentages with no reliable denominator (common across Registries `*-uptake` variables).
+- **Register vs. data-exchange scope** — whether an emerging national ID / X-Road / interoperability platform legally constitutes the "population register" or a genuine cross-register integration (e.g. Tunisia RIUC, Libya Law 8/2014, Guinea RNPP).
+- **Electricity-affordability banding** (ICT-Infrastructure) — figures straddling a scale boundary depending on the consumption basket assumed.
+
+
+---
+# OK / stale re-verification run
+_Batches in `data/batches_ok_stale/` (rows previously triaged **OK** or flagged as **stale**). Processed by the `dpi-verifier` subagent in parallel waves of seven, then merged into `africa-dpi-verified.csv` by `merge_ok_stale.py`, matching on `(Country, Variable Id)` and overwriting only the revision/publishing columns._
+## Totals
+| Metric | Count |
+|---|--:|
+| Batches processed | 188 |
+| Rows re-verified | 983 |
+| Value Code revised (`revised_value_code` set) | 213 |
+| Confirmed unchanged | 770 |
+| Flagged for human review | 103 |
+| Still Unknown after light-check | 0 |
+
+_Revised-evidence vintage confidence across all re-verified rows: 576 high, 368 medium, 39 low._
+
+## By chapter
+| Chapter | Revised | Confirmed | Human review | Total |
+|---|--:|--:|--:|--:|
+| Data Exchange | 36 | 58 | 1 | 94 |
+| Digital Id | 96 | 517 | 45 | 613 |
+| Digital Pay | 21 | 87 | 24 | 108 |
+| ICT Infrastructure | 40 | 62 | 19 | 102 |
+| Registries | 20 | 46 | 14 | 66 |
+| **Total** | **213** | **770** | **103** | **983** |
+
+## By country
+Countries with at least one row in this run (ISO3). Columns: rows revised / flagged for human review / total re-verified.
+
+| Country | Revised | Human review | Total |
+|---|--:|--:|--:|
+| AGO (Angola) | 3 | 1 | 11 |
+| BDI (Burundi) | 6 | 1 | 22 |
+| BEN (Benin) | 2 | 2 | 19 |
+| BFA (Burkina Faso) | 3 | 1 | 8 |
+| BWA (Botswana) | 1 | 2 | 20 |
+| CAF (Central African Republic) | 1 | 1 | 18 |
+| CIV (Cote d'Ivoire) | 2 | 2 | 4 |
+| CMR (Cameroon) | 5 | 5 | 19 |
+| COD (DR Congo) | 2 | 1 | 13 |
+| COG (Congo) | 6 | 1 | 30 |
+| COM (Comoros) | 3 | 3 | 11 |
+| CPV (Cape Verde) | 1 | 0 | 7 |
+| DJI (Djibouti) | 10 | 1 | 25 |
+| DZA (Algeria) | 2 | 1 | 11 |
+| EGY (Egypt) | 2 | 1 | 2 |
+| ERI (Eritrea) | 9 | 4 | 15 |
+| ETH (Ethiopia) | 1 | 0 | 3 |
+| GAB (Gabon) | 4 | 0 | 9 |
+| GHA (Ghana) | 2 | 2 | 24 |
+| GIN (Guinea) | 7 | 2 | 26 |
+| GMB (Gambia) | 5 | 2 | 14 |
+| GNB (Guinea-Bissau) | 9 | 1 | 22 |
+| GNQ (Equatorial Guinea) | 3 | 1 | 16 |
+| KEN (Kenya) | 3 | 1 | 28 |
+| LBR (Liberia) | 0 | 0 | 2 |
+| LBY (Libya) | 13 | 6 | 22 |
+| LSO (Lesotho) | 9 | 4 | 37 |
+| MAR (Morocco) | 5 | 5 | 31 |
+| MDG (Madagascar) | 3 | 0 | 14 |
+| MLI (Mali) | 8 | 3 | 27 |
+| MOZ (Mozambique) | 4 | 5 | 25 |
+| MRT (Mauritania) | 2 | 1 | 27 |
+| MUS (Mauritius) | 0 | 2 | 11 |
+| MWI (Malawi) | 2 | 4 | 28 |
+| NAM (Namibia) | 0 | 1 | 11 |
+| NER (Niger) | 7 | 0 | 10 |
+| NGA (Nigeria) | 1 | 0 | 13 |
+| RWA (Rwanda) | 6 | 5 | 18 |
+| SDN (Sudan) | 14 | 3 | 38 |
+| SEN (Senegal) | 4 | 3 | 20 |
+| SLE (Sierra Leone) | 2 | 5 | 22 |
+| SOM (Somalia) | 4 | 3 | 15 |
+| SSD (South Sudan) | 1 | 0 | 9 |
+| STP (Sao Tome and Principe) | 1 | 1 | 9 |
+| SWZ (Eswatini) | 5 | 0 | 23 |
+| SYC (Seychelles) | 5 | 3 | 21 |
+| TCD (Chad) | 7 | 3 | 37 |
+| TGO (Togo) | 2 | 1 | 26 |
+| TUN (Tunisia) | 1 | 3 | 24 |
+| TZA (Tanzania) | 5 | 1 | 22 |
+| UGA (Uganda) | 2 | 3 | 16 |
+| ZAF (South Africa) | 2 | 2 | 15 |
+| ZMB (Zambia) | 3 | 0 | 13 |
+| ZWE (Zimbabwe) | 3 | 0 | 20 |
+
+## Rows flagged for human review
+These were **not** given a guessed score; the note in `revision_notes` explains the ambiguity. Grouped by chapter.
+
+**Data Exchange** (1)
+
+- CMR — Electoral Register Integration [3 (confirmed)]
+
+**Digital Id** (45)
+
+- BEN — Healthcare Access Use [2 (confirmed)]
+- BEN — Ministry of Finance Oversight [2 (confirmed)]
+- BWA — Security Reviews [2→1]
+- COD — Legal Proof Status [2 (confirmed)]
+- COG — Ministry of Finance Oversight [3 (confirmed)]
+- COM — Biometric Data Collection [2→3]
+- COM — Data Protection Act [2→1]
+- DJI — Banking/Financial Services Use [1→2]
+- DZA — Cost of Credential [2 (confirmed)]
+- ERI — Legal Framework [1→2]
+- ERI — Legal Proof Status [1→2]
+- ERI — Maintenance [1→2]
+- ERI — Population Coverage [2 (confirmed)]
+- GIN — Digital ID System Exists [2 (confirmed)]
+- GIN — Population Coverage [2 (confirmed)]
+- GMB — Digital Authentication Function [1 (confirmed)]
+- GNB — SIM Card Registration Use [1→2]
+- GNQ — Data Sharing Rules [1 (confirmed)]
+- LBY — Digital Authentication Function [1 (confirmed)]
+- LBY — Healthcare Access Use [1 (confirmed)]
+- LBY — KYC Enablement [1 (confirmed)]
+- LBY — Population Coverage [3→4]
+- LBY — Sustainability [1 (confirmed)]
+- LSO — Cross-Border Recognition [2 (confirmed)]
+- MAR — Enrollment Eligibility Age [2 (confirmed)]
+- MLI — Sustainability [1→2]
+- MOZ — Cost of Credential [1 (confirmed)]
+- MOZ — Data Sharing Rules [2 (confirmed)]
+- MOZ — Digital ID Specific Regulation [1 (confirmed)]
+- MOZ — Enrollment Mandatory Status [1 (confirmed)]
+- MRT — Ministry of Finance Oversight [2 (confirmed)]
+- MWI — Cross-Border Recognition [2 (confirmed)]
+- NAM — Ministry of Finance Oversight [2 (confirmed)]
+- RWA — Enrollment Eligibility Age [1→2]
+- RWA — Population Coverage [5→2]
+- SDN — Cost of Credential [1 (confirmed)]
+- SDN — Population Coverage [3 (confirmed)]
+- SEN — Social Services Use [3 (confirmed)]
+- SLE — Judicial Oversight [2 (confirmed)]
+- SOM — Data Sharing Rules [2 (confirmed)]
+- SOM — Enrollment Eligibility Age [1 (confirmed)]
+- TCD — Digital Authentication Function [1 (confirmed)]
+- TGO — Ministry of Finance Oversight [2 (confirmed)]
+- TUN — Population Coverage [5 (confirmed)]
+- ZAF — Enrollment Mandatory Status [3 (confirmed)]
+
+**Digital Pay** (24)
+
+- BWA — Central Bank Involvement in Governance [5 (confirmed)]
+- CAF — Central Bank Involvement in Governance [5 (confirmed)]
+- CIV — Consumer Protection Framework for Payments [2→3]
+- CIV — Data Breach Notification Requirements [1→3]
+- CMR — Central Bank Involvement in Governance [5→4]
+- CMR — Digital Payment System Exists [5 (confirmed)]
+- COM — Pro-Poor Governance Mechanisms [2→3]
+- EGY — Consumer Protection Framework for Payments [2→3]
+- LSO — Cross-Border Payment Functionality [4 (confirmed)]
+- LSO — Data Privacy Legislation Coverage [2→3]
+- MAR — Central Bank Involvement in Governance [5→5]
+- MAR — Data Breach Notification Requirements [1→3]
+- MAR — Digital Payment System Exists [5→5]
+- MLI — Person-to-Government (P2G) Payments [2→3]
+- MWI — Central Bank Involvement in Governance [5 (confirmed)]
+- MWI — Digital Payment System Exists [5 (confirmed)]
+- MWI — Scheme Rules Publicly Available [2 (confirmed)]
+- RWA — Central Bank Involvement in Governance [5→5]
+- RWA — Data Breach Notification Requirements [3→3]
+- RWA — Public Performance Reporting [2→3]
+- SLE — Central Bank Involvement in Governance [5 (confirmed)]
+- SLE — Revenue Collection [3 (confirmed)]
+- SYC — Central Bank Involvement in Governance [5 (confirmed)]
+- TCD — Digital Payment System Exists [4 (confirmed)]
+
+**ICT Infrastructure** (19)
+
+- AGO — International Internet Bandwidth [1 (confirmed)]
+- BDI — International Internet Bandwidth [1→2]
+- CMR — Gender Gap in ICT Access [1→3]
+- GMB — Renewable Energy Share of Generation [1→1]
+- LBY — Mobile Phone Penetration [1→5]
+- MLI — Basic Digital Literacy [1→4]
+- MOZ — Mobile Data Affordability [1→4]
+- MUS — Data Protection Legislation [5 (confirmed)]
+- MUS — Internet Usage Rate [5 (confirmed)]
+- SDN — International Internet Bandwidth [1→2]
+- SEN — Data Localisation Requirements [1 (confirmed)]
+- SLE — Urban-Rural Electrification Gap [1→3]
+- SOM — Renewable Energy Share of Generation [1→2]
+- STP — Technology and Innovation Hubs [1 (confirmed)]
+- SYC — Mobile Phone Penetration [5 (confirmed)]
+- SYC — Technology and Innovation Hubs [1→3]
+- TZA — Data Protection Legislation [4 (confirmed)]
+- UGA — International Internet Bandwidth [1 (confirmed)]
+- ZAF — Grid Reliability (Power Outage Frequency) [1→2]
+
+**Registries** (14)
+
+- BFA — Status [3→4]
+- CMR — Status [5 (confirmed)]
+- GHA — Scope [4 (confirmed)]
+- GHA — Status [5 (confirmed)]
+- KEN — Inclusivity [4 (confirmed)]
+- LSO — Scope [4 (confirmed)]
+- MAR — National Id integration [1→4]
+- SEN — Status [4→5]
+- SLE — Status [4→5]
+- TCD — Status [5 (confirmed)]
+- TUN — Status [5 (confirmed)]
+- TUN — Uptake [5 (confirmed)]
+- UGA — Business taxpayer uptake [1→2]
+- UGA — Income taxpayer uptake [1→2]
+
+## Data-quality remediation during this run
+A small number of verifier output files contained malformed CSV (fields with unescaped commas/quotes, and in a few rows a one-column field transposition), which the merge diagnostic surfaced as keys that failed to match the master. All were corrected before the final merge:
+
+- **9 files re-verified** with an explicit RFC-4180 quoting instruction: `Data-Exchange__UGA`, `Digital-Id__ERI`, `Digital-Id__NER`, `Digital-Pay__GHA`, `Digital-Pay__MAR`, `Digital-Pay__TCD`, `ICT-Infrastructure__MDG`, `ICT-Infrastructure__GMB`, `ICT-Infrastructure__TUN`, `Registries__BDI` (plus `Digital-Pay__GNQ`, `Digital-Pay__RWA`).
+- **`Digital-Pay__GNQ`** had its single `revision_notes` field re-joined deterministically (the research text was intact but split across columns by unescaped commas); no content was fabricated.
+- Final validation confirms all 188 files carry exactly 25 columns per row, correct row counts, valid `revised_year_confidence` values, and 983/983 keys matching the master.
