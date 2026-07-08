@@ -1,0 +1,788 @@
+﻿value_id,value_name
+exchange-func-agriculture-0,Unknown or n.a.
+exchange-func-agriculture-1,Not integrated
+exchange-func-agriculture-2,Planned
+exchange-func-agriculture-3,Under development
+exchange-func-agriculture-4,Partially integrated
+exchange-func-agriculture-5,Fully Integrated
+exchange-func-business-0,Unknown or n.a.
+exchange-func-business-1,Not integrated
+exchange-func-business-2,Planned
+exchange-func-business-3,Under development
+exchange-func-business-4,Partially integrated
+exchange-func-business-5,Fully Integrated
+exchange-func-crvs-0,Unknown or n.a.
+exchange-func-crvs-1,Not integrated
+exchange-func-crvs-2,Planned
+exchange-func-crvs-3,Under development
+exchange-func-crvs-4,Partially integrated
+exchange-func-crvs-5,Fully Integrated
+exchange-func-digitalid-0,Unknown or n.a.
+exchange-func-digitalid-1,Not integrated
+exchange-func-digitalid-2,Planned
+exchange-func-digitalid-3,Under development
+exchange-func-digitalid-4,Partially integrated
+exchange-func-digitalid-5,Fully Integrated
+exchange-func-education-0,Unknown or n.a.
+exchange-func-education-1,Not integrated
+exchange-func-education-2,Planned
+exchange-func-education-3,Under development
+exchange-func-education-4,Partially integrated
+exchange-func-education-5,Fully Integrated
+exchange-func-electoral-0,Unknown or n.a.
+exchange-func-electoral-1,Not integrated
+exchange-func-electoral-2,Planned
+exchange-func-electoral-3,Under development
+exchange-func-electoral-4,Partially integrated
+exchange-func-electoral-5,Fully Integrated
+exchange-func-employment-0,Unknown or n.a.
+exchange-func-employment-1,Not integrated
+exchange-func-employment-2,Planned
+exchange-func-employment-3,Under development
+exchange-func-employment-4,Partially integrated
+exchange-func-employment-5,Fully Integrated
+exchange-func-health-0,Unknown or n.a.
+exchange-func-health-1,Not integrated
+exchange-func-health-2,Planned
+exchange-func-health-3,Under development
+exchange-func-health-4,Partially integrated
+exchange-func-health-5,Fully Integrated
+exchange-func-justice-0,Unknown or n.a.
+exchange-func-justice-1,Not integrated
+exchange-func-justice-2,Planned
+exchange-func-justice-3,Under development
+exchange-func-justice-4,Partially integrated
+exchange-func-justice-5,Fully Integrated
+exchange-func-licensing-0,Unknown or n.a.
+exchange-func-licensing-1,Not integrated
+exchange-func-licensing-2,Planned
+exchange-func-licensing-3,Under development
+exchange-func-licensing-4,Partially integrated
+exchange-func-licensing-5,Fully Integrated
+exchange-func-passport-0,Unknown or n.a.
+exchange-func-passport-1,Not integrated
+exchange-func-passport-2,Planned
+exchange-func-passport-3,Under development
+exchange-func-passport-4,Partially integrated
+exchange-func-passport-5,Fully Integrated
+exchange-func-payments-0,Unknown or n.a.
+exchange-func-payments-1,Not integrated
+exchange-func-payments-2,Planned
+exchange-func-payments-3,Under development
+exchange-func-payments-4,Partially integrated
+exchange-func-payments-5,Fully Integrated
+exchange-func-planning-0,Unknown or n.a.
+exchange-func-planning-1,Not integrated
+exchange-func-planning-2,Planned
+exchange-func-planning-3,Under development
+exchange-func-planning-4,Partially integrated
+exchange-func-planning-5,Fully Integrated
+exchange-func-revenue-0,Unknown or n.a.
+exchange-func-revenue-1,Not integrated
+exchange-func-revenue-2,Planned
+exchange-func-revenue-3,Under development
+exchange-func-revenue-4,Partially integrated
+exchange-func-revenue-5,Fully Integrated
+exchange-func-socialprotection-0,Unknown or n.a.
+exchange-func-socialprotection-1,Not integrated
+exchange-func-socialprotection-2,Planned
+exchange-func-socialprotection-3,Under development
+exchange-func-socialprotection-4,Partially integrated
+exchange-func-socialprotection-5,Fully Integrated
+exchange-gov-legislation-exists-0,Unknown or n.a.
+exchange-gov-legislation-exists-1,No
+exchange-gov-legislation-exists-2,Under development
+exchange-gov-legislation-exists-3,Yes
+exchange-gov-roadmap-0,Unknown or n.a.
+exchange-gov-roadmap-1,No
+exchange-gov-roadmap-2,Under development
+exchange-gov-roadmap-3,Yes
+exchange-gov-strategy-0,Unknown or n.a.
+exchange-gov-strategy-1,None
+exchange-gov-strategy-2,Mentioned in Broader DPI/Digital Strategy
+exchange-gov-strategy-3,Under Development
+exchange-gov-strategy-4,Comprehensive Strategy Exists
+exchange-system-ai-0,Unknown or n.a.
+exchange-system-ai-1,No
+exchange-system-ai-2,Planned
+exchange-system-ai-3,Piloting
+exchange-system-ai-4,Functional across at least 2 systems
+exchange-system-operational-0,Unknown or n.a.
+exchange-system-operational-1,Not Established
+exchange-system-operational-2,Planned
+exchange-system-operational-3,Under Development
+exchange-system-operational-4,Partially Operational
+exchange-system-operational-5,Fully Operational
+exchange-uptake-accessibility-0,Unknown or n.a.
+exchange-uptake-accessibility-1,Limited accessibility
+exchange-uptake-accessibility-2,Partial accessibility
+exchange-uptake-accessibility-3,Accessibility improvements in progress
+exchange-uptake-accessibility-4,Full accessibility
+exchange-uptake-sovereignty-0,Unknown or n.a.
+exchange-uptake-sovereignty-1,No controls
+exchange-uptake-sovereignty-2,Limited controls
+exchange-uptake-sovereignty-3,Strong yet unenforced controls
+exchange-uptake-sovereignty-4,"Strong, enforced controls"
+exchange-uptake-subnational-0,Unknown or n.a.
+exchange-uptake-subnational-1,National level only
+exchange-uptake-subnational-2,Planned
+exchange-uptake-subnational-3,Under development
+exchange-uptake-subnational-4,Partial Participation
+exchange-uptake-subnational-5,Full Participation
+exchange-uptake-transparency-0,Unknown or n.a.
+exchange-uptake-transparency-1,None
+exchange-uptake-transparency-2,Low = Limited Disclosure
+exchange-uptake-transparency-3,Moderate = Annual Reports
+exchange-uptake-transparency-4,High = Public Dashboard & Reports
+exchange-uptake-urbanrural-0,Unknown or n.a.
+exchange-uptake-urbanrural-1,Primarily urban
+exchange-uptake-urbanrural-2,Partial rural coverage
+exchange-uptake-urbanrural-3,Equitable Urban=Rural Coverage
+ict-capacity-devcommunity-0,Unknown or n.a.
+ict-capacity-devcommunity-1,Negligible (very few active developers)
+ict-capacity-devcommunity-2,"Emerging (small but growing community, <1,000 active developers)"
+ict-capacity-devcommunity-3,"Developing (active community, local meetups, 1,000-10,000 developers)"
+ict-capacity-devcommunity-4,"Established (vibrant community, multiple events, 10,000-50,000 developers)"
+ict-capacity-devcommunity-5,"Mature (large community, international visibility, 50,000+ developers)"
+ict-capacity-digitalliteracy-0,Unknown or n.a.
+ict-capacity-digitalliteracy-1,<10% of population
+ict-capacity-digitalliteracy-2,10-24%
+ict-capacity-digitalliteracy-3,25-39%
+ict-capacity-digitalliteracy-4,40-59%
+ict-capacity-digitalliteracy-5,60%+
+ict-capacity-egovreadiness-0,Unknown or n.a.
+ict-capacity-egovreadiness-1,EGDI <0.25 (Low)
+ict-capacity-egovreadiness-2,EGDI 0.25-0.49 (Middle)
+ict-capacity-egovreadiness-3,EGDI 0.50-0.64 (High)
+ict-capacity-egovreadiness-4,EGDI 0.65-0.79 (Very High)
+ict-capacity-egovreadiness-5,EGDI 0.80+ (Very High)
+ict-capacity-gendergap-0,Unknown or n.a.
+ict-capacity-gendergap-1,Very large gap (>40% fewer women online)
+ict-capacity-gendergap-2,Large gap (30-40% fewer)
+ict-capacity-gendergap-3,Moderate gap (20-29% fewer)
+ict-capacity-gendergap-4,Small gap (10-19% fewer)
+ict-capacity-gendergap-5,Near parity (<10% gap)
+ict-capacity-tertiaryict-0,Unknown or n.a.
+ict-capacity-tertiaryict-1,Very limited (<2 institutions with ICT programmes)
+ict-capacity-tertiaryict-2,"Limited (few institutions, low enrolment)"
+ict-capacity-tertiaryict-3,"Moderate (several institutions, growing enrolment)"
+ict-capacity-tertiaryict-4,Good (established institutions with diverse ICT programmes)
+ict-capacity-tertiaryict-5,"Strong (multiple quality institutions, high enrolment, regional reputation)"
+ict-connectivity-4gcoverage-0,Unknown or n.a.
+ict-connectivity-4gcoverage-1,<25%
+ict-connectivity-4gcoverage-2,25-49%
+ict-connectivity-4gcoverage-3,50-74%
+ict-connectivity-4gcoverage-4,75-89%
+ict-connectivity-4gcoverage-5,90%+
+ict-connectivity-dataafford-0,Unknown or n.a.
+ict-connectivity-dataafford-1,Very Expensive (>10% GNI p.c.)
+ict-connectivity-dataafford-2,Expensive (5-10%)
+ict-connectivity-dataafford-3,Moderate (2-5%)
+ict-connectivity-dataafford-4,Affordable (1-2%)
+ict-connectivity-dataafford-5,Meets UN target (<1%)
+ict-connectivity-internetuse-0,Unknown or n.a.
+ict-connectivity-internetuse-1,<15%
+ict-connectivity-internetuse-2,15-29%
+ict-connectivity-internetuse-3,30-49%
+ict-connectivity-internetuse-4,50-69%
+ict-connectivity-internetuse-5,70%+
+ict-connectivity-intlbandwidth-0,Unknown or n.a.
+ict-connectivity-intlbandwidth-1,Very Low (<5 kbit/s per user)
+ict-connectivity-intlbandwidth-2,Low (5-19 kbit/s)
+ict-connectivity-intlbandwidth-3,Moderate (20-49 kbit/s)
+ict-connectivity-intlbandwidth-4,Good (50-99 kbit/s)
+ict-connectivity-intlbandwidth-5,Strong (100+ kbit/s per user)
+ict-connectivity-ixp-0,Unknown or n.a.
+ict-connectivity-ixp-1,No IXP
+ict-connectivity-ixp-2,IXP planned or under development
+ict-connectivity-ixp-3,Single IXP with limited participation
+ict-connectivity-ixp-4,Active IXP(s) with moderate participation
+ict-connectivity-ixp-5,Mature IXP ecosystem with broad participation
+ict-connectivity-mobilepen-0,Unknown or n.a.
+ict-connectivity-mobilepen-1,<25%
+ict-connectivity-mobilepen-2,25-39%
+ict-connectivity-mobilepen-3,40-54%
+ict-connectivity-mobilepen-4,55-69%
+ict-connectivity-mobilepen-5,70%+
+ict-connectivity-smartphonepen-0,Unknown or n.a.
+ict-connectivity-smartphonepen-1,<20%
+ict-connectivity-smartphonepen-2,20-39%
+ict-connectivity-smartphonepen-3,40-59%
+ict-connectivity-smartphonepen-4,60-79%
+ict-connectivity-smartphonepen-5,80%+
+ict-energy-affordability-0,Unknown or n.a.
+ict-energy-affordability-1,Very Expensive (>10% of household income for basic service)
+ict-energy-affordability-2,Expensive (6-10%)
+ict-energy-affordability-3,Moderate (3-5%)
+ict-energy-affordability-4,Affordable (1-2%)
+ict-energy-affordability-5,Very Affordable (<1%)
+ict-energy-elecaccess-0,Unknown or n.a.
+ict-energy-elecaccess-1,<25% population
+ict-energy-elecaccess-2,25-49%
+ict-energy-elecaccess-3,50-74%
+ict-energy-elecaccess-4,75-89%
+ict-energy-elecaccess-5,90%+
+ict-energy-offgridpolicy-0,Unknown or n.a.
+ict-energy-offgridpolicy-1,No policy framework
+ict-energy-offgridpolicy-2,Basic policy exists but limited implementation
+ict-energy-offgridpolicy-3,Active policy with some deployment
+ict-energy-offgridpolicy-4,Comprehensive framework with significant deployment
+ict-energy-offgridpolicy-5,Mature ecosystem with widespread deployment
+ict-energy-reliability-0,Unknown or n.a.
+ict-energy-reliability-1,Severe (frequent daily outages or regular load shedding)
+ict-energy-reliability-2,"Poor (weekly outages, intermittent load shedding)"
+ict-energy-reliability-3,"Moderate (monthly outages, occasional disruptions)"
+ict-energy-reliability-4,"Good (rare outages, <10 per year)"
+ict-energy-reliability-5,"Excellent (near-continuous supply, <5 outages per year)"
+ict-energy-renewableshare-0,Unknown or n.a.
+ict-energy-renewableshare-1,<10%
+ict-energy-renewableshare-2,10-24%
+ict-energy-renewableshare-3,25-49%
+ict-energy-renewableshare-4,50-74%
+ict-energy-renewableshare-5,75%+
+ict-energy-urbanruraldevide-0,Unknown or n.a.
+ict-energy-urbanruraldevide-1,Gap >60 percentage points
+ict-energy-urbanruraldevide-2,Gap 41-60pp
+ict-energy-urbanruraldevide-3,Gap 21-40pp
+ict-energy-urbanruraldevide-4,Gap 10-20pp
+ict-energy-urbanruraldevide-5,Gap <10pp
+ict-innovation-gii-0,Unknown or n.a. (not included in GII)
+ict-innovation-gii-1,GII rank 121+ or bottom quartile
+ict-innovation-gii-2,GII rank 101-120
+ict-innovation-gii-3,GII rank 81-100
+ict-innovation-gii-4,GII rank 61-80
+ict-innovation-gii-5,GII rank 1-60
+ict-innovation-startupecosystem-0,Unknown or n.a.
+ict-innovation-startupecosystem-1,"Nascent (very few tech startups, no visible VC activity)"
+ict-innovation-startupecosystem-2,"Emerging (some startups, limited funding, 1-2 hubs)"
+ict-innovation-startupecosystem-3,"Developing (growing startup base, regular funding rounds, several hubs)"
+ict-innovation-startupecosystem-4,"Established (significant startup activity, $50M+ annual VC, multiple hubs and accelerators)"
+ict-innovation-startupecosystem-5,"Leading (major ecosystem, $200M+ annual VC, international recognition)"
+ict-innovation-techhubs-0,Unknown or n.a.
+ict-innovation-techhubs-1,None identified
+ict-innovation-techhubs-2,1-2 hubs with limited activity
+ict-innovation-techhubs-3,3-9 hubs with regular activity
+ict-innovation-techhubs-4,10-24 hubs with diverse focus areas
+ict-innovation-techhubs-5,"25+ hubs with a vibrant, mature ecosystem"
+ict-storage-cloudadoption-0,Unknown or n.a.
+ict-storage-cloudadoption-1,No local or regional cloud presence
+ict-storage-cloudadoption-2,Served remotely from distant regions only (>100ms latency)
+ict-storage-cloudadoption-3,Regional cloud availability zone nearby (same sub-region)
+ict-storage-cloudadoption-4,At least one major provider with local presence or edge node
+ict-storage-cloudadoption-5,Multiple hyperscale providers with local availability zones
+ict-storage-cybersecurity-0,Unknown or n.a.
+ict-storage-cybersecurity-1,GCI score <20 (Building)
+ict-storage-cybersecurity-2,GCI score 20-39 (Evolving)
+ict-storage-cybersecurity-3,GCI score 40-59 (Establishing)
+ict-storage-cybersecurity-4,GCI score 60-79 (Advancing)
+ict-storage-cybersecurity-5,GCI score 80+ (Role-modelling)
+ict-storage-datalocalisation-0,Unknown or n.a.
+ict-storage-datalocalisation-1,No data localisation requirements
+ict-storage-datalocalisation-2,Proposed or draft legislation
+ict-storage-datalocalisation-3,"Sectoral requirements only (e.g., financial or telecoms data)"
+ict-storage-datalocalisation-4,Comprehensive requirements for personal data or broad categories
+ict-storage-datalocalisation-5,Strict requirements covering multiple data types with enforcement
+ict-storage-dataprotection-0,Unknown or n.a.
+ict-storage-dataprotection-1,No legislation
+ict-storage-dataprotection-2,Draft legislation or partial provisions in other laws
+ict-storage-dataprotection-3,Legislation enacted but no enforcement authority
+ict-storage-dataprotection-4,Legislation enacted with Data Protection Authority established
+ict-storage-dataprotection-5,Mature framework with active enforcement and regional alignment
+ict-storage-dcpresence-0,Unknown or n.a.
+ict-storage-dcpresence-1,No commercial data centers
+ict-storage-dcpresence-2,Small-scale facilities only (Tier I-II)
+ict-storage-dcpresence-3,At least one Tier III facility
+ict-storage-dcpresence-4,Multiple Tier III facilities or at least one Tier IV
+ict-storage-dcpresence-5,Mature data center market with multiple operators and hyperscale presence
+ict-storage-govcloud-0,Unknown or n.a.
+ict-storage-govcloud-1,No government data center or cloud strategy
+ict-storage-govcloud-2,Government data center planned or under construction
+ict-storage-govcloud-3,Basic government data center operational
+ict-storage-govcloud-4,National data center operational with cloud strategy adopted
+ict-storage-govcloud-5,Mature government cloud/data center ecosystem with active migration
+id-functionality-authdigital-0,Unknown or n.a.
+id-functionality-authdigital-1,No
+id-functionality-authdigital-2,Yes
+id-functionality-authgovtportal-0,Unknown or n.a.
+id-functionality-authgovtportal-1,No
+id-functionality-authgovtportal-2,Yes
+id-functionality-dataview-0,Unknown or n.a.
+id-functionality-dataview-1,No
+id-functionality-dataview-2,Yes
+id-functionality-kycenable-0,Unknown or n.a.
+id-functionality-kycenable-1,No
+id-functionality-kycenable-2,Yes
+id-governance-courtoversight-0,Unknown or n.a.
+id-governance-courtoversight-1,No
+id-governance-courtoversight-2,"Yes, but not specific to ID"
+id-governance-courtoversight-3,"Yes, with ID-specific judicial mechanisms"
+id-governance-crvs-0,Unknown or n.a.
+id-governance-crvs-1,No integration
+id-governance-crvs-2,Partial integration
+id-governance-crvs-3,Full integration
+id-governance-datasharingrules-0,Unknown or n.a.
+id-governance-datasharingrules-1,Not available
+id-governance-datasharingrules-2,Partially available
+id-governance-datasharingrules-3,Fully available
+id-governance-digidreg-0,Unknown or n.a.
+id-governance-digidreg-1,No
+id-governance-digidreg-2,Yes
+id-governance-dpaexists-0,Unknown or n.a.
+id-governance-dpaexists-1,No
+id-governance-dpaexists-2,Yes
+id-governance-dpaoversight-0,Unknown or n.a.
+id-governance-dpaoversight-1,No
+id-governance-dpaoversight-2,Yes
+id-governance-legalproof-0,Unknown or n.a.
+id-governance-legalproof-1,No
+id-governance-legalproof-2,Yes
+id-governance-legframework-0,Unknown or n.a.
+id-governance-legframework-1,No
+id-governance-legframework-2,Yes
+id-ownership-maintenance-0,Unknown or n.a.
+id-ownership-maintenance-1,Foreign vendors dominate
+id-ownership-maintenance-2,Partial in-country capacity
+id-ownership-maintenance-3,All in-country
+id-ownership-oversight-0,Unknown or n.a.
+id-ownership-oversight-1,No oversight
+id-ownership-oversight-2,Partial oversight
+id-ownership-oversight-3,Full oversight
+id-ownership-sustainability-0,Unknown or n.a.
+id-ownership-sustainability-1,Primarily dependent on external funding
+id-ownership-sustainability-2,Mixed domestic/external
+id-ownership-sustainability-3,Primarily domestic funding
+id-system-biocollect-0,Unknown or n.a.
+id-system-biocollect-1,No
+id-system-biocollect-2,Fingerprints only
+id-system-biocollect-3,Facial/Iris
+id-system-dbelectronic-0,Unknown or n.a.
+id-system-dbelectronic-1,Paper only
+id-system-dbelectronic-2,Mix of paper and digital
+id-system-dbelectronic-3,Digital
+id-system-didexists-0,Unknown or n.a.
+id-system-didexists-1,No
+id-system-didexists-2,Planning
+id-system-didexists-3,Under development
+id-system-didexists-4,Partially deployed
+id-system-didexists-5,Fully deployed nationwide
+id-system-sysinterop-0,Unknown or n.a.
+id-system-sysinterop-1,No
+id-system-sysinterop-2,Yes
+id-uptake-bankuse-0,Unknown or n.a.
+id-uptake-bankuse-1,No
+id-uptake-bankuse-2,Accepted but not mandatory
+id-uptake-bankuse-3,Mandatory
+id-uptake-cost-0,Unknown or n.a.
+id-uptake-cost-1,No
+id-uptake-cost-2,Yes
+id-uptake-crossborder-0,Unknown or n.a.
+id-uptake-crossborder-1,No
+id-uptake-crossborder-2,"Recognized in some regional contexts (e.g., ECOWAS travel)"
+id-uptake-crossborder-3,Formally interoperable across borders
+id-uptake-enrolleligible-0,Unknown or n.a.
+id-uptake-enrolleligible-1,>17
+id-uptake-enrolleligible-2,10-17
+id-uptake-enrolleligible-3,6-10
+id-uptake-enrolleligible-4,1-5
+id-uptake-enrolleligible-5,<1
+id-uptake-enrollmandatory-0,Unknown or n.a.
+id-uptake-enrollmandatory-1,Optional
+id-uptake-enrollmandatory-2,Mandatory for some
+id-uptake-enrollmandatory-3,Mandatory for all
+id-uptake-healthuse-0,Unknown or n.a.
+id-uptake-healthuse-1,No
+id-uptake-healthuse-2,Accepted but not mandatory
+id-uptake-healthuse-3,Mandatory
+id-uptake-nonnateligible-0,Unknown or n.a.
+id-uptake-nonnateligible-1,None
+id-uptake-nonnateligible-2,Some
+id-uptake-nonnateligible-3,All
+id-uptake-popcoverage-0,Unknown or n.a.
+id-uptake-popcoverage-1,<20%
+id-uptake-popcoverage-2,20-49%
+id-uptake-popcoverage-3,50-69%
+id-uptake-popcoverage-4,70-89%
+id-uptake-popcoverage-5,>89%
+id-uptake-securityreview-0,Unknown or n.a.
+id-uptake-securityreview-1,No
+id-uptake-securityreview-2,Yes
+id-uptake-simreguse-0,Unknown or n.a.
+id-uptake-simreguse-1,No
+id-uptake-simreguse-2,Accepted but not mandatory
+id-uptake-simreguse-3,Mandatory
+id-uptake-socialservicesuse-0,Unknown or n.a.
+id-uptake-socialservicesuse-1,No
+id-uptake-socialservicesuse-2,Accepted but not mandatory
+id-uptake-socialservicesuse-3,Mandatory
+pay-functionality-revenue-0,Unknown or n.a.
+pay-functionality-revenue-1,No
+pay-functionality-revenue-2,Partial
+pay-functionality-revenue-3,Yes
+pay-functionality-taxportal-0,Unknown or n.a.
+pay-functionality-taxportal-1,No
+pay-functionality-taxportal-2,Planned
+pay-functionality-taxportal-3,Under development
+pay-functionality-taxportal-4,Yes
+pay-functionality-usecaseb2b-0,Unknown or n.a.
+pay-functionality-usecaseb2b-1,No
+pay-functionality-usecaseb2b-2,Yes
+pay-functionality-usecasecrossborder-0,Unknown or n.a.
+pay-functionality-usecasecrossborder-1,No
+pay-functionality-usecasecrossborder-2,Planned
+pay-functionality-usecasecrossborder-3,Under development
+pay-functionality-usecasecrossborder-4,Partially functional
+pay-functionality-usecasecrossborder-5,Fully functional
+pay-functionality-usecaseg2p-0,Unknown or n.a.
+pay-functionality-usecaseg2p-1,No
+pay-functionality-usecaseg2p-2,Limited Use
+pay-functionality-usecaseg2p-3,Yes - Active Use
+pay-functionality-usecasep2b-0,Unknown or n.a.
+pay-functionality-usecasep2b-1,No
+pay-functionality-usecasep2b-2,Yes
+pay-functionality-usecasep2g-0,Unknown or n.a.
+pay-functionality-usecasep2g-1,No
+pay-functionality-usecasep2g-2,Limited Use
+pay-functionality-usecasep2g-3,Yes - Active Use
+pay-functionality-usecasep2p-0,Unknown or n.a.
+pay-functionality-usecasep2p-1,No
+pay-functionality-usecasep2p-2,Yes
+pay-governance-cbgovernance-0,Unknown or n.a.
+pay-governance-cbgovernance-1,No Direct Role
+pay-governance-cbgovernance-2,Regulatory Only
+pay-governance-cbgovernance-3,Advisory Role
+pay-governance-cbgovernance-4,Board Representation
+pay-governance-cbgovernance-5,Direct Operation
+pay-governance-consumerprotectlaw-0,Unknown or n.a.
+pay-governance-consumerprotectlaw-1,No
+pay-governance-consumerprotectlaw-2,Partial
+pay-governance-consumerprotectlaw-3,Yes
+pay-governance-databreachnotif-0,Unknown or n.a.
+pay-governance-databreachnotif-1,No
+pay-governance-databreachnotif-2,Discretionary
+pay-governance-databreachnotif-3,Mandatory
+pay-governance-dataprivacylaw-0,Unknown or n.a.
+pay-governance-dataprivacylaw-1,No
+pay-governance-dataprivacylaw-2,General Data Protection Legislation
+pay-governance-dataprivacylaw-3,Specific Payment Data Provisions
+pay-governance-performancereporting-0,Unknown or n.a.
+pay-governance-performancereporting-1,No
+pay-governance-performancereporting-2,Ad Hoc
+pay-governance-performancereporting-3,Annual
+pay-governance-performancereporting-4,Monthly/Quarterly
+pay-governance-propoorgovernance-0,Unknown or n.a.
+pay-governance-propoorgovernance-1,No
+pay-governance-propoorgovernance-2,Partial
+pay-governance-propoorgovernance-3,Yes
+pay-governance-schemerulesavail-0,Unknown or n.a.
+pay-governance-schemerulesavail-1,No - Confidential
+pay-governance-schemerulesavail-2,Partial - On Request
+pay-governance-schemerulesavail-3,Yes - Fully Public
+pay-system-dpayexists-0,Unknown or n.a.
+pay-system-dpayexists-1,No
+pay-system-dpayexists-2,Planned
+pay-system-dpayexists-3,Under development
+pay-system-dpayexists-4,Partially deployed
+pay-system-dpayexists-5,Fully deployed nationwide
+pay-uptake-activeusers-0,Unknown or n.a.
+pay-uptake-activeusers-1,<20%
+pay-uptake-activeusers-2,20-49%
+pay-uptake-activeusers-3,50-69%
+pay-uptake-activeusers-4,70-89%
+pay-uptake-activeusers-5,>89%
+pay-uptake-auditsandreviews-0,Unknown or n.a.
+pay-uptake-auditsandreviews-1,No
+pay-uptake-auditsandreviews-2,Private Audits
+pay-uptake-auditsandreviews-3,Public Audits
+pay-uptake-disabilityaccess-0,Unknown or n.a.
+pay-uptake-disabilityaccess-1,No
+pay-uptake-disabilityaccess-2,Partial
+pay-uptake-disabilityaccess-3,Yes
+pay-uptake-govtadoption-0,Unknown or n.a.
+pay-uptake-govtadoption-1,<20%
+pay-uptake-govtadoption-2,20-49%
+pay-uptake-govtadoption-3,50-69%
+pay-uptake-govtadoption-4,70-89%
+pay-uptake-govtadoption-5,>89%
+pay-uptake-refugeemigrantaccess-0,Unknown or n.a.
+pay-uptake-refugeemigrantaccess-1,No
+pay-uptake-refugeemigrantaccess-2,Partial
+pay-uptake-refugeemigrantaccess-3,Yes
+reg-address-business-0,Unknown or n.a.
+reg-address-business-1,<20%
+reg-address-business-2,20-49%
+reg-address-business-3,50-69%
+reg-address-business-4,70-89%
+reg-address-business-5,>89%
+reg-address-dpi-0,Unknown or n.a.
+reg-address-dpi-1,No
+reg-address-dpi-2,Planned
+reg-address-dpi-3,Under development
+reg-address-dpi-4,Partially integrated
+reg-address-dpi-5,Fully integrated nationwide
+reg-address-exists-0,Unknown or n.a.
+reg-address-exists-1,No
+reg-address-exists-2,Planned
+reg-address-exists-3,Under development
+reg-address-exists-4,Partially deployed
+reg-address-exists-5,Fully deployed nationwide
+reg-address-house-0,Unknown or n.a.
+reg-address-house-1,<20%
+reg-address-house-2,20-49%
+reg-address-house-3,50-69%
+reg-address-house-4,70-89%
+reg-address-house-5,>89%
+reg-address-land-0,Unknown or n.a.
+reg-address-land-1,No
+reg-address-land-2,Planned
+reg-address-land-3,Under development
+reg-address-land-4,Partially integrated
+reg-address-land-5,Fully integrated nationwide
+reg-business-address-0,Unknown or n.a.
+reg-business-address-1,No
+reg-business-address-2,Planned
+reg-business-address-3,Under development
+reg-business-address-4,Partially integrated
+reg-business-address-5,Fully integrated nationwide
+reg-business-dpi-0,Unknown or n.a.
+reg-business-dpi-1,No
+reg-business-dpi-2,Planned
+reg-business-dpi-3,Under development
+reg-business-dpi-4,Partially integrated
+reg-business-dpi-5,Fully integrated nationwide
+reg-business-exists-0,Unknown or n.a.
+reg-business-exists-1,No
+reg-business-exists-2,Planned
+reg-business-exists-3,Under development
+reg-business-exists-4,Partially deployed
+reg-business-exists-5,Fully deployed nationwide
+reg-business-land-0,Unknown or n.a.
+reg-business-land-1,No
+reg-business-land-2,Planned
+reg-business-land-3,Under development
+reg-business-land-4,Partially integrated
+reg-business-land-5,Fully integrated nationwide
+reg-business-uptake-0,Unknown or n.a.
+reg-business-uptake-1,<20%
+reg-business-uptake-2,20-49%
+reg-business-uptake-3,50-69%
+reg-business-uptake-4,70-89%
+reg-business-uptake-5,>89%
+reg-cr-dpi-0,Unknown or n.a.
+reg-cr-dpi-1,No
+reg-cr-dpi-2,Planned
+reg-cr-dpi-3,Under development
+reg-cr-dpi-4,Partially integrated
+reg-cr-dpi-5,Fully integrated nationwide
+reg-cr-exists-0,Unknown or n.a.
+reg-cr-exists-1,No
+reg-cr-exists-2,Planned
+reg-cr-exists-3,Under development
+reg-cr-exists-4,Partially deployed
+reg-cr-exists-5,Fully deployed nationwide
+reg-cr-id-0,Unknown or n.a.
+reg-cr-id-1,No
+reg-cr-id-2,Planned
+reg-cr-id-3,Under development
+reg-cr-id-4,Partially integrated
+reg-cr-id-5,Fully integrated nationwide
+reg-cr-inclusive-0,Unknown or n.a.
+reg-cr-inclusive-1,None
+reg-cr-inclusive-2,Permanent residents only
+reg-cr-inclusive-3,Some refugees and IDPs
+reg-cr-inclusive-4,All included
+reg-cr-pop-0,Unknown or n.a.
+reg-cr-pop-1,No
+reg-cr-pop-2,Planned
+reg-cr-pop-3,Under development
+reg-cr-pop-4,Partially integrated
+reg-cr-pop-5,Fully integrated nationwide
+reg-cr-scope-0,Unknown or n.a.
+reg-cr-scope-1,None
+reg-cr-scope-2,Some
+reg-cr-scope-3,All
+reg-cr-uptake-0,Unknown or n.a.
+reg-cr-uptake-1,<20%
+reg-cr-uptake-2,20-49%
+reg-cr-uptake-3,50-69%
+reg-cr-uptake-4,70-89%
+reg-cr-uptake-5,>89%
+reg-elect-dpi-0,Unknown or n.a.
+reg-elect-dpi-1,No
+reg-elect-dpi-2,Planned
+reg-elect-dpi-3,Under development
+reg-elect-dpi-4,Partially integrated
+reg-elect-dpi-5,Fully integrated nationwide
+reg-elect-exists-0,Unknown or n.a.
+reg-elect-exists-1,No
+reg-elect-exists-2,Planned
+reg-elect-exists-3,Under development
+reg-elect-exists-4,Partially deployed
+reg-elect-exists-5,Fully deployed nationwide
+reg-elect-id-0,Unknown or n.a.
+reg-elect-id-1,No
+reg-elect-id-2,Planned
+reg-elect-id-3,Under development
+reg-elect-id-4,Partially integrated
+reg-elect-id-5,Fully integrated nationwide
+reg-elect-uptake-0,Unknown or n.a.
+reg-elect-uptake-1,<20%
+reg-elect-uptake-2,20-49%
+reg-elect-uptake-3,50-69%
+reg-elect-uptake-4,70-89%
+reg-elect-uptake-5,>89%
+reg-land-address-0,Unknown or n.a.
+reg-land-address-1,No
+reg-land-address-2,Planned
+reg-land-address-3,Under development
+reg-land-address-4,Partially integrated
+reg-land-address-5,Fully integrated nationwide
+reg-land-business-0,Unknown or n.a.
+reg-land-business-1,No
+reg-land-business-2,Planned
+reg-land-business-3,Under development
+reg-land-business-4,Partially integrated
+reg-land-business-5,Fully integrated nationwide
+reg-land-cadastral-0,Unknown or n.a.
+reg-land-cadastral-1,No
+reg-land-cadastral-2,Planned
+reg-land-cadastral-3,Under development
+reg-land-cadastral-4,Partially deployed
+reg-land-cadastral-5,Fully deployed nationwide
+reg-land-dpi-0,Unknown or n.a.
+reg-land-dpi-1,No
+reg-land-dpi-2,Planned
+reg-land-dpi-3,Under development
+reg-land-dpi-4,Partially integrated
+reg-land-dpi-5,Fully integrated nationwide
+reg-land-exists-0,Unknown or n.a.
+reg-land-exists-1,No
+reg-land-exists-2,Planned
+reg-land-exists-3,Under development
+reg-land-exists-4,Partially deployed
+reg-land-exists-5,Fully deployed nationwide
+reg-land-uptake-0,Unknown or n.a.
+reg-land-uptake-1,<20%
+reg-land-uptake-2,20-49%
+reg-land-uptake-3,50-69%
+reg-land-uptake-4,70-89%
+reg-land-uptake-5,>89%
+reg-pop-crvs-0,Unknown or n.a.
+reg-pop-crvs-1,No
+reg-pop-crvs-2,Planned
+reg-pop-crvs-3,Under development
+reg-pop-crvs-4,Partially integrated
+reg-pop-crvs-5,Fully integrated nationwide
+reg-pop-dpi-0,Unknown or n.a.
+reg-pop-dpi-1,No
+reg-pop-dpi-2,Planned
+reg-pop-dpi-3,Under development
+reg-pop-dpi-4,Partially integrated
+reg-pop-dpi-5,Fully integrated nationwide
+reg-pop-exists-0,Unknown or n.a.
+reg-pop-exists-1,No
+reg-pop-exists-2,Planned
+reg-pop-exists-3,Under development
+reg-pop-exists-4,Partially deployed
+reg-pop-exists-5,Fully deployed nationwide
+reg-pop-id-0,Unknown or n.a.
+reg-pop-id-1,No
+reg-pop-id-2,Planned
+reg-pop-id-3,Under development
+reg-pop-id-4,Partially integrated
+reg-pop-id-5,Fully integrated nationwide
+reg-pop-inclusive-0,Unknown or n.a.
+reg-pop-inclusive-1,None
+reg-pop-inclusive-2,Permanent residents only
+reg-pop-inclusive-3,Some refugees and IDPs
+reg-pop-inclusive-4,All included
+reg-pop-uptake-0,Unknown or n.a.
+reg-pop-uptake-1,<20%
+reg-pop-uptake-2,20-49%
+reg-pop-uptake-3,50-69%
+reg-pop-uptake-4,70-89%
+reg-pop-uptake-5,>89%
+reg-social-dpi-0,Unknown or n.a.
+reg-social-dpi-1,No
+reg-social-dpi-2,Planned
+reg-social-dpi-3,Under development
+reg-social-dpi-4,Partially integrated
+reg-social-dpi-5,Fully integrated nationwide
+reg-social-exists-0,Unknown or n.a.
+reg-social-exists-1,No
+reg-social-exists-2,Planned
+reg-social-exists-3,Under development
+reg-social-exists-4,Partially deployed
+reg-social-exists-5,Fully deployed nationwide
+reg-social-id-0,Unknown or n.a.
+reg-social-id-1,No
+reg-social-id-2,Planned
+reg-social-id-3,Under development
+reg-social-id-4,Partially integrated
+reg-social-id-5,Fully integrated nationwide
+reg-social-uptake-0,Unknown or n.a.
+reg-social-uptake-1,<20%
+reg-social-uptake-2,20-49%
+reg-social-uptake-3,50-69%
+reg-social-uptake-4,70-89%
+reg-social-uptake-5,>89%
+reg-tax-business-0,Unknown or n.a.
+reg-tax-business-1,No
+reg-tax-business-2,Planned
+reg-tax-business-3,Under development
+reg-tax-business-4,Partially integrated
+reg-tax-business-5,Fully integrated nationwide
+reg-tax-businessuptake-0,Unknown or n.a.
+reg-tax-businessuptake-1,<20%
+reg-tax-businessuptake-2,20-49%
+reg-tax-businessuptake-3,50-69%
+reg-tax-businessuptake-4,70-89%
+reg-tax-businessuptake-5,>89%
+reg-tax-dpi-0,Unknown or n.a.
+reg-tax-dpi-1,No
+reg-tax-dpi-2,Planned
+reg-tax-dpi-3,Under development
+reg-tax-dpi-4,Partially integrated
+reg-tax-dpi-5,Fully integrated nationwide
+reg-tax-exists-0,Unknown or n.a.
+reg-tax-exists-1,No
+reg-tax-exists-2,Planned
+reg-tax-exists-3,Under development
+reg-tax-exists-4,Partially deployed
+reg-tax-exists-5,Fully deployed nationwide
+reg-tax-id-0,Unknown or n.a.
+reg-tax-id-1,No
+reg-tax-id-2,Planned
+reg-tax-id-3,Under development
+reg-tax-id-4,Partially integrated
+reg-tax-id-5,Fully integrated nationwide
+reg-tax-incomeuptake-0,Unknown or n.a.
+reg-tax-incomeuptake-1,<20%
+reg-tax-incomeuptake-2,20-49%
+reg-tax-incomeuptake-3,50-69%
+reg-tax-incomeuptake-4,70-89%
+reg-tax-incomeuptake-5,>89%
+reg-tax-scope-0,Unknown or n.a.
+reg-tax-scope-1,None
+reg-tax-scope-2,Income taxpayers only
+reg-tax-scope-3,Business taxpayers only
+reg-tax-scope-4,Both income and business taxpayers
+rural-clinic-status-0,Unknown or n.a.
+rural-clinic-status-1,Entirely paper
+rural-clinic-status-2,Mostly paper - some digital
+rural-clinic-status-3,Mostly digital - some paper
+rural-clinic-status-4,Entirely digital
+rural-police-status-0,Unknown or n.a.
+rural-police-status-1,Entirely paper
+rural-police-status-2,Mostly paper - some digital
+rural-police-status-3,Mostly digital - some paper
+rural-police-status-4,Entirely digital
+rural-registry-status-0,Unknown or n.a.
+rural-registry-status-1,Entirely paper
+rural-registry-status-2,Mostly paper - some digital
+rural-registry-status-3,Mostly digital - some paper
+rural-registry-status-4,Entirely digital
+rural-school-status-0,Unknown or n.a.
+rural-school-status-1,Entirely paper
+rural-school-status-2,Mostly paper - some digital
+rural-school-status-3,Mostly digital - some paper
+rural-school-status-4,Entirely digital
